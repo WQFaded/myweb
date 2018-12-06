@@ -286,6 +286,69 @@
 				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXqqc.png",
 				"webSite": "http://www.ed2000.com",
 				"websiteDesc": "ED2000为您提供最新电影、电视剧、综艺、动漫、音乐、游戏、图书、软件、资料、教育等各类资源。"
+			},
+			{
+				"siteSmallType": "movieForum",
+				"siteName": "圣城家园 ",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTxvdR.png",
+				"webSite": "http://www.cnscg.com/",
+				"websiteDesc": "圣城家园(cnscg.com)高清电影论坛,提供全网最新高清电影下载,720p高清、1080p高清、3D电影、4K高清、蓝光原盘，圣城字幕组原创压制高清电影、高清电视剧、高清美剧等，看高清电影就上圣城家园。"
+			},
+			{
+				"siteSmallType": "movieForum",
+				"siteName": "蚂蚁分享",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTxNC8.png",
+				"webSite": "http://www.ant365.com/",
+				"websiteDesc": "蚂蚁分享-为您免费分享最新电影、连续剧等影视资源下载,最新高清电影抢先看,打造最大的免费电影分享网站。"
+			},
+			{
+				"siteSmallType": "movieForum",
+				"siteName": "人人影视",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTxQNg.png",
+				"webSite": "http://www.yyets.com/",
+				"websiteDesc": "字幕组网站是由爱好者成员成立的网站，继续为您翻译最新最快的海外影视剧字幕,美剧,日剧,电影最新字幕下载。"
+			},
+			{
+				"siteSmallType": "movieForum",
+				"siteName": "梦幻天堂·龙网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTxTN7.png",
+				"webSite": "http://www.321n.net/",
+				"websiteDesc": "龙网BT组的老家!BT下载搜索电影,迅雷下载电影,在线看电影,720p.1080p,下载高质电影的不二之选!"
+			},
+			{
+				"siteSmallType": "movieForum",
+				"siteName": "飘域家园",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTxUIT.png",
+				"webSite": "http://bbs.homefei.me/",
+				"websiteDesc": "原晓血家园，致力于工程试验检测技术探讨交流和资源分享，BT之家,电影BT天堂、3D立体电影、高清影视、电影中文字幕、软件、游戏、电子书下载交流的友好浏览体验的大型综合BT之家高清蓝光电影下载娱乐社区！"
+			},
+			{
+				"siteSmallType": "movieSubtitle",
+				"siteName": "圣城家园字幕库",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTxvdR.png",
+				"webSite": "http://www.cnscg.com/sub/",
+				"websiteDesc": "圣城字幕为影视爱好者提供字幕交流平台，提供丰富的中文字幕下载、电影字幕下载，收录众多字幕组翻译作品，你也可以上传字幕与网友分享。"
+			},
+			{
+				"siteSmallType": "movieSubtitle",
+				"siteName": "字幕库",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTTgiu.png",
+				"webSite": "https://www.zimuku.cn/",
+				"websiteDesc": "圣城字幕为影视爱好者提供字幕交流平台，提供丰富的中文字幕下载、电影字幕下载，收录众多字幕组翻译作品，你也可以上传字幕与网友分享。"
+			},
+			{
+				"siteSmallType": "movieSubtitle",
+				"siteName": "SubHD字幕站",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTTeQ8.png",
+				"webSite": "http://subhd.com/",
+				"websiteDesc": "Sub HD为影视爱好者们提供交流字幕的平台，你可以在这里找到并下载字幕，对字幕打分和评论，也可以上传字幕与大家分享。"
+			},
+			{
+				"siteSmallType": "movieSubtitle",
+				"siteName": "射手网(伪)",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTTG5c.png",
+				"webSite": "http://assrt.net/",
+				"websiteDesc": "射手网(伪)-字幕下载，字幕组，中文字幕，美剧字幕，英剧字幕，双语字幕，新番字幕。"
 			}
 		]
 	}

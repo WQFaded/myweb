@@ -22,6 +22,8 @@ $(function(){
 		uniformLiHeight($("ul.webBasicStudy"),false);
 		//电影资源
 		uniformLiHeight($("ul.movieSite"),false);
+		uniformLiHeight($("ul.movieForum"),false);
+		uniformLiHeight($("ul.movieSubtitle"),false);
 	}
 	$(window).resize(function(){
 		ulFalse();
@@ -50,6 +52,8 @@ $(function(){
 			uniformLiHeight($("ul.webBasicStudy"),true);
 			//电影资源
 			uniformLiHeight($("ul.movieSite"),true);
+			uniformLiHeight($("ul.movieForum"),true);
+			uniformLiHeight($("ul.movieSubtitle"),true);
 		}
 		$(".siteList>li").hide().eq(0).show();
 	})
