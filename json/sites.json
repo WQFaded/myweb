@@ -1,0 +1,293 @@
+[
+	{
+		"siteBigType": "webDeveloper",
+		"siteList": [
+			{
+				"siteSmallType": "webMaterial",
+				"siteName": "17素材网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTX5yg.png",
+				"webSite": "http://www.17sucai.com",
+				"websiteDesc": "17素材网主要收集网页特效及模板等素材,为 html 网站模板开发人员提供高效率的工作方式。"
+			},
+			{
+				"siteSmallType": "webMaterial",
+				"siteName": "jquery插件库",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTX7xK.png",
+				"webSite": "http://www.jq22.com",
+				"websiteDesc": "本站致力于收集 jQuery 插件和提供各种 jQuery 特效的详细使用方法,在线预览, jQuery 插件下载及教程。"
+			},
+			{
+				"siteSmallType": "webMaterial",
+				"siteName": "FE素材网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTX8cX.png",
+				"webSite": "http://www.fesucai.com",
+				"websiteDesc": "FE素材网专注 Web 开发技术，分享最前沿的 Web 开发教程、资源和和素材，是面向前端开发（英文简称FE）人员和设计师的学习交流平台。"
+			},
+			{
+				"siteSmallType": "UIFrame",
+				"siteName": "Bootstrap中文网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXcWL.png",
+				"webSite": "http://www.bootcss.com",
+				"websiteDesc": "Bootstrap是基于HTML、CSS、JavaScript开发的简洁、直观、强悍的前端开发框架，使得 Web 开发更加快捷。"
+			},
+			{
+				"siteSmallType": "UIFrame",
+				"siteName": "Jquery EasyUI",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXmxW.png",
+				"webSite": "http://www.jeasyui.net",
+				"websiteDesc": "jQuery EasyUI 是一组基于 jQuery 的 UI 插件集合,而 jQuery EasyUI 的目标就是帮助 web 开发者更轻松的打造出功能丰富并且美观的 UI 界面。"
+			},
+			{
+				"siteSmallType": "UIFrame",
+				"siteName": "Element-UI",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXGrR.png",
+				"webSite": "https://element.faas.ele.me",
+				"websiteDesc": "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。"
+			},
+			{
+				"siteSmallType": "UIFrame",
+				"siteName": "layui",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXay7.jpg",
+				"webSite": "https://www.layui.com",
+				"websiteDesc": "layui 是一款采用自身模块规范编写的前端 UI 框架,遵循原生 HTML / CSS / JS 的书写与组织形式,门槛极低,拿来即用。"
+			},
+			{
+				"siteSmallType": "UIFrame",
+				"siteName": "layer",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXay7.jpg",
+				"webSite": "http://layer.layui.com",
+				"websiteDesc": "layer 只是作为 Layui 的一个弹层模块，由于其用户基数较大，所以常常会有人以为 layui 是 layerui。"
+			},
+			{
+				"siteSmallType": "UIFrame",
+				"siteName": "SweetAlert2",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXxX1.png",
+				"webSite": "https://sweetalert2.github.io",
+				"websiteDesc": "一个漂亮的、响应式的、可定制的和可访问（WAI-ARIA）的 JavaScript 弹窗,无任何依赖。"
+			},
+			{
+				"siteSmallType": "CSSFrame",
+				"siteName": "Less中文网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXNSs.png",
+				"webSite": "http://lesscss.cn",
+				"websiteDesc": "Less是一门 CSS预处理语言,它扩展了CSS语言,增加了变量、Mixin、函数等特性。Less可以运行在Node或浏览器端。"
+			},
+			{
+				"siteSmallType": "CSSFrame",
+				"siteName": "Sass中文网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXR50.png",
+				"webSite": "https://www.sass.hk",
+				"websiteDesc": "Sass 是一款强化 CSS 的辅助工具，它在 CSS 语法的基础上增加了变量、嵌套、混合、导入等高级功能，这些拓展令 CSS 更加强大与优雅。"
+			},
+			{
+				"siteSmallType": "CSSFrame",
+				"siteName": "Animate.css",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTX60d.jpg",
+				"webSite": "https://daneden.github.io/animate.css",
+				"websiteDesc": "animate.css 是一个 css3 动画库,里面预设了很多种常用的动画,兼容性好使用方便。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "jquery中文网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXWij.png",
+				"webSite": "https://www.jquery123.com",
+				"websiteDesc": "jQuery 是一个高效、精简并且功能丰富的 JavaScript 工具库。它提供的  API 易于使用且兼容众多浏览器，这让诸如 HTML 文档遍历和操作、事件处理、动画和 Ajax 操作更加简单。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "vue.js",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXLma.png",
+				"webSite": "https://cn.vuejs.org",
+				"websiteDesc": "Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "AngularJS中文网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTX4tw.png",
+				"webSite": "http://www.angularjs.net.cn",
+				"websiteDesc": "AngularJS 是一款优秀的前端JS框架, AngularJS 有着诸多特性，最为核心的是：MVW（Model-View-Whatever）、模块化、自动化双向数据绑定、语义化标签、依赖注入等等。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "Swiper中文网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXE7i.png",
+				"webSite": "https://www.swiper.com.cn",
+				"websiteDesc": "Swiper(Swiper master)是目前应用较广泛的移动端网页触摸内容滑动 js 插件。Swiper 是纯 javascript 打造的滑动特效插件，面向手机、平板电脑等移动终端。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "ionic",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXMDy.png",
+				"webSite": "http://www.ionic.wang",
+				"websiteDesc": "ionic 是一个强大的混合式/hybrid HTML5移动开发框架，特点是使用标准的 HTML、CSS 和 JavaScript，开发跨平台的应用。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "Zepto.js",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXdZW.png",
+				"webSite": "https://zeptojs.bootcss.com",
+				"websiteDesc": "Zepto 是一个轻量级的、针对现代高级浏览器的 JavaScript 工具库，它兼容 jQuery 的 API。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "React",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXPZJ.png",
+				"webSite": "https://react.docschina.org",
+				"websiteDesc": "React 可以非常轻松地创建用户交互界面。为你应用的每一个状态设计简洁的视图，在数据改变时 React 也可以高效地更新渲染界面。以声明式编写 UI，可以让你的代码更加可靠，且方便调试。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "Echarts",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXHS8.png",
+				"webSite": "http://echarts.baidu.com",
+				"websiteDesc": "Echarts 是一个数据可视化图表库。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "velocity.js",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXUau.jpg",
+				"webSite": "http://www.mrfront.com/docs/velocity.js/",
+				"websiteDesc": "Velocity 是一个简单易用、高性能、功能丰富的轻量级 JS 动画库。它能和 jQuery 完美协作，并和 $.animate() 有相同的 API， 但它不依赖 jQuery，可单独使用。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "Loud Links",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXDnv.png",
+				"webSite": "https://loudlinks.rocks",
+				"websiteDesc": "一个简单的小 Javascript 库，可以为您的网站添加交互声音。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "List.js",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXpDM.png",
+				"webSite": "http://listjs.com",
+				"websiteDesc": "List.js 是一个轻量级的为列表、表格或其他任何 HTML 标签增加了搜索，排序，过滤器和灵活性等功能。"
+			},
+			{
+				"siteSmallType": "JSFrame",
+				"siteName": "zTree",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXo8w.png",
+				"webSite": "http://www.treejs.cn",
+				"websiteDesc": " zTree 是一个依靠 jQuery 实现的多功能 “树插件”。优异的性能、灵活的配置、多种功能的组合是 zTree 最大优点。专门适合项目开发，尤其是 树状菜单、树状数据的Web显示、权限管理等等。"
+			},
+			{
+				"siteSmallType": "others",
+				"siteName": "webpack",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXKTL.png",
+				"webSite": "https://www.webpackjs.com",
+				"websiteDesc": "webpack 是一个现代 JavaScript 应用程序的静态模块打包器。当 webpack 处理应用程序时，它会递归地构建一个依赖关系图，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 bundle。"
+			},
+			{
+				"siteSmallType": "others",
+				"siteName": "阿凡达数据",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXlzv.jpg",
+				"webSite": "https://www.avatardata.cn/Docs",
+				"websiteDesc": "国内专业的 API 数据接口云服务平台。优势:优质、稳定的 API 数据源;毫秒级调用速度;安全的数据调用环境。"
+			},
+			{
+				"siteSmallType": "others",
+				"siteName": "聚合数据",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTX35e.jpg",
+				"webSite": "https://www.juhe.cn",
+				"websiteDesc": "免费向开发者提供全国车辆违章查询 API ,天气 API ,基站数据,移动联通基站,电信基站,覆盖国内外1000多个主要城市公共交通信息数据,衣食住行,金融, LBS 数据以及其他各种有效合法资讯类信息数据。"
+			},
+			{
+				"siteSmallType": "others",
+				"siteName": "GitHub",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXvtN.png",
+				"webSite": "https://github.com",
+				"websiteDesc": "GitHub是一个代码托管平台，也可以在上面展示自己的项目。"
+			},
+			{
+				"siteSmallType": "others",
+				"siteName": "BootCDN",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXeND.png",
+				"webSite": "https://www.bootcdn.cn/",
+				"websiteDesc": "稳定、快速、免费的前端开源项目 CDN 加速服务。"
+			},
+			{
+				"siteSmallType": "others",
+				"siteName": "PICB免费图床",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXSnt.png",
+				"webSite": "https://www.picb.cc/",
+				"websiteDesc": "全网CDN加速 不限容量 不限流量 无限外链 永久免费。禁止上传色情、反动、暴力等违法违规图片。"
+			},
+			{
+				"siteSmallType": "webBasicStudy",
+				"siteName": "w3school在线教程",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXsDD.png",
+				"webSite": "http://www.w3school.com.cn",
+				"websiteDesc": "w3school 提供免费的 Web 技术教程，在 w3school，可以找到所有的网站建设教程。从基础的 HTML 到 CSS，乃至进阶的 XML、SQL、JS、PHP 和 ASP.NET。"
+			},
+			{
+				"siteSmallType": "webBasicStudy",
+				"siteName": "菜鸟教程",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXBTr.png",
+				"webSite": "http://www.runoob.com",
+				"websiteDesc": "菜鸟教程(www.runoob.com)提供了编程的基础技术教程, 介绍了 HTML、CSS、Javascript、Python、Java、Ruby、C、PHP，MySQL等各种编程语言的基础知识。"
+			},
+			{
+				"siteSmallType": "webBasicStudy",
+				"siteName": "ECMAScript 6 入门",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXAQG.png",
+				"webSite": "http://es6.ruanyifeng.com",
+				"websiteDesc": "《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。"
+			},
+			{
+				"siteSmallType": "webBasicStudy",
+				"siteName": "慕课网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXjQT.png",
+				"webSite": "https://www.imooc.com",
+				"websiteDesc": "慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课。并且富有交互性及趣味性，你还可以和朋友一起编程。"
+			}
+		]
+	},
+	{
+		"siteBigType": "movieResources",
+		"siteList": [
+			{
+				"siteSmallType": "movieSite",
+				"siteName": "BD影视分享",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXIoa.png",
+				"webSite": "https://www.bd-film.cc",
+				"websiteDesc": "BD影视资源分享网站,本站主要提供最新高清影视资源下载。"
+			},
+			{
+				"siteSmallType": "movieSite",
+				"siteName": "天天美剧",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTX9yd.png",
+				"webSite": "http://www.ttmeiju.vip",
+				"websiteDesc": "天天美剧(ttmeiju.vip)第一时间为您提供最火最新的高清美剧下载,高清美剧在线观看。"
+			},
+			{
+				"siteSmallType": "movieSite",
+				"siteName": "高清MP4吧",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXXqF.png",
+				"webSite": "http://www.mp4ba.com",
+				"websiteDesc": "高清MP4吧-每天搜集最新的电影,高清电影,720p高清电影,1080p高清电影供网友免费下载。"
+			},
+			{
+				"siteSmallType": "movieSite",
+				"siteName": "电影家园",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXCii.png",
+				"webSite": "http://www.idyjy.com",
+				"websiteDesc": "电影家园 - 全网最全电影下载站之一,搜集最新电影、电视剧高清版供网友免费下载，所有存档永不删除，网友可轻松检索、搜索历史经典电影、电视剧。"
+			},
+			{
+				"siteSmallType": "movieSite",
+				"siteName": "97影院",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXfr1.png",
+				"webSite": "http://www.97soo.com",
+				"websiteDesc": "97影院-可以直接手机看片,最新电影在线观看,手机美剧下载,高清电影迅雷下载,百度网盘下载,不用下载播放器的电影网站,放送最新好看的免费电影电视！"
+			},
+			{
+				"siteSmallType": "movieSite",
+				"siteName": "ED2000资源共享",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXqqc.png",
+				"webSite": "http://www.ed2000.com",
+				"websiteDesc": "ED2000为您提供最新电影、电视剧、综艺、动漫、音乐、游戏、图书、软件、资料、教育等各类资源。"
+			}
+		]
+	}
+]
+

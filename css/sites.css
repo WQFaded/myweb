@@ -1,0 +1,69 @@
+div.sites{
+	padding: 10px;
+	margin: 20px 0;
+	overflow: hidden;
+}
+div.sites ul.siteType{
+	float: left;
+}
+div.sites ul.siteType li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid lightgray;
+	cursor: pointer;
+	padding: 0 3px;
+}
+div.sites ul.siteType li:hover{
+	background: whitesmoke;
+}
+.activeSiteType{
+	font-weight: bold;
+}
+ul.siteList{
+	overflow: hidden;
+	padding-left: 10px;
+}
+ul.siteList h2{
+	margin-left: 5px;
+	border-bottom: 1px solid lightgray;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+ul.siteList ul{
+	overflow: hidden;
+}
+ul.siteList ul li{
+	width: 20%;
+	float: left;
+	margin-bottom: 7px;
+}
+ul.siteList ul li a{
+	display: block;
+	width: 95%;
+	margin: auto;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	overflow: hidden;
+	color: #333;	
+	padding: 4px;
+	position: relative;
+}
+ul.siteList ul li a img{
+	width: 15%;
+	border-radius: 3px;
+}
+ul.siteList ul li a span{
+	vertical-align: bottom;
+	font-size: 15px;
+	margin-left: 3px;
+	display: inline-block;
+	line-height: 22px;
+	font-family: initial;
+}
+ul.siteList ul li a p{
+	font-size: 12px;
+	font-weight: bold;
+	color: dimgray;
+	margin-top: 3px;
+}
