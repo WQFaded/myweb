@@ -46,8 +46,6 @@ ul.siteList ul li a{
 	border-radius: 3px;
 	overflow: hidden;
 	color: #333;	
-	padding: 4px;
-	position: relative;
 }
 ul.siteList ul li a img{
 	width: 15%;

@@ -58,10 +58,9 @@
 		position: relative;
 	}
 	div.top div.logo{
+		position: absolute;
 		left: 50%;
 		margin-left: -88px;
-		height: 45px;
-		line-height: 45px;
 	}
 	div.search{
 		position: absolute;

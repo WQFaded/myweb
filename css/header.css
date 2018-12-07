@@ -30,14 +30,13 @@ div.top>div.logo,div.top>ul{
 }
 div.logo{
 	padding: 0 30px;
-	position: absolute;
-	top: -1px;
 }
 div.logo img{
 	height: 100%;
+	margin-bottom: 5px;
 }
 ul.nav{
-	margin-left: 175px;
+	margin-left: 0px;
 }
 ul.nav li{
 	float: left;
