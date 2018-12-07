@@ -1,0 +1,95 @@
+body{
+	/*min-width: 400px;*/
+}
+div.container-full{
+	max-width: 1300px;
+	margin: auto;
+}
+div.top{
+	height: 50px; 
+}
+i.icon-liebiao{
+	float: left;
+	width: 30px;
+	height: 30px;
+	line-height: 29px;
+	text-align: center;
+	margin: 10px 0 0 15px;
+	font-size: 18px;
+	border: 1px solid darkgray;
+	border-radius: 3px;
+	color: dimgray;
+	display: none;
+	cursor: pointer;
+}
+div.top>div.logo,div.top>ul{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+}
+div.logo{
+	line-height: 49px;
+	padding: 0 30px;
+	position: absolute;
+	top: -3px;
+}
+div.logo img{
+	height: 100%;
+}
+ul.nav{
+	margin-left: 175px;
+}
+ul.nav li{
+	float: left;
+	padding: 0 5px;
+	cursor: pointer;
+	height: 100%;
+}
+ul.nav li a{
+	color: #333;
+	display: inline-block;
+	width: 100%;
+}
+ul.nav li a:hover{
+	color: #1A9CD6;
+	font-weight: bold;
+}
+ul.nav li a i{
+	margin-right: 3px;
+	display: none;
+}
+div.search{
+	float: right;
+	padding: 10px 20px 0 0;
+	height: 50px;
+	background: white;
+}
+div.search input{
+	float: left;
+	height: 30px;
+	border: 1px solid darkgray;
+}
+div.search input[type="text"]{
+	padding-left: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-right: none;
+}
+div.search input[type="button"]{
+	background: white;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: url(https://t1.picb.cc/uploads/2018/12/06/JTjKHa.jpg) no-repeat center;
+	background-size: 65% 65%;
+	width: 30px;
+}
+.borderBottom{
+	border-bottom: 4px solid #5FB878;
+}
+.red{
+	color: red !important; 
+}
+.green{
+	color: #008000 !important;
+} 
