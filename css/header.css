@@ -29,10 +29,9 @@ div.top>div.logo,div.top>ul{
 	display: block;
 }
 div.logo{
-	line-height: 49px;
 	padding: 0 30px;
 	position: absolute;
-	top: -15px;
+	top: -1px;
 }
 div.logo img{
 	height: 100%;
