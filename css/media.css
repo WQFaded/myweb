@@ -57,6 +57,8 @@
 	div.logo{
 		left: 50%;
 		margin-left: -88px;
+		height: 45px;
+		line-height:45px;
 	}
 	div.top{
 		position: relative;
