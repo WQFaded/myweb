@@ -65,7 +65,10 @@
 	div.search{
 		position: absolute;
 		left: 50%;
-		margin-left: -101px;
+		margin-left: -115px;
+	}
+	div.search input[type="text"]{
+		width: 200px;
 	}
 	div.movieList ul#GraphicList li{
 		width: 33.3%;
