@@ -54,12 +54,14 @@
 	ul.nav li a i{
 		display: inline-block;
 	}
-	div.logo{
-		left: 50%;
-		margin-left: -88px;
-	}
 	div.top{
 		position: relative;
+	}
+	div.top div.logo{
+		left: 50%;
+		margin-left: -88px;
+		height: 45px;
+		line-height: 45px;
 	}
 	div.search{
 		position: absolute;
