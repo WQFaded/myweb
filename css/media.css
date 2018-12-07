@@ -32,8 +32,39 @@
 	body{
 		font-size: 13px;
 	}
-	ul.nav{
+	i.icon-liebiao{ display: inline-block; }
+	div.top ul.nav{
 		display: none;
+		position: absolute;
+		top: 52px;
+		left: 0;
+		z-index: 9;
+		margin-left: 0;
+		background: white;
+		height: auto;
+		width: 100%;
+		line-height: 30px;
+		text-align: center;
+		border-bottom: 1px solid lightgray;
+	}
+	ul.nav li{
+		border-bottom: none;
+		float: none;
+	}
+	ul.nav li a i{
+		display: inline-block;
+	}
+	div.logo{
+		left: 50%;
+		margin-left: -88px;
+	}
+	div.top{
+		position: relative;
+	}
+	div.search{
+		position: absolute;
+		left: 50%;
+		margin-left: -101px;
 	}
 	div.movieList ul#GraphicList li{
 		width: 33.3%;

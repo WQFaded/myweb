@@ -1,21 +1,32 @@
 body{
 	/*min-width: 400px;*/
 }
-div.container{
-	overflow: hidden;
-}
 div.container-full{
 	max-width: 1300px;
 	margin: auto;
 }
 div.top{
-	overflow: hidden;
 	height: 50px; 
+}
+i.icon-liebiao{
+	float: left;
+	width: 30px;
+	height: 30px;
+	line-height: 29px;
+	text-align: center;
+	margin: 10px 0 0 15px;
+	font-size: 18px;
+	border: 1px solid darkgray;
+	border-radius: 3px;
+	color: dimgray;
+	display: none;
+	cursor: pointer;
 }
 div.top>div.logo,div.top>ul{
 	float: left;
 	height: 50px;
 	line-height: 50px;
+	display: block;
 }
 div.logo{
 	padding: 0 30px;
@@ -37,16 +48,21 @@ ul.nav li{
 ul.nav li a{
 	color: #333;
 	display: inline-block;
+	width: 100%;
 }
 ul.nav li a:hover{
 	color: #1A9CD6;
 	font-weight: bold;
 }
+ul.nav li a i{
+	margin-right: 3px;
+	display: none;
+}
 div.search{
 	float: right;
-	margin-right: 20px;
-	overflow: hidden;
-	margin-top: 10px;
+	padding: 10px 20px 0 0;
+	height: 50px;
+	background: white;
 }
 div.search input{
 	float: left;

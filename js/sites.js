@@ -1,12 +1,12 @@
 $(function(){
-	function uniformLiHeight($ul,flag){
+	function uniformLiHeight($ul){
 		$ul.find("a").css("height","auto");
 		var arrAH=[], arrLiH=[];
 		for(var i=0;i<$ul.find("li").length;i++){
 			arrAH[i] = $ul.find("a").eq(i).height();
 			arrLiH[i] = $ul.find("li").eq(i).height();
 		}
-		if(flag){
+		if($.cookie("isFirst")==undefined){
 			$ul.find("a").height(Math.max.apply(null,arrLiH));
 		}else{
 			$ul.find("a").height(Math.max.apply(null,arrAH));
@@ -14,16 +14,17 @@ $(function(){
 	}
 	function ulFalse(){
 		//Web前端开发
-		uniformLiHeight($("ul.webMaterial"),false);
-		uniformLiHeight($("ul.UIFrame"),false);
-		uniformLiHeight($("ul.CSSFrame"),false);
-		uniformLiHeight($("ul.JSFrame"),false);
-		uniformLiHeight($("ul.others"),false);
-		uniformLiHeight($("ul.webBasicStudy"),false);
+		uniformLiHeight($("ul.webMaterial"));
+		uniformLiHeight($("ul.UIFrame"));
+		uniformLiHeight($("ul.CSSFrame"));
+		uniformLiHeight($("ul.JSFrame"));
+		uniformLiHeight($("ul.others"));
+		uniformLiHeight($("ul.webBasicStudy"));
 		//电影资源
-		uniformLiHeight($("ul.movieSite"),false);
-		uniformLiHeight($("ul.movieForum"),false);
-		uniformLiHeight($("ul.movieSubtitle"),false);
+		uniformLiHeight($("ul.movieSite"));
+		uniformLiHeight($("ul.movieForum"));
+		uniformLiHeight($("ul.movieSubtitle"));
+		uniformLiHeight($("ul.MagnetURI"));
 	}
 	$(window).resize(function(){
 		ulFalse();
@@ -40,21 +41,8 @@ $(function(){
 				+"</li>");
 			}
 		}
-		if($(".siteList p").is(":hidden")){
-			ulFalse();
-		}else{
-			//Web前端开发
-			uniformLiHeight($("ul.webMaterial"),true);
-			uniformLiHeight($("ul.UIFrame"),true);
-			uniformLiHeight($("ul.CSSFrame"),true);
-			uniformLiHeight($("ul.JSFrame"),true);
-			uniformLiHeight($("ul.others"),true);
-			uniformLiHeight($("ul.webBasicStudy"),true);
-			//电影资源
-			uniformLiHeight($("ul.movieSite"),true);
-			uniformLiHeight($("ul.movieForum"),true);
-			uniformLiHeight($("ul.movieSubtitle"),true);
-		}
+		ulFalse();
+		$.cookie("isFirst","test");
 		$(".siteList>li").hide().eq(0).show();
 	})
 	$(".siteType li").click(function(){

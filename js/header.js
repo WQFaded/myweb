@@ -1,0 +1,12 @@
+$(function(){
+	$(".icon-liebiao").click(function(){
+		$(".nav").slideToggle("fast");
+	})
+	$(window).resize(function(){
+		if($(".icon-liebiao").is(":hidden")){
+			$(".nav").show();
+		}else{
+			$(".nav").hide();
+		}
+	})
+})

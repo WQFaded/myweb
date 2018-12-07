@@ -29,9 +29,9 @@ $(function(){
 			$("#textList").empty();
 			for(var k=start;k<end;k++){
 				//图文列表
+				var $imdbSpan = data[k].score.imdb==""?"":"<span class='imdb'>"+data[k].score.imdb+"</span>";
 				$("#GraphicList").append("<li><div>"
-					+"<span class='douban'>"+data[k].score.douban+"</span>"
-					+"<span class='imdb'>"+data[k].score.imdb+"</span>"
+					+"<span class='douban'>"+data[k].score.douban+"</span>"+$imdbSpan
 					+"<span class='year'>"+data[k].releaseDate.slice(0,4)+"</span>"
 					+"<a target='_blank' href='filmDetails.html?filmName="+data[k].imgName+"&releaseDate="
 					+data[k].releaseDate.slice(0,4)+"'><img src='"+data[k].img+"' /></a>"

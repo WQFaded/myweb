@@ -1,6 +1,74 @@
 [
 	{	
 		"score": {
+			"douban": "8.9",
+			"imdb": "8.2"
+		},
+		"releaseDate": "2018-06-23(日本)",
+		"img": "https://t1.picb.cc/uploads/2018/12/07/JT9Fls.jpg",
+		"imgName": "摄影机不要停！",
+		"productionAreas": "日本",
+		"type": "喜剧 / 恐怖",
+		"textName": "2018日本恐怖喜剧 《摄影机不要停！》WEB-DL.1080P.日语.中字",
+		"updateTime": "2018-12-07 09:55:00",
+		"intro": "一部独立电影的剧组正在深山的废墟中拍摄一部僵尸电影, 谁知真的僵尸袭击了那里。 导演日暮大喜过望继续拍摄, 一镜到底记录下了剧组成员一个接一个成为僵尸.....",
+		"director": "上田慎一郎",
+		"scriptwriter": "上田慎一郎",
+		"protagonist": "滨津隆之 / 真鱼 / Harumi Shuhama / 长屋和彰 / 细井学 / 市原洋 / 山崎俊太郎 / 大泽真一郎 / 竹原芳子 / 吉田美纪 / 合田纯奈 / 浅森咲希奈 / 秋山柚稀 / 山口友和 / 藤村拓矢 / 岩合智史 / 高桥恭子 / Satoshi Iwagô",
+		"language": "日语",
+		"filmTime": "96分钟",
+		"alternateName": "尸杀片场(港) / 一尸到底(台) / One Cut of the Dead / Kamera o tomeru na!",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:bc8d9868dafb51dac363ad293dd98c276a2c6548&dn=摄影机不要停.Kamerao.tomeru.na.2018.WEB-DL.1080P.X264.AAC.CHT-MiniBT",
+				"magnetName": "摄影机不要停.Kamerao.tomeru.na.2018.WEB-DL.1080P.X264.AAC.CHT-MiniBT.mp4",
+				"size": "2.08GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:7eb31b09db9e5397b2ff083abe3629a97d384006&dn=摄影机不要停.Kamerao.tomeru.na.2018.WEB-DL.720P.X264.AAC.CHT-MiniBT",
+				"magnetName": "摄影机不要停.Kamerao.tomeru.na.2018.WEB-DL.720P.X264.AAC.CHT-MiniBT.mp4",
+				"size": "1.44GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:f321b7eeacf876d85bd81745841e559bd68adac1&dn=[摄影机不要停].Kamera.o.tomeru.na.2018.WEB-DL.1080P.x264.AAC.Japanese.CHT-FFansWEB",
+				"magnetName": "[摄影机不要停].Kamera.o.tomeru.na.2018.WEB-DL.1080P.x264.AAC.Japanese.CHT-FFansWEB.mkv",
+				"size": "8.69GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/07/JT9sVF.jpg","https://t1.picb.cc/uploads/2018/12/07/JT9LPt.jpg","https://t1.picb.cc/uploads/2018/12/07/JT9DpJ.jpg","https://t1.picb.cc/uploads/2018/12/07/JT99MM.jpg","https://t1.picb.cc/uploads/2018/12/07/JT9TfT.jpg","https://t1.picb.cc/uploads/2018/12/07/JT9zGr.jpg"]
+	},
+	{	
+		"score": {
+			"douban": "5.4",
+			"imdb": ""
+		},
+		"releaseDate": "2018-12-02(美国)",
+		"img": "https://t1.picb.cc/uploads/2018/12/07/JT9Yu1.jpg",
+		"imgName": "维多利亚的秘密2018时装秀",
+		"productionAreas": "美国",
+		"type": "真人秀",
+		"textName": "2018美国真人秀《维多利亚的秘密2018时装秀》WEB-DL.1080P.英语.中英双字",
+		"updateTime": "2018-12-07 10:04:00",
+		"intro": "维多利亚的秘密时尚秀（英语：Victoria's Secret Fashion Show）是由美国女性内衣与睡衣品牌维多利亚的秘密主办的年度时装表演。它主打维多利亚的秘密品牌的女性内衣，与艺人歌手合作、结合音乐演出，依据当年主题而推出不同的舞台设计，并邀请许多全球知名的时尚模特担当走秀。/2018年9月9日，2018维多利亚的秘密走秀名单曝光，何穗、陈瑜、奚梦瑶入选。于北京时间2018年12月3日录制播出。",
+		"director": "哈密什·汉密尔顿",
+		"scriptwriter": "",
+		"protagonist": "阿德瑞娜·利玛 / 贝哈蒂·朴琳思洛 / 坎迪丝·斯瓦内普尔 / 艾尔莎·霍斯卡 / 泰勒·希尔 / 玛莎·亨特 / 约瑟芬·斯可瑞娃 / 罗梅·埃利斯 / 雅思敏·图克斯 / 莎拉·桑帕约 / 莱斯·里贝罗 / 斯特拉·麦克斯韦 / 陈瑜 / 奚梦瑶 / 何穗 / 刘雯 / 王菊 / 欧阳娜娜 / 张雨绮 / 温妮·哈洛",
+		"language": "英语",
+		"filmTime": "41分钟",
+		"alternateName": "Holiday Special / 维密秀2018",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:b6fd8e369781cdbf3458f5d534869d742af2e4fa&dn=维多利亚的秘密2018时装秀.Holiday.Special.2018.WEB-DL.1080P.X264.AAC.中英字幕",
+				"magnetName": "维多利亚的秘密2018时装秀.Holiday.Special.2018.WEB-DL.1080P.X264.AAC.中英字幕.mp4",
+				"size": "951.76MB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["","","","","",""]
+	},
+	{	
+		"score": {
 			"douban": "7.7",
 			"imdb": "6.7"
 		},
