@@ -6,12 +6,11 @@ $(function(){
 			arrAH[i] = $ul.find("a").eq(i).height();
 			arrLiH[i] = $ul.find("li").eq(i).height();
 		}
-		$ul.find("a").height(Math.max.apply(null,arrAH));
-		$(".siteList a").css({
-			"padding": "4px",
-			"width": "95%"
-		});
-		//$ul.find("a").height(Math.max.apply(null,arrAH));
+		if($.cookie("isFirst")==undefined){
+			$ul.find("a").height(Math.max.apply(null,arrLiH));
+		}else{
+			$ul.find("a").height(Math.max.apply(null,arrAH));
+		}
 	}
 	function ulFalse(){
 		//Web前端开发
@@ -43,6 +42,7 @@ $(function(){
 			}
 		}
 		ulFalse();
+		$.cookie("isFirst","test");
 		$(".siteList>li").hide().eq(0).show();
 	})
 	$(".siteType li").click(function(){

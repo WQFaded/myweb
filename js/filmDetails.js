@@ -40,6 +40,7 @@ $(function(){
 				$(".filmAbstract p span").eq(1).text(data[i].type);
 				$(".filmAbstract p span.douban").text(data[i].score.douban+"分");
 				$(".filmAbstract p span.imdb").text(data[i].score.imdb+"分");
+				if(data[i].score.imdb=="") $(".filmAbstract p span.imdb").remove();
 				/*详细信息*/
 				$(".filmDetails>img").attr("src",data[i].img);
 				$(".filmDetails>div h1").text(data[i].imgName);

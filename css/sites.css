@@ -45,7 +45,8 @@ ul.siteList ul li a{
 	border: 1px solid lightgray;
 	border-radius: 3px;
 	overflow: hidden;
-	color: #333;	
+	color: #333;
+	padding: 4px;	
 }
 ul.siteList ul li a img{
 	width: 15%;
