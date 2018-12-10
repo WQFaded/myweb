@@ -1,18 +1,13 @@
 $(function(){
 	function uniformLiHeight($ul){
 		$ul.find("a").css("height","auto");
-		var arrAH=[], arrLiH=[];
+		var arrAH=[];
 		for(var i=0;i<$ul.find("li").length;i++){
 			arrAH[i] = $ul.find("a").eq(i).height();
-			arrLiH[i] = $ul.find("li").eq(i).height();
 		}
-		if($.cookie("isFirst")==undefined){
-			$ul.find("a").height(Math.max.apply(null,arrLiH));
-		}else{
-			$ul.find("a").height(Math.max.apply(null,arrAH));
-		}
+		$ul.find("a").height(Math.max.apply(null,arrAH));
 	}
-	function ulFalse(){
+	function setLiH(){
 		//Web前端开发
 		uniformLiHeight($("ul.webMaterial"));
 		uniformLiHeight($("ul.UIFrame"));
@@ -27,7 +22,7 @@ $(function(){
 		uniformLiHeight($("ul.MagnetURI"));
 	}
 	$(window).resize(function(){
-		ulFalse();
+		setLiH();
 	})
 	$.getJSON("../json/sites.json",function(data){
 		for(var i=0;i<data.length;i++){
@@ -41,13 +36,14 @@ $(function(){
 				+"</li>");
 			}
 		}
-		ulFalse();
-		$.cookie("isFirst","test");
+		$(".siteList img")[0].onload = function(){
+			setLiH();
+		}
 		$(".siteList>li").hide().eq(0).show();
 	})
 	$(".siteType li").click(function(){
 		$(".siteType li").removeClass("activeSiteType").eq($(this).index()).addClass("activeSiteType");
 		$(".siteList>li").hide().eq($(this).index()).show();
-		ulFalse();
+		setLiH();
 	})
 })

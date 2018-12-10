@@ -7,11 +7,10 @@ div.sites ul.siteType{
 	float: left;
 }
 div.sites ul.siteType li{
-	height: 30px;
-	line-height: 30px;
 	border-bottom: 1px solid lightgray;
 	cursor: pointer;
-	padding: 0 3px;
+	padding: 5px 3px;
+	text-align: center;
 }
 div.sites ul.siteType li:hover{
 	background: whitesmoke;

@@ -1,0 +1,53 @@
+/*
+ (c) Copyright 2018 JunYang. All Rights Reserved. 2018-12-10
+ * */
+div.carousel{
+	margin: 20px 0;
+}
+div.carouselLeft{
+	position: relative;
+	width: 80%;
+	float: left;
+}
+div.carouselLeft ul li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	opacity: 0;
+}
+div.carouselLeft ul li:first-child{
+	opacity: 1;
+	z-index: 9;
+}
+div.carouselLeft ul li img{
+	width: 100%;
+}
+div.carouselLeft i{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+	color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-top: -18px;
+}
+div.carouselLeft i.icon-xiangzuo{
+	left: 15px;
+}
+div.carouselLeft i.icon-xiangyou{
+	right: 15px;
+}
+div.carouselLeft i:hover{
+	background: rgba(0,0,0,0.7);
+}
+div.carouselRight{
+	float: right;
+	width: 20%;
+}
