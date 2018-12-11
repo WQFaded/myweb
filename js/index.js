@@ -3,7 +3,8 @@
  * */
 $(function(){
 	$(window).resize(function(){
-		$(".carousel,.carouselLeft,.carouselLeft ul").height($(".carouselLeft img").height());
+		$(".carousel,.carouselLeft,.carouselLeft ul,.carouselLeft i").height($(".carouselLeft img").height());
+		$(".carouselLeft img").css("height","auto");
 	})
 	//透明度轮播
 	var index = 0; //定义轮播索引
@@ -13,9 +14,9 @@ $(function(){
 		}else if(index<0){
 			index = $(".carouselLeft ul li").length-1;
 		}
-		$(".carouselLeft ul li").stop();
-		$(".carouselLeft ul li").eq(index).animate({"opacity": 1},1000).siblings().animate({"opacity": 0},1000);
+		$(".carouselLeft ul li").stop(false,true).eq(index).animate({"opacity": 1},1000).siblings().animate({"opacity": 0},1000);
 		$(".carouselLeft ul li").eq(index).css("z-index",9).siblings().css("z-index",0);
+		$(".carouselLeft ol li").removeClass("focalPoint").eq(index).addClass("focalPoint");
 	}
 	var carousel = function(){
 		index++;
@@ -30,18 +31,31 @@ $(function(){
 				+"<a target='_blank' href='pages/filmDetails.html?filmName="+movieName+"&releaseDate="+releaseDate+"'>"
 				+"<img src='"+data[i].moviePoster+"' /></a>"
 			+"</li>");
+			$(".carouselLeft ol").append("<li></li>");
 		}
+		$(".carouselLeft ol li:first").addClass("focalPoint");
 		$(".carouselLeft img")[0].onload = function(){
-			$(".carousel,.carouselLeft,.carouselLeft ul").height($(".carouselLeft img").height());
+			$(".carousel,.carouselLeft,.carouselLeft ul,.carouselLeft i").height($(".carouselLeft img").height());
+			$(".carouselLeft img").height($(".carouselLeft").height());
+			$(".carouselLeft i").show();
 		}
+		$(".carouselLeft ol li").click(function(){
+			index = $(this).index();
+			show();
+		})
+		$(".carouselLeft i,.carouselLeft ol li").hover(function(){
+			clearInterval(carouselTimer);
+		},function(){
+			carouselTimer = setInterval(carousel,4000);
+		})
 	})
 	//上一张
-	$(".carouselLeft .icon-xiangzuo").click(function(){
+	$(".carouselLeft .icon-left").click(function(){
 		index--;
 		show();
 	})
 	//下一张
-	$(".carouselLeft .icon-xiangyou").click(function(){
+	$(".carouselLeft .icon-right").click(function(){
 		index++;
 		show();
 	})

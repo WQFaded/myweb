@@ -1,6 +1,69 @@
 [
 	{
 		"score": {
+			"douban": "8.2",
+			"imdb": "7.5"
+		},
+		"releaseDate": "2018-11-23(中国大陆) / 2018-11-21(美国)",
+		"img": "https://t1.picb.cc/uploads/2018/12/11/J9Wq38.jpg",
+		"imgName": "无敌破坏王2：大闹互联网",
+		"productionAreas": "美国",
+		"type": "喜剧 / 动画 / 奇幻 / 冒险",
+		"textName": "2018美国动画喜剧 《无敌破坏王2：大闹互联网》TC.720P.英语.中字",
+		"updateTime": "2018-12-11 10:48:00",
+		"intro": "电玩游戏破坏王拉尔夫和调皮女孩云妮洛普从电玩世界来到了广阔、未知又激动人心的虚拟网络世界，寻找可以修复《甜蜜冲刺》游戏的组件，他们需要在网民们的帮助下在网络世界中不断前行。在这过程中，他们遇到了热门网站爆音视频网的核心人物——充满企业家精神的椰丝小姐。",
+		"director": "菲尔·约翰斯顿 / 瑞奇·摩尔",
+		"scriptwriter": "菲尔·约翰斯顿 / 帕米拉·里本 / 瑞奇·摩尔 / 吉姆·里尔顿 / 乔西·特立尼达",
+		"protagonist": " 约翰·C·赖利 / 萨拉·西尔弗曼 / 盖尔·加朵 / 塔拉吉·P·汉森 / 杰克·麦克布瑞尔 / 简·林奇 / 艾伦·图代克 / 阿尔弗雷德·莫里纳 / 艾德·奥尼尔 / 肖恩·吉布朗尼 / 弗卢拉·博格 / 蒂莫西·西蒙斯 / 黄阿丽 / 韩秘书·布雷克 / 葛洛泽尔·格林 / 瑞贝卡·薇索基 / 山姆·理查森 / 雅布其·杨-怀特 / 莫里斯·拉马奇 / 梅丽莎·维拉斯诺 / 凯蒂·洛斯 / 贾米·埃曼 / 霍拉提奥·桑斯 / 亚历克斯·莫法特 / 琼·斯奎布 / 德拉·萨巴 / 菲尔·约翰斯顿 / 约翰·迪·玛吉欧 / 瑞奇·摩尔 / 科琳·巴林杰 / 达尼·费尔南德斯 / 蒂芙妮·赫雷拉 / 阿娜·奥缇兹 / 迪安娜·阿格隆 / 杰森·曼兹沃克斯 / 雷蒙德·S·佩尔西 / 伏霞 / 罗杰·克莱格·史密斯 / 蒂姆·艾伦 / 布拉德·加内特 / 安东尼·丹尼尔斯 / 科里·伯顿 / 范·迪塞尔 / 维韦卡·波林 / 迈克·吉亚奇诺 / 凯文·迪特斯 / 尼可·斯彻金格 / 丹·雷诺斯 / 艾琳·贝达 / 克里斯汀·贝尔 / 裘蒂·班森 / 奥丽伊·卡瓦洛 / 詹妮弗·黑尔 / 凯特·希金斯 / 琳达·拉金 / 凯莉·麦克唐纳 / 伊迪娜·门泽尔 / 曼迪·摩尔 / 佩吉·奥哈拉 / 帕米拉·里本 / 阿尼卡·诺尼·罗斯 / 温明娜 / 珍妮卡·贝尔格雷 / 比尔·哈德尔",
+		"language": "英语",
+		"filmTime": "112分钟",
+		"alternateName": "无敌破坏王2 / 无敌破坏王2：网路大暴走(台) / 无敌破坏王2：打爆互联网(港) / 无敌破坏王2：破坏王大闹互联网 / Wreck-It Ralph 2",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:b8c6a655e97725d6d1e5184ddc264ce52e51bc89&dn=无敌破坏王2：大闹互联网.TC720P清晰版英语中字.mp4",
+				"magnetName": "无敌破坏王2：大闹互联网.TC720P清晰版英语中字.mp4",
+				"size": "1.12GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/11/J9WApW.jpg","https://t1.picb.cc/uploads/2018/12/11/J9W46u.jpg","https://t1.picb.cc/uploads/2018/12/11/J9WHPv.jpg","https://t1.picb.cc/uploads/2018/12/11/J9WGMD.jpg","https://t1.picb.cc/uploads/2018/12/11/J9W5gi.jpg","https://t1.picb.cc/uploads/2018/12/11/J9W8GL.jpg"]
+	},
+	{
+		"score": {
+			"douban": "7.0",
+			"imdb": "6.5"
+		},
+		"releaseDate": "2018-11-09(中国大陆)",
+		"img": "https://t1.picb.cc/uploads/2018/12/11/J9O5Es.jpg",
+		"imgName": "你好，之华",
+		"productionAreas": "中国大陆",
+		"type": "剧情 / 爱情",
+		"textName": "2018中国大陆剧情《你好，之华》WEB-DL.4K&1080P.国语.中字",
+		"updateTime": "2018-12-11 10:10:00",
+		"intro": "这是一个关于错过的故事。有人慌张地见面，有人简单地告别。姐姐袁之南离世的那个清晨，只匆匆留下一封信和一张同学会邀请函。/妹妹之华代替姐姐参加同学会，却意外遇见年少时的倾慕对象尹川。往日的记忆在苏醒，但再次相见，已物是人非。",
+		"director": "岩井俊二",
+		"scriptwriter": "岩井俊二",
+		"protagonist": "周迅 / 秦昊 / 杜江 / 张子枫 / 邓恩熙 / 边天扬 / 吴彦姝 / 谭卓 / 胡歌",
+		"language": "汉语普通话",
+		"filmTime": "114分钟",
+		"alternateName": "之华 / Last Letter",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:9751bf4fdc60dfeb71c77a10b3046e0f0f9469f8&dn=【扬天影视】你好，之华.Last.Letter.2018.4K&1080P.WEB-DL.H264.AAC-YTYS",
+				"magnetName": "你好，之华.Last.Letter.2018.4K&1080P.WEB-DL.H264.AAC.mp4",
+				"size": "6.47GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:84af2f7b3ac0221da8a2d9253981df373fe603c6&dn=ziLu1.com 你好之华 Last Letter.2018.WE.720P.H264",
+				"magnetName": "你好之华 Last Letter.2018.WEB-DL.720P.H264.mp4",
+				"size": "2.34GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/11/J9OAe7.jpg","https://t1.picb.cc/uploads/2018/12/11/J9OqwM.jpg","https://t1.picb.cc/uploads/2018/12/11/J9OhBF.jpg","https://t1.picb.cc/uploads/2018/12/11/J9O7At.jpg","https://t1.picb.cc/uploads/2018/12/11/J9OMh6.jpg","https://t1.picb.cc/uploads/2018/12/11/J9OO9T.jpg"]
+	},
+	{
+		"score": {
 			"douban": "8.1",
 			"imdb": "8.3"
 		},
@@ -22,7 +85,7 @@
 			{
 				"magnet": "",
 				"magnetName": "",
-				"size": ""
+				"size": "暂无资源"
 			}
 		],
 		"baiduCloud": "",
