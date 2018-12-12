@@ -171,21 +171,21 @@
 				"websiteDesc": " zTree 是一个依靠 jQuery 实现的多功能 “树插件”。优异的性能、灵活的配置、多种功能的组合是 zTree 最大优点。专门适合项目开发，尤其是 树状菜单、树状数据的Web显示、权限管理等等。"
 			},
 			{
-				"siteSmallType": "others",
+				"siteSmallType": "JSFrame",
 				"siteName": "webpack",
 				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXKTL.png",
 				"webSite": "https://www.webpackjs.com",
 				"websiteDesc": "webpack 是一个现代 JavaScript 应用程序的静态模块打包器。当 webpack 处理应用程序时，它会递归地构建一个依赖关系图，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 bundle。"
 			},
 			{
-				"siteSmallType": "others",
+				"siteSmallType": "dataPlatform",
 				"siteName": "阿凡达数据",
 				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXlzv.jpg",
 				"webSite": "https://www.avatardata.cn/Docs",
 				"websiteDesc": "国内专业的 API 数据接口云服务平台。优势:优质、稳定的 API 数据源;毫秒级调用速度;安全的数据调用环境。"
 			},
 			{
-				"siteSmallType": "others",
+				"siteSmallType": "dataPlatform",
 				"siteName": "聚合数据",
 				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTX35e.jpg",
 				"webSite": "https://www.juhe.cn",
@@ -227,6 +227,20 @@
 				"websiteDesc": "懒人图库专注于提供网页素材下载,其内容涵盖网页素材,矢量图素材,JS代码,psd素材,导航菜单,PNG图标等,让任何一个网页设计师都能轻松找到自己想要的素材!"
 			},
 			{
+				"siteSmallType": "others",
+				"siteName": "ostools",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/12/J9Fvad.png",
+				"webSite": "http://tool.oschina.net/",
+				"websiteDesc": "开源中国在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具。"
+			},
+			{
+				"siteSmallType": "dataPlatform",
+				"siteName": "中国气象数据网",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/12/J9Nldi.png",
+				"webSite": "http://data.cma.cn/",
+				"websiteDesc": "气象资料 依托全国综合气象信息共享平台(CIMISS)统一数据环境和服务接口,提供完整、及时、稳定、准确的气象数据服务。"
+			},
+			{
 				"siteSmallType": "webBasicStudy",
 				"siteName": "w3school在线教程",
 				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXsDD.png",
@@ -253,6 +267,13 @@
 				"siteIcon": "https://t1.picb.cc/uploads/2018/12/06/JTXjQT.png",
 				"webSite": "https://www.imooc.com",
 				"websiteDesc": "慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课。并且富有交互性及趣味性，你还可以和朋友一起编程。"
+			},
+			{
+				"siteSmallType": "webBasicStudy",
+				"siteName": "微信小程序",
+				"siteIcon": "https://t1.picb.cc/uploads/2018/12/12/J9Fh11.jpg",
+				"webSite": "https://developers.weixin.qq.com/miniprogram/dev/",
+				"websiteDesc": "微信小程序是一种全新的连接用户与服务的方式，它可以在微信内被便捷地获取和传播，同时具有出色的使用体验。"
 			}
 		]
 	},

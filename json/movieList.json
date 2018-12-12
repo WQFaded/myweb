@@ -1,11 +1,128 @@
 [
 	{
 		"score": {
+			"douban": "5.3",
+			"imdb": "6.1"
+		},
+		"releaseDate": "2018-09-12(韩国)",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/12/J9Boqv.jpg",
+		"imgName": "物怪",
+		"productionAreas": "韩国",
+		"type": "动作 / 奇幻",
+		"textName": "2018韩国动作奇幻《物怪》HD1080P.韩语.中字",
+		"updateTime": "2018-12-12 15:42:00",
+		"intro": "朝鲜中宗22年，王为了躲避宫中出现的怪物而迁宫。改编自这段史实，讲述了威胁王的「物怪」（诡异的物件）与觊觎王位的循旧势力展开的争斗。",
+		"director": "许宗昊",
+		"scriptwriter": "改编自《朝鲜王朝实录》",
+		"protagonist": "金明民 / 金仁权 / 李惠利 / 崔宇植 / 朴圣雄 / 朴熙顺 / 李璟荣 / 李度京 / 李圭福 / 李受美 / 金重熙 / 韩素英 / 金刚日 / 洪智允",
+		"language": "韩语",
+		"filmTime": "105分钟",
+		"alternateName": "恶兽(港) / 水怪 / 灼鼠之变：物怪的袭击 / 작서의 변 : 물괴의 습격 / Monstrum",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:b9d80077b8aafc3c606766f8d7a7d73cd9d609da&dn=物怪.Monstrum.2018.1080p.FHDRip.x264.AAC.CHS-BTBT4K",
+				"magnetName": "物怪.Monstrum.2018.1080p.FHDRip.x264.AAC.CHS-BTBT4K.mp4",
+				"size": "2.72GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:9aaaabd926c8a48886cceb6fac7b0e7f0985281c&dn=物怪.Monstrum.2018.HD1080P.AAC.x264.Korean.CHS.BTDX8",
+				"magnetName": "物怪.Monstrum.2018.HD1080P.AAC.x264.Korean.CHS.BTDX8.mp4",
+				"size": "4.69GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:daf0119b89be154a572c1584f255a90f100967e7&dn=物怪.Monstrum.2018.HD720P.AAC.x264.Korean.CHS.BTDX8",
+				"magnetName": "物怪.Monstrum.2018.HD720P.AAC.x264.Korean.CHS.BTDX8.mp4",
+				"size": "2.41GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/12/J9Fm2e.jpg","https://t1.picb.cc/uploads/2018/12/12/J9FnTj.jpg","https://t1.picb.cc/uploads/2018/12/12/J9FCXN.jpg","https://t1.picb.cc/uploads/2018/12/12/J9FlZc.jpg","https://t1.picb.cc/uploads/2018/12/12/J9Fu5K.jpg","https://t1.picb.cc/uploads/2018/12/12/J9F1ms.jpg"]
+	},
+	{
+		"score": {
+			"douban": "6.4",
+			"imdb": "7.0"
+		},
+		"releaseDate": "2018-09-08(多伦多电影节) / 2018-10-19(美国)",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/12/J9SB2s.jpg",
+		"imgName": "月光光心慌慌",
+		"productionAreas": "美国",
+		"type": "惊悚 / 恐怖",
+		"textName": "2018美国惊悚恐怖《月光光心慌慌》HD1080P.英语.中字",
+		"updateTime": "2018-12-12 15:04:00",
+		"intro": "在万圣节前夜，杀人狂迈克尔·麦尔斯逃走了，开始前往伊利诺伊州的哈登菲尔德，这是他最原始的屠杀地。一直负责治疗迈克尔·麦尔斯的精神病专家兰比尔·萨坦博士，警长弗兰克·霍金斯在疯狂寻找迈克尔·麦尔斯的下落，后者继续着他的残杀，并无情地接近着上次屠杀中唯一的幸存者劳瑞。劳瑞死里逃生所带来的创伤与压力，使她在精神上伤痕累累并开始疑神疑鬼，这也导致女儿凯伦与她渐渐疏远。",
+		"director": "大卫·戈登·格林",
+		"scriptwriter": "杰夫·弗拉德利 / 丹尼·麦克布莱德 / 大卫·戈登·格林 / 约翰·卡朋特 / 黛布拉·希尔",
+		"protagonist": "杰米·李·柯蒂斯 / 朱迪·格雷尔 / 安迪·马蒂切克 / 詹姆斯·裘德·柯特尼 / 尼克·卡斯特尔 / 哈鲁克·比尔根纳尔 / 威尔·帕顿 / Rhian Rees / 杰佛逊·豪尔 / 托比·胡斯 / 维吉尼亚·加德纳 / Dylan Arnold / 迈尔斯·罗宾斯 / Drew Scheid / Jibrail Nantambu / Michael 'Mick' Harrity / Matthew Anderson / 奥马尔·J·多尔西 / 克里斯托弗· 艾伦·尼尔森 / PJ·索尔丝 / Sandy Johnson / 乔恩·埃里克·海克瑟姆 / Meeno Peluce / Jared Moser / Rob Niter",
+		"language": "英语",
+		"filmTime": "106分钟",
+		"alternateName": "月光光新慌慌(台) / 万圣节归来 / 万圣节11 / Halloween 3-D / Halloween Returns / Halloween III",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:3e12c58acfc4032cf0242ea8dfe88636d0d1328a&dn=月光光心慌慌 Halloween 2018.HD1080P.x264.韩版精准中文字幕.eng.chs.aac.kankan.ws",
+				"magnetName": "月光光心慌慌 Halloween 2018.HD1080P.x264.韩版精准中文字幕.eng.chs.aac.kankan.ws.mp4",
+				"size": "3.14GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:c332563fa41d5543a139b735a19739a37d5b123a&dn=月光光心慌慌.韩版.Halloween.2018.HD1080P.X264.AAC.English.CHS.Mp4Ba",
+				"magnetName": "月光光心慌慌.韩版.Halloween.2018.HD1080P.X264.AAC.English.CHS.Mp4Ba.mp4",
+				"size": "3.26GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:d13d61f4702e5d58afd7fa448e938b9dd032c3bc&dn=月光光心慌慌.韩版.Halloween.2018.HD720P.X264.AAC.English.CHS.Mp4Ba",
+				"magnetName": "月光光心慌慌.韩版.Halloween.2018.HD720P.X264.AAC.English.CHS.Mp4Ba.mp4",
+				"size": "2.2GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/12/J9X2eD.jpg","https://t1.picb.cc/uploads/2018/12/12/J9SY1d.jpg","https://t1.picb.cc/uploads/2018/12/12/J9Sdba.jpg","https://t1.picb.cc/uploads/2018/12/12/J9SKJ1.jpg","https://t1.picb.cc/uploads/2018/12/12/J9SoKu.jpg"]
+	},
+	{
+		"score": {
+			"douban": "5.5",
+			"imdb": "6.2"
+		},
+		"releaseDate": "2018-10-25(韩国)",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/12/J90Mo6.jpg",
+		"imgName": "猖獗",
+		"productionAreas": "韩国",
+		"type": "动作 / 恐怖",
+		"textName": "2018韩国动作恐怖《猖獗》HD1080P.韩语.中字",
+		"updateTime": "2018-12-12 14:07:00",
+		"intro": "《猖獗》讲述了主人公李清为阻止“夜鬼”的猖獗恶行、拯救朝鲜而与其殊死对抗的故事，是一部大制作动作电影。玄彬饰演王的儿子，也是喜欢饮酒玩乐的朝鲜最强武者李清，他接受了即将继承王位的哥哥的指令，与潜入朝鲜数十年却不明正身的“夜鬼”展开对抗。女主角李先彬饰演影片中与王子并肩战斗的朝鲜第一弓箭手。",
+		"director": "金成勋",
+		"scriptwriter": "黄祖润 / 元新渊 / 黄肇允",
+		"protagonist": "玄彬 / 赵宇镇 / 张东健 / 金义城 / 李善彬 / 郑满植 / 徐智慧 / 赵达焕 / 金太祐 / 许成泰 / 朴镇宇 / 韩智恩 / 许俊硕 / 白秀章 / 郑惟安",
+		"language": "韩语",
+		"filmTime": "129分钟",
+		"alternateName": "尸杀帝国(港) / 尸落之城(台) / Rampant",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:27e3bc45d3652eb2360d056e1926ff8ce89b97a8&dn=猖獗.Rampant.2018.WEB-DL.1080P.X264.AAC.CHS.mp4",
+				"magnetName": "猖獗.Rampant.2018.WEB-DL.1080P.X264.AAC.CHS.mp4",
+				"size": "2.45GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:6d8bf85531be9e4c7bf1d541ba0c0513a799f7c6&dn=猖獗.尸杀帝国.Rampant.2018.HD1080P.X264.AAC.Korean.CHS.mp4",
+				"magnetName": "猖獗.尸杀帝国.Rampant.2018.HD1080P.X264.AAC.Korean.CHS.mp4",
+				"size": "2.29GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:34ea68f8b4c2741f83363f0972741a8340e4a6c9&dn=猖獗.Rampant.2018.HD1080P.AAC.x264.Korean.CHS.BTDX8",
+				"magnetName": "猖獗.Rampant.2018.HD1080P.AAC.x264.Korean.CHS.BTDX8.mp4",
+				"size": "3.66GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/12/J90Bzv.jpg","https://t1.picb.cc/uploads/2018/12/12/J90XND.jpg","https://t1.picb.cc/uploads/2018/12/12/J90Pii.jpg","https://t1.picb.cc/uploads/2018/12/12/J90xxW.jpg","https://t1.picb.cc/uploads/2018/12/12/J90RWL.jpg"]
+	},
+	{
+		"score": {
 			"douban": "8.2",
 			"imdb": "7.5"
 		},
 		"releaseDate": "2018-11-23(中国大陆) / 2018-11-21(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/11/J9Wq38.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/11/J9Wq38.jpg",
 		"imgName": "无敌破坏王2：大闹互联网",
 		"productionAreas": "美国",
 		"type": "喜剧 / 动画 / 奇幻 / 冒险",
@@ -34,7 +151,7 @@
 			"imdb": "6.5"
 		},
 		"releaseDate": "2018-11-09(中国大陆)",
-		"img": "https://t1.picb.cc/uploads/2018/12/11/J9O5Es.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/11/J9O5Es.jpg",
 		"imgName": "你好，之华",
 		"productionAreas": "中国大陆",
 		"type": "剧情 / 爱情",
@@ -68,11 +185,11 @@
 			"imdb": "8.3"
 		},
 		"releaseDate": "2018-12-07(中国大陆) / 2018-12-21(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/10/J9rSuX.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/10/J9rSuX.jpg",
 		"imgName": "海王",
 		"productionAreas": "美国 / 澳大利亚",
 		"type": "动作 / 奇幻 / 冒险",
-		"textName": "2018美国动作奇幻《海王》",
+		"textName": "2018美国动作奇幻《海王》TS.540P.英语.中字",
 		"updateTime": "2018-12-10 16:34:00",
 		"intro": "华纳兄弟影片公司与导演温子仁联手为您呈现波澜壮阔的动作冒险电影——《海王》！横跨七大洋的广阔海底世界徐徐展开，给观众带来震撼十足的视觉奇观。本片由杰森·莫玛领衔主演，讲述半人半亚特兰蒂斯血统的亚瑟·库瑞踏上永生难忘的征途——他不但需要直面自己的特殊身世，更不得不面对生而为王的考验：自己究竟能否配得上“海王”之名。",
 		"director": "温子仁",
@@ -83,9 +200,9 @@
 		"alternateName": "水行侠(港/台) / 潜水侠 / 水人",
 		"magnets": [
 			{
-				"magnet": "",
-				"magnetName": "",
-				"size": "暂无资源"
+				"magnet": "magnet:?xt=urn:btih:c803e28d0d9024c4a03705fd5c15f69fcefbf290&dn=海王.Aquaman.2018.TS540P.X264.AAC.CHS.mp4",
+				"magnetName": "海王.Aquaman.2018.TS540P.X264.AAC.CHS.mp4",
+				"size": "1.4GB"
 			}
 		],
 		"baiduCloud": "",
@@ -97,7 +214,7 @@
 			"imdb": "7.3"
 		},
 		"releaseDate": "2018-11-16(中国大陆)",
-		"img": "https://t1.picb.cc/uploads/2018/12/10/J9m0r7.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/10/J9m0r7.jpg",
 		"imgName": "无名之辈",
 		"productionAreas": "中国大陆",
 		"type": "剧情 / 喜剧",
@@ -126,7 +243,7 @@
 			"imdb": "6.5"
 		},
 		"releaseDate": "2018-07-13(中国大陆)",
-		"img": "https://t1.picb.cc/uploads/2018/12/10/J9cBUW.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/10/J9cBUW.jpg",
 		"imgName": "邪不压正",
 		"productionAreas": "中国大陆",
 		"type": "剧情 / 喜剧 / 动作",
@@ -160,7 +277,7 @@
 			"imdb": "7.0"
 		},
 		"releaseDate": "2018-11-09(中国大陆) / 2018-10-05(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqU6u.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqU6u.jpg",
 		"imgName": "毒液：致命守护者",
 		"productionAreas": "美国 / 中国大陆",
 		"type": "动作 / 科幻 / 惊悚",
@@ -194,7 +311,7 @@
 			"imdb": "6.8"
 		},
 		"releaseDate": "2018-09-05(威尼斯电影节) / 2018-10-10(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/08/JTDeQK.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/08/JTDeQK.jpg",
 		"imgName": "挪威7·22爆炸枪击案 22 July",
 		"productionAreas": "挪威 / 冰岛 / 美国",
 		"type": "剧情 / 历史 / 犯罪",
@@ -223,7 +340,7 @@
 			"imdb": "8.2"
 		},
 		"releaseDate": "2018-06-23(日本)",
-		"img": "https://t1.picb.cc/uploads/2018/12/07/JT9Fls.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/07/JT9Fls.jpg",
 		"imgName": "摄影机不要停！",
 		"productionAreas": "日本",
 		"type": "喜剧 / 恐怖",
@@ -262,7 +379,7 @@
 			"imdb": ""
 		},
 		"releaseDate": "2018-12-02(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/07/JT9Yu1.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/07/JT9Yu1.jpg",
 		"imgName": "维多利亚的秘密2018时装秀",
 		"productionAreas": "美国",
 		"type": "真人秀",
@@ -291,7 +408,7 @@
 			"imdb": "6.7"
 		},
 		"releaseDate": "2018-10-19(中国大陆) / 2018-09-28(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTAP7M.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTAP7M.jpg",
 		"imgName": "雪怪大冒险",
 		"productionAreas": "美国",
 		"type": "喜剧 / 动画 / 歌舞 / 奇幻",
@@ -320,7 +437,7 @@
 			"imdb": "7.2"
 		},
 		"releaseDate": "2018-09-30(中国大陆) / 2018-09-06(威尼斯电影节)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTWLBc.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTWLBc.jpg",
 		"imgName": "影",
 		"productionAreas": "中国大陆 / 香港",
 		"type": "剧情 / 动作 / 武侠 / 古装",
@@ -349,7 +466,7 @@
 			"imdb": "6.0"
 		},
 		"releaseDate": "2018-11-16(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTWo9T.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTWo9T.jpg",
 		"imgName": "禁入直播",
 		"productionAreas": "美国",
 		"type": "悬疑 / 惊悚 / 恐怖",
@@ -388,7 +505,7 @@
 			"imdb": "6.2"
 		},
 		"releaseDate": "2009-09-10(韩国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqcJL.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqcJL.jpg",
 		"imgName": "梨泰院杀人事件",
 		"productionAreas": "韩国",
 		"type": "悬疑 / 惊悚 / 犯罪",
@@ -427,7 +544,7 @@
 			"imdb": "8.3"
 		},
 		"releaseDate": "2013-10-02(韩国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTq4KR.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTq4KR.jpg",
 		"imgName": "素媛",
 		"productionAreas": "韩国",
 		"type": "剧情",
@@ -461,7 +578,7 @@
 			"imdb": "7.3"
 		},
 		"releaseDate": "2013-10-04(釜山电影节) / 2014-04-17(韩国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTq5LX.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTq5LX.jpg",
 		"imgName": "韩公主",
 		"productionAreas": "韩国",
 		"type": "剧情",
@@ -495,7 +612,7 @@
 			"imdb": "7.6"
 		},
 		"releaseDate": "2009-03-06(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqvYe.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqvYe.jpg",
 		"imgName": "守望者",
 		"productionAreas": "美国",
 		"type": "动作 / 科幻 / 悬疑",
@@ -539,7 +656,7 @@
 			"imdb": "7.2"
 		},
 		"releaseDate": "2018-12-07(中国大陆) / 2013-10-11(华语青年影像论坛)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqNls.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqNls.jpg",
 		"imgName": "狗十三",
 		"productionAreas": "中国大陆",
 		"type": "剧情 / 家庭",
@@ -573,7 +690,7 @@
 			"imdb": "5.8"
 		},
 		"releaseDate": "1993-07-24",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqQv7.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqQv7.jpg",
 		"imgName": "广东五虎之铁拳无敌孙中山",
 		"productionAreas": "香港",
 		"type": "喜剧",
@@ -607,7 +724,7 @@
 			"imdb": "5.9"
 		},
 		"releaseDate": "2004-09-09",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqaU6.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqaU6.jpg",
 		"imgName": "A-1 头条",
 		"productionAreas": "香港",
 		"type": "剧情 / 悬疑 / 惊悚",
@@ -636,7 +753,7 @@
 			"imdb": "7.6"
 		},
 		"releaseDate": "2010-01-22(圣丹斯电影节)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqpMM.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqpMM.jpg",
 		"imgName": "双宝斗恶魔",
 		"productionAreas": "美国 / 加拿大",
 		"type": "喜剧 / 恐怖",
@@ -675,7 +792,7 @@
 			"imdb": "7.1"
 		},
 		"releaseDate": "1999-09-23(香港)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTq0Pt.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTq0Pt.jpg",
 		"imgName": "心动",
 		"productionAreas": "香港 / 日本",
 		"type": "爱情",
@@ -704,7 +821,7 @@
 			"imdb": "6.3"
 		},
 		"releaseDate": "1986-11-20(香港)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqXVF.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqXVF.jpg",
 		"imgName": "心动",
 		"productionAreas": "香港",
 		"type": "剧情 / 爱情",
@@ -733,7 +850,7 @@
 			"imdb": "7.1"
 		},
 		"releaseDate": "2018-09-23(奥斯汀幻想电影节) / 2018-10-19(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqsMD.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqsMD.jpg",
 		"imgName": "嗜人之夜",
 		"productionAreas": "印度尼西亚",
 		"type": "动作",
@@ -772,7 +889,7 @@
 			"imdb": "5.9"
 		},
 		"releaseDate": "2018-09-21(中国大陆) / 2018-09-20(香港)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqzPv.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqzPv.jpg",
 		"imgName": "黄金兄弟",
 		"productionAreas": "中国大陆",
 		"type": "动作 / 犯罪",
@@ -806,7 +923,7 @@
 			"imdb": "7.0"
 		},
 		"releaseDate": "2018-09-21(中国大陆) / 2018-05-11(戛纳电影节)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqEgi.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqEgi.jpg",
 		"imgName": "江湖儿女",
 		"productionAreas": "中国大陆",
 		"type": "爱情 / 犯罪",
@@ -840,7 +957,7 @@
 			"imdb": "5.7"
 		},
 		"releaseDate": "2018-09-21(中国大陆)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqKGL.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqKGL.jpg",
 		"imgName": "悲伤逆流成河",
 		"productionAreas": "中国大陆",
 		"type": "爱情 / 剧情",
@@ -874,7 +991,7 @@
 			"imdb": "7.0"
 		},
 		"releaseDate": "2018-05-11(戛纳电影节) / 2018-08-08(韩国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JTqddw.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqddw.jpg",
 		"imgName": "特工",
 		"productionAreas": "韩国",
 		"type": "剧情",
@@ -908,7 +1025,7 @@
 			"imdb": "7.4"
 		},
 		"releaseDate": "2017-09-07(多伦多电影节) / 2018-03-15(德国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JT7yuR.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JT7yuR.jpg",
 		"imgName": "冒牌上尉",
 		"productionAreas": "德国 / 波兰 / 葡萄牙 / 法国",
 		"type": "剧情 / 历史 / 战争",
@@ -942,7 +1059,7 @@
 			"imdb": "5.5"
 		},
 		"releaseDate": "2018-09-07(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JT7238.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JT7238.jpg",
 		"imgName": "修女",
 		"productionAreas": "美国",
 		"type": "悬疑 / 惊悚 / 恐怖",
@@ -976,7 +1093,7 @@
 			"imdb": "5.8"
 		},
 		"releaseDate": "2018-03-09(西南偏南电影节) / 2018-07-20(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JT7kOG.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JT7kOG.jpg",
 		"imgName": "解除好友2：暗网",
 		"productionAreas": "美国",
 		"type": "恐怖 / 犯罪",
@@ -1015,7 +1132,7 @@
 			"imdb": "7.8"
 		},
 		"releaseDate": "2018-12-14(中国大陆) / 2018-01-20(圣丹斯电影节) / 2018-08-24(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JT7tRy.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JT7tRy.jpg",
 		"imgName": "网络谜踪",
 		"productionAreas": "美国 / 俄罗斯",
 		"type": "剧情 / 悬疑 / 惊悚 / 犯罪",
@@ -1049,7 +1166,7 @@
 			"imdb": "7.1"
 		},
 		"releaseDate": "2017-08-03(泰国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JT7wgj.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JT7wgj.jpg",
 		"imgName": "泰国派",
 		"productionAreas": "泰国",
 		"type": "剧情 / 喜剧",
@@ -1083,7 +1200,7 @@
 			"imdb": "7.3"
 		},
 		"releaseDate": "2018-08-17(美国)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JT7fHc.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JT7fHc.jpg",
 		"imgName": "致所有我曾爱过的男孩",
 		"productionAreas": "美国",
 		"type": "剧情 / 爱情",
@@ -1117,7 +1234,7 @@
 			"imdb": "7.0"
 		},
 		"releaseDate": "2017-12-01(西班牙)",
-		"img": "https://t1.picb.cc/uploads/2018/12/06/JT76pK.jpg",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JT76pK.jpg",
 		"imgName": "完美陌生人(西班牙版)",
 		"productionAreas": "意大利 / 西班牙",
 		"type": "喜剧",

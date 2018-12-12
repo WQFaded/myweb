@@ -217,3 +217,8 @@ i {
 	-webkit-box-shadow:0px 0px 10px #474E55; 
 	box-shadow:0px 0px 5px #474E55;
 }
+.textOverflow{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

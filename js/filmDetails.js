@@ -42,7 +42,7 @@ $(function(){
 				$(".filmAbstract p span.imdb").text(data[i].score.imdb+"分");
 				if(data[i].score.imdb=="") $(".filmAbstract p span.imdb").remove();
 				/*详细信息*/
-				$(".filmDetails>img").attr("src",data[i].img);
+				$(".filmDetails>img").attr("src",data[i].imgUrl);
 				$(".filmDetails>div h1").text(data[i].imgName);
 				$(".filmDetails>div span").eq(0).text(data[i].director);
 				$(".filmDetails>div span").eq(1).text(data[i].scriptwriter);

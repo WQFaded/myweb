@@ -20,7 +20,7 @@ $(function(){
 	}
 	//获取分页数据
 	$.getJSON("../json/movieList.json",function(data){
-		var number_entries = 20; //设置每页条目数
+		var number_entries = 24; //设置每页条目数
 		if(number_entries>data.length) number_entries = data.length;
 		var paginations = Math.ceil(data.length/number_entries); //总页码数
 		function showContent(start,end){
@@ -34,7 +34,7 @@ $(function(){
 					+"<span class='douban'>"+data[k].score.douban+"</span>"+$imdbSpan
 					+"<span class='year'>"+data[k].releaseDate.slice(0,4)+"</span>"
 					+"<a target='_blank' href='filmDetails.html?filmName="+data[k].imgName+"&releaseDate="
-					+data[k].releaseDate.slice(0,4)+"'><img src='"+data[k].img+"' /></a>"
+					+data[k].releaseDate.slice(0,4)+"'><img src='"+data[k].imgUrl+"' /></a>"
 					+"<p>"+data[k].imgName+"</p>"
 				+"</div></li>");
 				//文字列表

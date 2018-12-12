@@ -1,0 +1,119 @@
+[
+	{
+		"section":"hotMovie",
+		"movieList":[
+			{
+				"score": {
+					"douban": "8.1",
+					"imdb": "8.3"
+				},
+				"releaseDate": "2018-12-07(中国大陆) / 2018-12-21(美国)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/10/J9rSuX.jpg",
+				"imgName": "海王"
+			},
+			{
+				"score": {
+					"douban": "8.5",
+					"imdb": "7.2"
+				},
+				"releaseDate": "2018-12-07(中国大陆) / 2013-10-11(华语青年影像论坛)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqNls.jpg",
+				"imgName": "狗十三",
+				"productionAreas": "中国大陆"
+			},
+			{
+				"score": {
+					"douban": "8.2",
+					"imdb": "7.5"
+				},
+				"releaseDate": "2018-11-23(中国大陆) / 2018-11-21(美国)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/11/J9Wq38.jpg",
+				"imgName": "无敌破坏王2：大闹互联网"
+			},
+			{
+				"score": {
+					"douban": "5.9",
+					"imdb": "6.0"
+				},
+				"releaseDate": "2018-11-16(美国)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTWo9T.jpg",
+				"imgName": "禁入直播"
+			},
+			{
+				"score": {
+					"douban": "6.4",
+					"imdb": "7.0"
+				},
+				"releaseDate": "2018-09-08(多伦多电影节) / 2018-10-19(美国)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/12/J9SB2s.jpg",
+				"imgName": "月光光心慌慌"
+			},
+			{
+				"score": {
+					"douban": "8.9",
+					"imdb": "8.2"
+				},
+				"releaseDate": "2018-06-23(日本)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/07/JT9Fls.jpg",
+				"imgName": "摄影机不要停！"
+			},
+			{
+				"score": {
+					"douban": "5.5",
+					"imdb": "6.2"
+				},
+				"releaseDate": "2018-10-25(韩国)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/12/J90Mo6.jpg",
+				"imgName": "猖獗"
+			},
+			{
+				"score": {
+					"douban": "8.2",
+					"imdb": "7.3"
+				},
+				"releaseDate": "2018-11-16(中国大陆)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/10/J9m0r7.jpg",
+				"imgName": "无名之辈",
+				"productionAreas": "中国大陆"
+			},
+			{
+				"score": {
+					"douban": "7.3",
+					"imdb": "7.0"
+				},
+				"releaseDate": "2018-11-09(中国大陆) / 2018-10-05(美国)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTqU6u.jpg",
+				"imgName": "毒液：致命守护者"
+			},
+			{
+				"score": {
+					"douban": "7.0",
+					"imdb": "6.5"
+				},
+				"releaseDate": "2018-11-09(中国大陆)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/11/J9O5Es.jpg",
+				"imgName": "你好，之华",
+				"productionAreas": "中国大陆"
+			},
+			{
+				"score": {
+					"douban": "7.4",
+					"imdb": "7.2"
+				},
+				"releaseDate": "2018-09-30(中国大陆) / 2018-09-06(威尼斯电影节)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/06/JTWLBc.jpg",
+				"imgName": "影"
+			},
+			{
+				"score": {
+					"douban": "7.1",
+					"imdb": "6.5"
+				},
+				"releaseDate": "2018-07-13(中国大陆)",
+				"imgUrl": "https://t1.picb.cc/uploads/2018/12/10/J9cBUW.jpg",
+				"imgName": "邪不压正",
+				"productionAreas": "中国大陆"
+			}
+		]
+	}
+]

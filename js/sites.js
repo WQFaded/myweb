@@ -15,6 +15,7 @@ $(function(){
 		uniformLiHeight($("ul.JSFrame"));
 		uniformLiHeight($("ul.others"));
 		uniformLiHeight($("ul.webBasicStudy"));
+		uniformLiHeight($("ul.dataPlatform"));
 		//电影资源
 		uniformLiHeight($("ul.movieSite"));
 		uniformLiHeight($("ul.movieForum"));

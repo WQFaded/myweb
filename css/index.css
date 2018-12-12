@@ -3,6 +3,7 @@
  * */
 div.carousel{
 	margin: 20px 0;
+	overflow: hidden;
 }
 div.carouselLeft{
 	position: relative;
@@ -108,4 +109,67 @@ div.carouselRight ul li a{
 	height: 27px;
 	line-height: 27px;
 	border-radius: 3px;
+}
+div.section{
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding: 10px 0;
+}
+div.section h3{
+	border-bottom: 1px solid lightgray;
+	padding:0 4px;
+	font-weight: bold;
+	width: 96%;
+	margin: 0 auto 10px auto;
+	font-size: 15px;
+	color: #525456;
+}
+div.section h3 a{
+	float: right;
+	color: #525456;
+	font-weight: normal;
+	font-size: 14px;
+}
+div.section ul{
+	overflow: hidden;
+	width: 95%;
+	margin: auto;
+}
+div.section ul li{
+	float: left;
+	margin-bottom: 20px;
+}
+div.section ul li div{
+	width: 90%;
+	margin: auto;
+	position: relative;
+}
+div.section ul li div img{
+	height: auto;
+}
+div.section ul li div span{
+	position: absolute;
+	color: white;
+	padding: 0 5px;
+}
+div.section ul li div span.douban,
+div.section ul li div span.imdb{
+	height: 17px;
+	line-height: 17px;
+	left: -5px;
+}
+div.section ul li div span.douban{
+	top: 5px;
+	background: #107619; 
+}
+div.section ul li div span.imdb{
+	top: 25px;
+	background: #f5c518; 
+}
+div.section ul li div span.year{
+	right: 0;
+	top: 0;
+	background: gray;
+	height: 20px;
+	line-height: 20px;
 }
