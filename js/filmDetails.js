@@ -84,7 +84,7 @@ $(function(){
 						autoWH();
 					};
 				}
-				$(".carousel").append("<span class='prev noselect'><img src='https://t1.picb.cc/uploads/2018/12/06/JTp2Ni.png'/></span>"
+				$(".carousel").append("<span class='prev noselect'><img src='https://t1.picb.cc/uploads/2018/12/06/JTjEgd.png'/></span>"
 					+"<span class='next noselect'><img src='https://t1.picb.cc/uploads/2018/12/06/JTp2Ni.png'/></span>");
 				var index = 0; //定义轮播索引
 				//定义轮播动画的函数

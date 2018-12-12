@@ -1,6 +1,50 @@
 [
 	{
 		"score": {
+			"douban": "5.7",
+			"imdb": "6.1"
+		},
+		"releaseDate": "2018-04-07(日本)",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/12/J99UXi.jpg",
+		"imgName": "三角草的春天",
+		"productionAreas": "日本",
+		"type": "剧情 / 惊悚",
+		"textName": "2018日本惊悚剧情《三角草的春天》BD1080P.日语.中字",
+		"updateTime": "2018-12-12 22:08:00",
+		"intro": "中学女生野咲春花（山田杏奈 饰），由于父亲工作的原因，她不得不从东京的学校转学来到一所即将关闭的乡镇学校。作为一个外来者，她一进校就遭到了欺凌。为了不给家人和妹妹带来麻烦，春花决定忍受欺凌直到毕业。但是，由于欺凌的升级，她的父母死于火灾，而她的妹妹也遭到了严重的烧伤。为此，春花开始了她的复仇。",
+		"director": "内藤瑛亮",
+		"scriptwriter": "唯野未步子 / 押切莲介",
+		"protagonist": "山田杏奈 / 清水寻也 / 大谷凜香 / 大塚丽奈 / 中田青渚 / 绀野彩夏 / 樱爱里纱 / 远藤健慎 / 大友一生 / 远藤真人 / 森田亚纪 / 户田昌宏 / 片冈礼子 / 寺田农",
+		"language": "日语",
+		"filmTime": "114分钟",
+		"alternateName": "Liverleaf",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:0a806b4b12ce2b513ae2c657705a0677799f8000&dn=三角草的春天.Liverleaf.2018.BD1080P.X264.AAC.Japanese.CHS.Mp4Ba",
+				"magnetName": "三角草的春天.Liverleaf.2018.BD1080P.X264.AAC.Japanese.CHS.Mp4Ba.mp4",
+				"size": "5.71GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:a7d970b0cb51db840f7e211d010331488d3e81d5&dn=三角草的春天.Liverleaf.2018.BD720P.X264.AAC.Japanese.CHS.Mp4Ba",
+				"magnetName": "三角草的春天.Liverleaf.2018.BD720P.X264.AAC.Japanese.CHS.Mp4Ba.mp4",
+				"size": "2.38GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:97a2509489ed030aafe36c63909d6d5ea4a3361a&dn=三角草的春天.Liverleaf.2018.1080p.BluRay.x264.CHS-BTxiaba",
+				"magnetName": "三角草的春天.Liverleaf.2018.1080p.BluRay.x264.CHS-BTxiaba.mp4",
+				"size": "3.69GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:1f0354bf8c47eba2a6833e4e01aeb104b9c78be0&dn=三角草的春天.Liverleaf.2018.BD1080P.AAC.x264.Japan.CHS.BTDX8",
+				"magnetName": "三角草的春天.Liverleaf.2018.BD1080P.AAC.x264.Japan.CHS.BTDX8.mp4",
+				"size": "3.22GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/12/J99Eaw.jpg","https://t1.picb.cc/uploads/2018/12/12/J99DmW.jpg","https://t1.picb.cc/uploads/2018/12/12/J99KDR.jpg","https://t1.picb.cc/uploads/2018/12/12/J99zyL.jpg","https://t1.picb.cc/uploads/2018/12/12/J99dn8.jpg"]
+	},
+	{
+		"score": {
 			"douban": "5.3",
 			"imdb": "6.1"
 		},
