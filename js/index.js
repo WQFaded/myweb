@@ -57,29 +57,9 @@ $(function(){
 		index++;
 		show();
 	})
-	//热门电影
-	$.getJSON("json/movieSection.json",function(data){
-		for(var i in data){
-			var section = data[i].section;
-			for(var j in data[i].movieList){
-				var imdb = data[i].movieList[j].score.imdb;
-				var douban = data[i].movieList[j].score.douban;
-				var releaseDate = data[i].movieList[j].releaseDate.slice(0,4);
-				var movieName = data[i].movieList[j].imgName;
-				var $imdbSpan = imdb==""?"":"<span class='imdb'>"+imdb+"</span>";
-				$("#"+section+" ul").append("<li><div>"
-					+"<span class='douban'>"+douban+"</span>"+$imdbSpan
-					+"<span class='year'>"+releaseDate+"</span>"
-					+"<a target='_blank' href='pages/filmDetails.html?filmName="+movieName+"&releaseDate="
-					+releaseDate+"'><img src='"+data[i].movieList[j].imgUrl+"' /></a>"
-					+"<p class='textOverflow'>"+movieName+"</p>"
-				+"</div></li>");
-			}
-		}
-	})
 	//
 	function movieSection(dataArr,$obj){
-		if($obj.find("ul").find("li").length==12){
+		if($obj.find("ul").find("li").length==12){ //显示前12个
 			return;
 		}
 		var imdb = dataArr.score.imdb;
@@ -97,14 +77,30 @@ $(function(){
 	}
 	$.getJSON("json/movieList.json",function(data){
 		for(var a in data){
+			movieSection(data[a],$("#hotMovie"));
 			if(data[a].type.indexOf("喜剧") != -1){
 				movieSection(data[a],$("#comedy"));
 			}
 			if(data[a].type.indexOf("动作") != -1){
 				movieSection(data[a],$("#actioner"));
 			}
-			if(data[a].type.indexOf("爱情") != -1){
-				movieSection(data[a],$("#affectional"));
+			if(data[a].type.indexOf("科幻") != -1){
+				movieSection(data[a],$("#sci-fi"));
+			}
+			if(data[a].type.indexOf("恐怖") != -1){
+				movieSection(data[a],$("#horror"));
+			}
+			if(data[a].type.indexOf("惊悚") != -1){
+				movieSection(data[a],$("#panic"));
+			}
+			if(data[a].type.indexOf("冒险") != -1){
+				movieSection(data[a],$("#adventure"));
+			}
+			if(data[a].type.indexOf("犯罪") != -1){
+				movieSection(data[a],$("#crime"));
+			}
+			if(data[a].type.indexOf("动画") != -1){
+				movieSection(data[a],$("#animated"));
 			}
 		}
 	})

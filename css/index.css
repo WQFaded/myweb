@@ -90,7 +90,8 @@ div.carouselLeft ol li{
 div.carouselRight{
 	float: right;
 	width: 20%;
-	padding: 15px 10px;
+	padding: 5px 8px;
+	overflow: hidden;
 }
 div.carouselRight ul{
 	overflow: hidden;
@@ -109,20 +110,35 @@ div.carouselRight ul li a{
 	height: 27px;
 	line-height: 27px;
 	border-radius: 3px;
+	color: #565252;
+	overflow: hidden;
+}
+div.carouselRight ul li a i{
+	position: relative;
+	top: 1px;
+	color: #393535;
 }
 div.section{
 	margin-bottom: 20px;
 	overflow: hidden;
 	padding: 10px 0;
 }
-div.section h3{
+div.section h3,
+div.carouselRight h3{
 	border-bottom: 1px solid lightgray;
-	padding:0 4px;
+	padding:0 2px;
 	font-weight: bold;
+	color: #525456;
 	width: 96%;
 	margin: 0 auto 10px auto;
 	font-size: 15px;
-	color: #525456;
+	height: 31px;
+	line-height: 31px;
+}
+div.section h3 i{
+	margin-right: 2px;
+	color: #393535;
+	/*font-weight: normal;*/
 }
 div.section h3 a{
 	float: right;

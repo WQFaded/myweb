@@ -90,4 +90,20 @@ div.search input[type="button"]{
 }
 .green{
 	color: #008000 !important;
-} 
+}
+div.backToTop{
+	position: fixed;
+	z-index: 99;
+	background: rgba(0,0,170,0.5);
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	bottom: 10px;
+	padding: 0 6px 3px 6px;
+	display: none;
+}
+div.backToTop span{
+	display: inline-block;
+	font-weight: bold;
+}

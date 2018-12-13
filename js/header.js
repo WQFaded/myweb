@@ -9,4 +9,20 @@ $(function(){
 			$(".nav").hide();
 		}
 	})
+	//返回顶部
+	$(".backToTop").click(function(){
+		$(window).scrollTop(0);
+	})
+	//设置返回顶部位置
+	$(".backToTop").css("left",$(".container-full").offset().left+$(".container-full").width()-40);
+	$(window).resize(function(){
+		$(".backToTop").css("left",$(".container-full").offset().left+$(".container-full").width()-40);
+	})
+	$(window).scroll(function(){
+		if($(window).scrollTop()>=600){
+			$(".backToTop").show();
+		}else{
+			$(".backToTop").hide();
+		}
+	})
 })
