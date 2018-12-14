@@ -23,6 +23,7 @@ $(function(){
 	}
 	var carouselTimer = setInterval(carousel,4000);
 	$.getJSON("json/indexCarousel.json",function(data){
+		var data = data.sort(sortBy("releaseDate",false)); //根据上映日期降序排序
 		for(var i in data){
 			var movieName = data[i].movieName;
 			var releaseDate = data[i].releaseDate.slice(0,4);
@@ -76,6 +77,8 @@ $(function(){
 		+"</div></li>");
 	}
 	$.getJSON("json/movieList.json",function(data){
+		console.log(data);
+		var data = data.sort(sortBy("updateTime",false)); //根据更新日期降序排序
 		for(var a in data){
 			movieSection(data[a],$("#hotMovie"));
 			if(data[a].type.indexOf("喜剧") != -1){

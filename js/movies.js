@@ -20,6 +20,7 @@ $(function(){
 	}
 	//获取分页数据
 	$.getJSON("../json/movieList.json",function(data){
+		var data = data.sort(sortBy("updateTime",false)); //根据更新日期降序排序
 		var number_entries = 24; //设置每页条目数
 		if(number_entries>data.length) number_entries = data.length;
 		var paginations = Math.ceil(data.length/number_entries); //总页码数

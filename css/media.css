@@ -1,10 +1,10 @@
-@media only screen and (min-width: 1201px){
+@media only screen and (min-width: 1200px){
 	div.movieList ul#GraphicList li,
 	div.section ul li{
 		width: 16.6%;
 	}
 }
-@media only screen and (min-width: 993px) and (max-width: 1200px){
+@media only screen and (min-width: 992px) and (max-width: 1199px){
 	div.movieList ul#GraphicList li,
 	div.section ul li{
 		width: 20%;
@@ -13,7 +13,7 @@
 		width: 25%;
 	}
 }
-@media only screen and (min-width: 601px) and (max-width: 992px){
+@media only screen and (min-width: 600px) and (max-width: 991px){
 	div.movieList ul#GraphicList li,
 	div.section ul li{
 		width: 25%;
@@ -38,7 +38,7 @@
 		width: 20%;
 	}
 }
-@media only screen and (min-width: 0px) and (max-width: 600px){
+@media only screen and (min-width: 0px) and (max-width: 599px){
 	body{
 		font-size: 13px;
 	}
