@@ -1,6 +1,74 @@
 var movieList = [
 	{
 		"score": {
+			"douban": "7.2",
+			"imdb": "6.9"
+		},
+		"releaseDate": "2018-11-16(中国大陆/美国)",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/17/JUxH7d.jpg",
+		"imgName": "神奇动物：格林德沃之罪 / 神奇动物在哪里2",
+		"productionAreas": "美国 / 英国",
+		"type": "奇幻 / 冒险",
+		"textName": "2018美国奇幻冒险《神奇动物：格林德沃之罪 / 神奇动物在哪里2》HD1080P.英语.中字",
+		"updateTime": "2018-12-17 0:21:00",
+		"intro": "故事发生在1927年，电影第一部结尾，纽特揭露黑巫师盖勒特·格林德沃（约翰尼·德普饰）真面目之后的几个月，舞台从纽约移到伦敦，然后再到巴黎。巫师世界越来越黑暗，逃亡中的格林德沃麾下招来了更多追随者，再次掀起风浪。能阻止他的可能就是他曾经最亲密的恋人阿不思·邓布利多（裘德·洛饰），而邓布利多也需要他的学生纽特（埃迪·雷德梅恩饰）的帮助。最终邓布利多和纽特联手一起对付格林德沃。",
+		"director": "大卫·叶茨",
+		"scriptwriter": "J·K·罗琳",
+		"protagonist": "埃迪·雷德梅恩 / 凯瑟琳·沃特斯顿 / 约翰尼·德普 / 裘德·洛 / 埃兹拉·米勒 / 丹·福勒 / 艾莉森·萨多尔 / 佐伊·克罗维兹 / 卡勒姆·特纳 / 金秀贤 / 威廉·纳迪兰 / 凯文·格思里 / 卡门·艾乔戈 / 沃尔夫·罗特 / 德里克·里德尔 / 科内尔·约翰 / 英格瓦·埃盖特·西古德松 / 波佩·科比-特曲 / 西蒙·米考克 / 大卫·樱井 / 维多利亚·耶茨 / 奥拉维尔·达里·奥拉夫松 / 大卫·威尔莫特 / 艾德·高根 / 奥莉维亚·波皮卡 / 阿尔菲·西蒙斯 / 菲奥娜·格拉斯科特 / 杰米·坎贝尔·鲍尔 / 托比·瑞格波 / 约书亚·谢伊 / 布隆蒂斯·佐杜洛夫斯基 / 杰西卡·威廉姆斯 / 欧文·弗热瑞 / 休·夸希 / 塔希尔·布尔汉 / 迈克尔·科布 / 萨比恩·克洛森 / 亚历珊德拉·福特 / 肖恩·吉斯灵厄姆 / 通恰伊·古奈什 / 迈克尔·海登 / 露丝·霍洛克斯 / 泰·赫尔利 / 纳西尔·贾玛 / 卡米尔·雷米泽斯基 / 迪诺·布加迪",
+		"language": "英语",
+		"filmTime": "134分钟",
+		"alternateName": "神奇动物在哪里2：格林德沃之罪 / 怪兽与葛林戴华德之罪(港) / 怪兽与葛林戴华德的罪行(台) / 神奇动物在哪里2 / 神奇动物2 / Fantastic Beasts and Where to Find Them 2",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:6c1fd4a8eee7db00fc3f19048551bf6f330b2c2a&dn",
+				"magnetName": "神奇动物：格林德沃之罪.Fantastic.Beasts.The.Crimes.of.Grindelwald.2018.KORSUB.HD1080P.X264.AAC.English.CHS.mp4",
+				"size": "2.65GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/17/JUxhKw.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxbwX.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxQLg.jpg","https://t1.picb.cc/uploads/2018/12/17/JUx3eR.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxNh8.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxjAG.jpg"],
+	},
+	{
+		"score": {
+			"douban": "7.8",
+			"imdb": "7.3"
+		},
+		"releaseDate": "2016-11-25(中国大陆) / 2016-11-18(美国/英国)",
+		"imgUrl": "https://t1.picb.cc/uploads/2018/12/17/JUxX4c.jpg",
+		"imgName": "神奇动物在哪里",
+		"productionAreas": "美国 / 英国",
+		"type": "剧情 / 奇幻 / 冒险",
+		"textName": "2016美国奇幻冒险《神奇动物在哪里》BD2160P.英语.中英双字",
+		"updateTime": "2018-12-17 0:20:00",
+		"intro": "1926年纽约的魔法世界，危机四伏。某个神秘的力量在街头制造了一连串的破坏，并扬言要向反魔法师狂热组织第二塞勒姆揭露魔法社会的存在，并借他们的手斩草除根。而强大的黑魔法师盖勒特·格林德沃，在欧洲制造了浩劫后消声匿迹，没人能寻得其踪。/魔法动物学家纽特·斯卡曼德抵达纽约时，对这日益严重的紧张气氛毫不知情。他即将结束对神奇魔法动物的研究和营救工作开展的环球之旅。在他看似其貌不扬的魔法皮箱里，其实保护着不少神奇魔法动物。但意外还是猝不及防地发生了，一个叫雅各布·科瓦尔斯基的麻瓜无意间放跑了几个纽特的神奇魔法动物，而此时的纽约魔法界正处于最为动荡不安的时刻，因严重违反保密法令被停职的前傲罗蒂娜·戈德斯坦恩一把抓住这个机会，想重回自己以前调查员的职位。但是，神秘莫测的美国魔法国会魔法安全部长帕西瓦尔·格雷夫斯却同时怀疑上纽特和蒂娜，事态突然变得凶险异常。/自此，不得不合作的纽特和蒂娜，以及蒂娜的妹妹奎妮和他们的新麻瓜朋友雅各布，凑成了一支冒险小队，他们必须尽快找到走丢的神奇动物，以免它们遭受不测。然而，真正的危险，远比这四个上了通缉名单的局外人兼逃犯想象的要严重得多。他们与黑暗势力产生了正面冲突，魔法和麻鸡两界的战争可能因此一触即发。",
+		"director": "大卫·叶茨",
+		"scriptwriter": "J·K·罗琳",
+		"protagonist": "埃迪·雷德梅恩 / 凯瑟琳·沃特斯顿 / 丹·福勒 / 艾莉森·萨多尔 / 科林·法瑞尔 / 埃兹拉·米勒 / 朗·普尔曼 / 强·沃特 / 萨曼莎·莫顿 / 嘉玛·陈 / 卡门·艾乔戈 / 克里斯汀·马扎诺 / 詹·穆瑞 / 约翰尼·德普",
+		"language": "英语",
+		"filmTime": "133分钟",
+		"alternateName": "怪兽与它们的产地(港/台) / 神奇生物在哪里 / 神奇的野兽以及在哪里能找到它们",
+		"magnets": [
+			{
+				"magnet": "magnet:?xt=urn:btih:45677a3d91f30a5018913942d0912ae276f64323&dn",
+				"magnetName": "神奇动物在哪里.Fantastic.Beasts.and.Where.to.Find.Them.2016.BD1080P.特效中英双字.mp4",
+				"size": "2.97GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:06e1d851ff11662896f45ac2cabea6e83d706472&dn",
+				"magnetName": "神奇动物在哪里.Fantastic.Beasts.and.Where.to.Find.Them.2016.BD1080P.X264.AAC.English&Mandarin.CHS-ENG.Mp4Ba.mp4",
+				"size": "6.89GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:77ca19a806b27a30c8de769b229aeb9625b0fb22&dn",
+				"magnetName": "[神奇动物在哪里].Fantastic.Beasts.and.Where.to.Find.Them.2016.UHD.BluRay.2160p.x265-10bit.TrueHD7.1.2Audios-CMCT.mkv",
+				"size": "16.11GB"
+			}
+		],
+		"baiduCloud": "",
+		"carousel": ["https://t1.picb.cc/uploads/2018/12/17/JUxLf6.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxTL7.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxRle.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxxhs.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxFKN.jpg","https://t1.picb.cc/uploads/2018/12/17/JUxUAT.jpg"],
+	},
+	{
+		"score": {
 			"douban": "6.4",
 			"imdb": "4.8"
 		},
@@ -9,7 +77,7 @@ var movieList = [
 		"imgName": "梅丽莎",
 		"productionAreas": "意大利 / 西班牙",
 		"type": "剧情",
-		"textName": "2005意大利剧情《梅丽莎》BD1080P.意大利语.中字",
+		"textName": "2005意大利剧情《梅丽莎》高清.意大利语.中字",
 		"updateTime": "2018-12-16 20:04:00",
 		"intro": "根据同名小说改编，在她的《100下》（100 Colpi, 2003）这片书里记述了她由十五到十七岁的爱欲日志，书的销量全球卖出二百万本，现年二十岁的她成为了欧美的名人。她在官方网页中的样子，非常娇小，清丽中带着倔强和叛逆，颇迷人。而所谓“100下”，来自一个美丽的概念：睡前要刷头发一百次，就像童话中的公主那样。/影片根据2003年轰动欧洲的意大利少女性爱日记《床前100次梳理乱发》改编，记述了她由十五到十七岁的爱欲日志，书的销量全球卖出二百万本，现年二十岁的她成为了欧美的名人。/她的名字是梅丽莎（ Melissa P. ），这个自重为公主的美少女，却在十四岁半那年初尝郎心如铁的滋味，她遇上了美少男，他们做爱了，他却半点不爱她，而我们的主人公却误以为，只要满足美少男对性的渴求，她便能得到公主般的爱情。结果当然就是心碎和失望。随后，她遇上智能顶盛的高材生，她又以性来交换爱，结果变成一女侍候五男的淫乱故事。再之后，她结识了网上的中年男人、家庭教师……全部以有性无爱为终结。然而，幸运地，梅丽莎最后遇到真正珍惜她的男生，他给她爱情，也教懂她何谓爱。也在连番遇人不淑期间，梅丽莎寻找自我，自己救赎自己。",
 		"director": "卢卡·瓜达尼诺",
@@ -20,9 +88,14 @@ var movieList = [
 		"alternateName": "",
 		"magnets": [
 			{
-				"magnet": "",
-				"magnetName": "",
-				"size": ""
+				"magnet": "magnet:?xt=urn:btih:0b3e5d995016ab8418acc8e6c87396876756af91&dn=梅丽莎（高清中文字幕）.mp4",
+				"magnetName": "梅丽莎（高清中文字幕）.mp4",
+				"size": "1.55GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:402b58a6c5f24149852a4ec2115d5a4f98187343&dn=梅丽莎少女性爱日记 Melissa P 2005中文字幕.mp4",
+				"magnetName": "梅丽莎Melissa P 2005中文字幕.mp4",
+				"size": "913.2MB"
 			}
 		],
 		"baiduCloud": "",
