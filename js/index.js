@@ -76,35 +76,32 @@ $(function(){
 			+"<p class='textOverflow'>"+movieName+"</p>"
 		+"</div></li>");
 	}
-	$.getJSON("json/movieList.json",function(data){
-		console.log(data);
-		var data = data.sort(sortBy("updateTime",false)); //根据更新日期降序排序
-		for(var a in data){
-			movieSection(data[a],$("#hotMovie"));
-			if(data[a].type.indexOf("喜剧") != -1){
-				movieSection(data[a],$("#comedy"));
-			}
-			if(data[a].type.indexOf("动作") != -1){
-				movieSection(data[a],$("#actioner"));
-			}
-			if(data[a].type.indexOf("科幻") != -1){
-				movieSection(data[a],$("#sci-fi"));
-			}
-			if(data[a].type.indexOf("恐怖") != -1){
-				movieSection(data[a],$("#horror"));
-			}
-			if(data[a].type.indexOf("惊悚") != -1){
-				movieSection(data[a],$("#panic"));
-			}
-			if(data[a].type.indexOf("冒险") != -1){
-				movieSection(data[a],$("#adventure"));
-			}
-			if(data[a].type.indexOf("犯罪") != -1){
-				movieSection(data[a],$("#crime"));
-			}
-			if(data[a].type.indexOf("动画") != -1){
-				movieSection(data[a],$("#animated"));
-			}
+	var data = movieList.sort(sortBy("updateTime",false)); //根据更新日期降序排序
+	for(var a in data){
+		movieSection(data[a],$("#hotMovie"));
+		if(data[a].type.indexOf("喜剧") != -1){
+			movieSection(data[a],$("#comedy"));
 		}
-	})
+		if(data[a].type.indexOf("动作") != -1){
+			movieSection(data[a],$("#actioner"));
+		}
+		if(data[a].type.indexOf("科幻") != -1){
+			movieSection(data[a],$("#sci-fi"));
+		}
+		if(data[a].type.indexOf("恐怖") != -1){
+			movieSection(data[a],$("#horror"));
+		}
+		if(data[a].type.indexOf("惊悚") != -1){
+			movieSection(data[a],$("#panic"));
+		}
+		if(data[a].type.indexOf("冒险") != -1){
+			movieSection(data[a],$("#adventure"));
+		}
+		if(data[a].type.indexOf("犯罪") != -1){
+			movieSection(data[a],$("#crime"));
+		}
+		if(data[a].type.indexOf("动画") != -1){
+			movieSection(data[a],$("#animated"));
+		}
+	}
 })

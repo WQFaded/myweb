@@ -14,11 +14,18 @@ $(function(){
 		$(window).scrollTop(0);
 	})
 	//设置返回顶部位置
+	function setBackTopLeft(){
+		var left = $(".container-full").offset().left;
+		$(".backToTop").css("left",left+$(".container-full").width()-40);
+		if(left>=40){
+			$(".backToTop").css("left",left+$(".container-full").width()+5);
+		}
+	}
 	$(window).resize(function(){
-		$(".backToTop").css("left",$(".container-full").offset().left+$(".container-full").width()-40);
+		setBackTopLeft();
 	})
 	$(window).scroll(function(){
-		$(".backToTop").css("left",$(".container-full").offset().left+$(".container-full").width()-40);
+		setBackTopLeft();
 		if($(window).scrollTop()>=600){
 			$(".backToTop").show();
 		}else{
