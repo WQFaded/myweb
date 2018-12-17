@@ -12,6 +12,9 @@
 	ul.siteList ul li{
 		width: 25%;
 	}
+	div.thumbnail ul li{
+		padding: 0 0 3px 3px;
+	}
 }
 @media only screen and (min-width: 600px) and (max-width: 991px){
 	div.movieList ul#GraphicList li,
@@ -36,6 +39,9 @@
 	}
 	div.carouselRight ul li{
 		width: 20%;
+	}
+	div.thumbnail ul li{
+		padding: 0 0 2px 2px;
 	}
 }
 @media only screen and (min-width: 0px) and (max-width: 599px){
@@ -134,12 +140,14 @@
 		margin-bottom: 1px;
 		width: 20px;
 	}
-	/*首页*/
 	div.carouselLeft,
 	div.carouselRight{
 		width: 100%;
 	}
 	div.carouselRight ul li{
 		width: 25%;
+	}
+	div.thumbnail ul li{
+		padding: 0 0 1px 1px;
 	}
 }

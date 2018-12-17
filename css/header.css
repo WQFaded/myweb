@@ -72,12 +72,16 @@ div.search input[type="text"]{
 	padding-left: 3px;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
 	border-right: none;
 }
 div.search input[type="button"]{
 	background: white;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
 	background: url(https://t1.picb.cc/uploads/2018/12/06/JTjKHa.jpg) no-repeat center;
 	background-size: 65% 65%;
 	width: 30px;

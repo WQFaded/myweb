@@ -157,7 +157,7 @@ div.thumbnail ul{
 	height: 100%;
 }
 div.thumbnail ul li{
-	padding: 0 0 5px 5px;
+	padding: 0 0 4px 4px;
 	cursor: pointer;
 }
 div.thumbnail ul li:last-child{

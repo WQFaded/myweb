@@ -20,9 +20,14 @@ var movieList = [
 		"alternateName": "神奇动物在哪里2：格林德沃之罪 / 怪兽与葛林戴华德之罪(港) / 怪兽与葛林戴华德的罪行(台) / 神奇动物在哪里2 / 神奇动物2 / Fantastic Beasts and Where to Find Them 2",
 		"magnets": [
 			{
-				"magnet": "magnet:?xt=urn:btih:6c1fd4a8eee7db00fc3f19048551bf6f330b2c2a&dn",
-				"magnetName": "神奇动物：格林德沃之罪.Fantastic.Beasts.The.Crimes.of.Grindelwald.2018.KORSUB.HD1080P.X264.AAC.English.CHS.mp4",
-				"size": "2.65GB"
+				"magnet": "magnet:?xt=urn:btih:01cd87ea8844cce066cefe4feabd171d2d94b799&dn",
+				"magnetName": "神奇动物：格林德沃之罪 Fantastic Beasts The Crimes of Grindelwald 2018.HD1080P.x264.精准中文字幕.Eng.Chs.Korean.aac2.0.kankan.ws.mp4",
+				"size": "3.98GB"
+			},
+			{
+				"magnet": "magnet:?xt=urn:btih:f823d88941a442459b8666f382437c3c1ddfd961&dn",
+				"magnetName": "神奇动物.格林德沃之罪.2018.1080p.KOR.WEB-DL.X264.AAC.CHS.mp4",
+				"size": "2.68GB"
 			}
 		],
 		"baiduCloud": "",
