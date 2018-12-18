@@ -1,16 +1,4 @@
 $(function(){
-	function getRequest(){
-	   	var url = decodeURI(location.search); 
-	   	var theRequest = new Object();  
-	   	if (url.indexOf("?") != -1) {  
-	      	var str = url.substr(1);  
-	      	strs = str.split("&");  
-	     	for(var i=0; i<strs.length; i++){  
-	         	theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);  
-	      	}  
-	   	}  
-	   	return theRequest;  
-	};
 	var getRequestMsg = getRequest(); //获取电影信息
 	function autoWH(){
 		var carouselW = $(".carousel").width();

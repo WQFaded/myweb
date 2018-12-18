@@ -1,0 +1,50 @@
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 5px 0;
+}
+form{
+	margin-bottom: 20px;
+	padding: 15px 10px;
+	min-width: 1000px;
+}
+ul li{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+ul li span,
+ul li input{
+	float: left;
+}
+ul li span{
+	display: inline-block;
+	width: 105px;
+	text-align: right;
+	height: 27px;
+	line-height: 27px;
+}
+ul li input{
+	height: 27px;
+	line-height: 27px;
+	padding-left: 3px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+ul.float{
+	overflow: hidden;
+}
+ul.float li{
+	float: left;
+}
+ul.float li input[name="movieName"],
+ul.float li input[name="releaseDate"]{
+	width: 300px;
+}
+ul.noFloat li input{
+	width: 860px;
+}
+#submit{
+	margin-left: 104px;
+	width: 60px;
+}

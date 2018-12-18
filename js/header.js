@@ -32,8 +32,23 @@ $(function(){
 			$(".backToTop").hide();
 		}
 	})
-	
-	/**数组根据数组对象中的某个属性值进行排序的方法 
+	/*
+	 获取地址栏url传递过来的的信息
+	 * */
+	window.getRequest = function(){
+		var url = decodeURI(location.search); 
+	   	var theRequest = new Object();  
+	   	if (url.indexOf("?") != -1) {  
+	      	var str = url.substr(1);  
+	      	strs = str.split("&");  
+	     	for(var i=0; i<strs.length; i++){  
+	         	theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);  
+	      	}  
+	   	}  
+	   	return theRequest;
+	}
+	/* *
+	 * 数组根据数组对象中的某个属性值进行排序的方法
      * 使用例子：newArray.sort(sortBy('number',false))，表示根据number属性降序排列;若第二个参数不传递，默认表示升序排序
      * @param attr：排序的属性 如number属性
      * @param rev：true表示升序排列，false降序排序
