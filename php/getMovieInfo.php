@@ -1,6 +1,6 @@
 <?php
 	header("Content-type:text/html;charset=utf-8");//字符编码设置  
-	$con = mysqli_connect("localhost:3308","root","wuqun962498","mydb");
+	$con = mysqli_connect("localhost","root","wuqun962498","mydb");
 	if(!$con){
 		die("连接失败：".mysqli_error($con));
 		exit();

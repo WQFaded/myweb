@@ -15,7 +15,7 @@
 		<h2 class="">上传电影信息</h2>
 	</div>
 	<div class="container-full">
-		<form class="box-shadow" action="../php/receiveMovieInfo.php" method="post">
+		<form class="box-shadow" action="../php/receiveMovieInfo.php" method="post" autocomplete="off">
 			<ul class="float">
 				<li><span>豆瓣评分：</span><input type="text" name="douban" /></li>
 				<li><span>IMDB评分：</span><input type="text" id="" name="imdb" /></li>
@@ -40,21 +40,12 @@
 				<li><span>电影海报url：</span><input type="text" id="" name="imgUrl" /></li>
 				<li><span>磁力链接：</span><input type="text" id="" name="magnets" /></li>
 				<li><span>电影截图：</span><input type="text" id="" name="movieCapture" /></li>
-				<li><span>更新日期：</span><input type="datetime-local" step="1" name="updateTime" /></li>
 			</ul>
 			<input type="button" value="提交" id="submit"/>
 		</form>
 	</div>
 </body>
 <script type="text/javascript">
-	$.ajax({
-		type:"get",
-		dataType: "json",
-		url:"../php/getMovieInfo.php",
-		success: function(data){
-			console.log(data);
-		}
-	});
 	$("#submit").click(function(){
 		$.ajax({
 			type:"post",
@@ -63,6 +54,9 @@
 			url:"../php/receiveMovieInfo.php",
 			success: function(data){
 				alert(data);
+				if(data=="上传成功"){
+					$("form input[type='text']").val("");
+				}
 			}
 		});
 	})

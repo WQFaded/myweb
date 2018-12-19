@@ -10,14 +10,14 @@
 	$productionAreas = $_POST["productionAreas"];
 	$language = $_POST["language"];
 	$releaseDate = $_POST["releaseDate"];
+	$movieTime = $_POST["movieTime"];
 	$alternateName = $_POST["alternateName"];
 	$intro = $_POST["intro"];
 	$movieTitle = $_POST["movieTitle"];
 	$imgUrl = $_POST["imgUrl"];
 	$magnets = $_POST["magnets"];
 	$movieCapture = $_POST["movieCapture"];
-	$updateTime = $_POST["updateTime"];
-	$con = mysqli_connect("localhost:3308","root","wuqun962498","mydb");
+	$con = mysqli_connect("localhost","root","wuqun962498","mydb");
 	if(!$con){
 		die("连接失败：".mysqli_error($con));
 		exit();
@@ -25,8 +25,8 @@
 	//设置编码，防止中文乱码
 	mysqli_set_charset($con,"utf8");
 	//插入数据
-	$sqlInsert = "INSERT INTO movielist (douban,imdb,movieName,director,scriptwriter,protagonist,type,productionAreas,language,releaseDate,alternateName,intro,movieTitle,imgUrl,magnets,movieCapture,updateTime) ".
-		"VALUES ('$douban','$imdb','$movieName','$director','$scriptwriter','$protagonist','$type','$productionAreas','$language','$releaseDate','$alternateName','$intro','$movieTitle','$imgUrl','$magnets','$movieCapture','$updateTime')";
+	$sqlInsert = "INSERT INTO movielist (douban,imdb,movieName,director,scriptwriter,protagonist,type,productionAreas,language,releaseDate,movieTime,alternateName,intro,movieTitle,imgUrl,magnets,movieCapture) ".
+		"VALUES ('$douban','$imdb','$movieName','$director','$scriptwriter','$protagonist','$type','$productionAreas','$language','$releaseDate','$movieTime','$alternateName','$intro','$movieTitle','$imgUrl','$magnets','$movieCapture')";
 	if(mysqli_query($con, $sqlInsert)){
 		echo json_encode("上传成功");
 	}else{
