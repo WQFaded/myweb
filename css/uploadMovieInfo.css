@@ -1,16 +1,18 @@
+form{
+	margin-bottom: 20px;
+	padding: 0 10px 20px 10px;
+	min-width: 1000px;
+	overflow: hidden;
+}
 h2{
 	text-align: center;
 	font-weight: bold;
 	font-size: 15px;
-	padding: 5px 0;
-}
-form{
-	margin-bottom: 20px;
-	padding: 15px 10px;
-	min-width: 1000px;
+	margin: 10px 0 20px 0;
+	border-bottom: 1px solid lightgray;
 }
 ul li{
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 	overflow: hidden;
 }
 ul li span,
@@ -40,6 +42,10 @@ ul.float li{
 ul.float li input[name="movieName"],
 ul.float li input[name="releaseDate"]{
 	width: 300px;
+}
+ul.float li input[name="type"],
+ul.float li input[name="productionAreas"]{
+	width: 378px;
 }
 ul.noFloat li input{
 	width: 860px;

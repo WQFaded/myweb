@@ -112,6 +112,7 @@ div.videoCapture div.carousel{
 	overflow: hidden;
 	float: left;
 	position: relative;
+	height: 450px;
 }
 div.carousel ul{
 	overflow: hidden;

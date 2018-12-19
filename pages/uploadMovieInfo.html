@@ -11,11 +11,9 @@
 	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
-	<div class="container">
-		<h2 class="">上传电影信息</h2>
-	</div>
 	<div class="container-full">
 		<form class="box-shadow" action="../php/receiveMovieInfo.php" method="post" autocomplete="off">
+			<h2 class="">上传电影信息</h2>
 			<ul class="float">
 				<li><span>豆瓣评分：</span><input type="text" name="douban" /></li>
 				<li><span>IMDB评分：</span><input type="text" id="" name="imdb" /></li>
@@ -25,6 +23,8 @@
 				<li><span>导演：</span><input type="text" id="" name="director" /></li>
 				<li><span>编剧：</span><input type="text" id="" name="scriptwriter" /></li>
 				<li><span>主要演员：</span><input type="text" id="" name="protagonist" /></li>
+			</ul>
+			<ul class="float">
 				<li><span>类型：</span><input type="text" id="" name="type" /></li>
 				<li><span>制片国家/地区：</span><input type="text" id="" name="productionAreas" /></li>
 			</ul>
@@ -51,7 +51,7 @@
 			type:"post",
 			dataType: "json",
 			data:$("form").serialize(),
-			url:"../php/receiveMovieInfo.php",
+			url:"http://junyang.imwork.net/php/receiveMovieInfo.php",
 			success: function(data){
 				alert(data);
 				if(data=="上传成功"){
@@ -59,21 +59,6 @@
 				}
 			}
 		});
-	})
-	function add0(m){return m<10?'0'+m:m};
-	function format(shijianchuo){ //时间戳应为整数，否则要parseInt转换
-		var time = new Date(shijianchuo);
-		var y = time.getFullYear();
-		var m = time.getMonth()+1;
-		var d = time.getDate();
-		var h = time.getHours();
-		var mm = time.getMinutes();
-		var s = time.getSeconds();
-		return y+'-'+add0(m)+'-'+add0(d)+'T'+add0(h)+':'+add0(mm)+':'+add0(s);
-	};
-	$("input[type='datetime-local']").focus(function(){
-		var curTime = format(new Date().getTime());
-		$(this).val(curTime);
 	})
 </script>
 </html>

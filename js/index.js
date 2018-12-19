@@ -63,10 +63,10 @@ $(function(){
 		if($obj.find("ul").find("li").length==12){ //显示前12个
 			return;
 		}
-		var imdb = dataArr.score.imdb;
-		var douban = dataArr.score.douban;
+		var imdb = dataArr.imdb;
+		var douban = dataArr.douban;
 		var releaseDate = dataArr.releaseDate.slice(0,4);
-		var movieName = dataArr.imgName;
+		var movieName = dataArr.movieName;
 		var $imdbSpan = imdb==""?"":"<span class='imdb'>"+imdb+"</span>";
 		$obj.find("ul").append("<li><div>"
 			+"<span class='douban'>"+douban+"</span>"+$imdbSpan
@@ -76,32 +76,38 @@ $(function(){
 			+"<p class='textOverflow'>"+movieName+"</p>"
 		+"</div></li>");
 	}
-	var data = movieList.sort(sortBy("updateTime",false)); //根据更新日期降序排序
-	for(var a in data){
-		movieSection(data[a],$("#hotMovie"));
-		if(data[a].type.indexOf("喜剧") != -1){
-			movieSection(data[a],$("#comedy"));
+	$.ajax({
+		type:"get", dataType:"json", url: getMovieListUrl,
+		success: function(data){
+			var data = data.sort(sortBy("updateTime",false)); //根据更新日期降序排序
+			for(var a in data){
+				movieSection(data[a],$("#hotMovie"));
+				if(data[a].type.indexOf("喜剧") != -1){
+					movieSection(data[a],$("#comedy"));
+				}
+				if(data[a].type.indexOf("动作") != -1){
+					movieSection(data[a],$("#actioner"));
+				}
+				if(data[a].type.indexOf("科幻") != -1){
+					movieSection(data[a],$("#sci-fi"));
+				}
+				if(data[a].type.indexOf("恐怖") != -1){
+					movieSection(data[a],$("#horror"));
+				}
+				if(data[a].type.indexOf("惊悚") != -1){
+					movieSection(data[a],$("#panic"));
+				}
+				if(data[a].type.indexOf("冒险") != -1){
+					movieSection(data[a],$("#adventure"));
+				}
+				if(data[a].type.indexOf("犯罪") != -1){
+					movieSection(data[a],$("#crime"));
+				}
+				if(data[a].type.indexOf("动画") != -1){
+					movieSection(data[a],$("#animated"));
+				}
+			}
 		}
-		if(data[a].type.indexOf("动作") != -1){
-			movieSection(data[a],$("#actioner"));
-		}
-		if(data[a].type.indexOf("科幻") != -1){
-			movieSection(data[a],$("#sci-fi"));
-		}
-		if(data[a].type.indexOf("恐怖") != -1){
-			movieSection(data[a],$("#horror"));
-		}
-		if(data[a].type.indexOf("惊悚") != -1){
-			movieSection(data[a],$("#panic"));
-		}
-		if(data[a].type.indexOf("冒险") != -1){
-			movieSection(data[a],$("#adventure"));
-		}
-		if(data[a].type.indexOf("犯罪") != -1){
-			movieSection(data[a],$("#crime"));
-		}
-		if(data[a].type.indexOf("动画") != -1){
-			movieSection(data[a],$("#animated"));
-		}
-	}
+	});
+	
 })

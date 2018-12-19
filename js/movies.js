@@ -20,8 +20,7 @@ $(function(){
 	}
 	//获取分页数据
 	$.ajax({
-		type:"get", dataType:"json", 
-		url:"http://localhost/mywebsite/php/getMovieInfo.php",
+		type:"get", dataType:"json", url: getMovieListUrl,
 		success: function(data){
 			getMovieList(data);
 		}
