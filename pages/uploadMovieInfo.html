@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="container-full">
-		<form class="box-shadow" action="../php/receiveMovieInfo.php" method="post" autocomplete="off">
+		<form class="box-shadow" action="" method="" autocomplete="off">
 			<h2 class="">上传电影信息</h2>
 			<ul class="float">
 				<li><span>豆瓣评分：</span><input type="text" name="douban" /></li>
@@ -46,16 +46,19 @@
 	</div>
 </body>
 <script type="text/javascript">
+	$("form input[type='text']").on("input propertychang",function(){
+		$(this).val($(this).val().replace("'","’"));
+	})
 	$("#submit").click(function(){
 		$.ajax({
 			type:"post",
 			dataType: "json",
 			data:$("form").serialize(),
-			url:"http://junyang.imwork.net/php/receiveMovieInfo.php",
+			url: "http://junyang.imwork.net/php/receiveMovieInfo.php",
 			success: function(data){
 				alert(data);
 				if(data=="上传成功"){
-					$("form input[type='text']").val("");
+					//$("form input[type='text']").val("");
 				}
 			}
 		});

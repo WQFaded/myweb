@@ -1,4 +1,9 @@
 $(function(){
+	window.addEventListener("mousewheel", (e) => {
+	   if (e.deltaY === 1) {
+	     e.preventDefault();
+	   }
+	})
 	$(".icon-liebiao").click(function(){
 		$(".nav").slideToggle("fast");
 	})
