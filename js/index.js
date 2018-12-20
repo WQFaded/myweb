@@ -65,12 +65,12 @@ $(function(){
 		}
 		var imdb = dataArr.imdb;
 		var douban = dataArr.douban;
-		var releaseDate = dataArr.releaseDate.slice(0,4);
+		var releaseDate = dataArr.releaseDate;
 		var movieName = dataArr.movieName;
 		var $imdbSpan = imdb==""?"":"<span class='imdb'>"+imdb+"</span>";
 		$obj.find("ul").append("<li><div>"
 			+"<span class='douban'>"+douban+"</span>"+$imdbSpan
-			+"<span class='year'>"+releaseDate+"</span>"
+			+"<span class='year'>"+releaseDate.slice(0,4)+"</span>"
 			+"<a target='_blank' href='pages/filmDetails.html?filmName="+movieName+"&releaseDate="
 			+releaseDate+"'><img src='"+dataArr.imgUrl+"' /></a>"
 			+"<p class='textOverflow'>"+movieName+"</p>"
@@ -78,8 +78,9 @@ $(function(){
 	}
 	$.ajax({
 		type:"get", dataType:"json", url: getMovieListUrl,
+		data: {type: "喜剧,动作,科幻,恐怖,惊悚,冒险,犯罪,动画"},
 		success: function(data){
-			var data = data.sort(sortBy("updateTime",false)); //根据更新日期降序排序
+			console.log(data);
 			for(var a in data){
 				movieSection(data[a],$("#hotMovie"));
 				if(data[a].type.indexOf("喜剧") != -1){

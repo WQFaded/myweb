@@ -53,7 +53,7 @@ $(function(){
 					+"<span class='douban'>"+data[k].douban+"</span>"+$imdbSpan
 					+"<span class='year'>"+data[k].releaseDate.slice(0,4)+"</span>"
 					+"<a target='_blank' href='filmDetails.html?filmName="+data[k].movieName+"&releaseDate="
-					+data[k].releaseDate.slice(0,4)+"'><img src='"+data[k].imgUrl+"' /></a>"
+					+data[k].releaseDate+"' title='"+data[k].movieTitle+"'><img src='"+data[k].imgUrl+"' /></a>"
 					+"<p>"+data[k].movieName+"</p>"
 				+"</div></li>");
 				//文字列表
@@ -64,7 +64,7 @@ $(function(){
 				var cla = red ? red : green;
 				$("#textList").append("<li>"
 					+"<a class='"+cla+"' target='_blank' href='filmDetails.html?filmName="
-					+data[k].movieName+"&releaseDate="+data[k].releaseDate.slice(0,4)+"'>"+data[k].movieTitle+"</a>"
+					+data[k].movieName+"&releaseDate="+data[k].releaseDate+"'>"+data[k].movieTitle+"</a>"
 					+"<p><span class='douban'>"+douban+"</span><span class='imdb'>"+imdb+"</span><i>"+data[k].updateTime.slice(0,10)+"</i></p>"
 				+"</li>");
 			}
@@ -77,58 +77,34 @@ $(function(){
 			if($("#pagination a.current").index()==1){
 				return;
 			}
-			if($("#pagination a.current").index()==2){
-				$(this).addClass("not-allowed");
-			} 
-			if($("#pagination a.current").index()<=paginations){
-				$("#next").removeClass("not-allowed");
-			}
-			var prev = $("#pagination a.current").index()-1;
-			$("#pagination a").removeClass("current").eq(prev-1).addClass("current");
-			pageNum = prev-1;
+			pageNum = $("#pagination a.current").index()-2;
 			getMovieListData(pageNum,pageSize);
+			$(window).scrollTop(0);
 		});
 		//创建页码
 		for(var i=1;i<=paginations;i++){
 			$("<a href='#'>"+i+"</a>").appendTo("#pagination").click(function(){
-				parseInt($(this).text())==1?$("#prev").addClass("not-allowed"):$("#prev").removeClass("not-allowed");
-				parseInt($(this).text())==paginations?$("#next").addClass("not-allowed"):$("#next").removeClass("not-allowed");
-				$("#pagination a").removeClass("current").eq(parseInt($(this).text())-1).addClass("current");
-				//显示对应分页内容
 				pageNum = parseInt($(this).text())-1;
 				getMovieListData(pageNum,pageSize);
 			});
 		}
 		//默认显示页数及内容
-		$("#pagination a").eq(0).addClass("current");
-		$("#prev").addClass("not-allowed");
+		$("#pagination a").eq(0).addClass("current"); $("#prev").addClass("not-allowed");
 		showContent(data);
-		if($.cookie("index")){
-			var index = parseInt($.cookie("index"));
-			console.log(index);
-			$("#pagination a").removeClass("current").eq(index).addClass("current");
-		}
 		//创建下一页
 		$("<span id='next'>下一页</span>").appendTo("#pagination").click(function(){ 
 			if($("#pagination a.current").index()==paginations){
 				return;
 			} 
-			if($("#pagination a.current").index()==paginations-1){
-				$(this).addClass("not-allowed");
-			} 
-			if($("#pagination a.current").index()>0){
-				$("#prev").removeClass("not-allowed");
-			}
-			var next = $("#pagination a.current").index();
-			$("#pagination a").removeClass("current").eq(next).addClass("current");
-			//显示对应分页内容
-			pageNum = next;
+			pageNum = $("#pagination a.current").index();
 			getMovieListData(pageNum,pageSize);
+			$(window).scrollTop(0);
 		});
-		if($.cookie("index")){
-			var index = parseInt($.cookie("index"))+1;
-			index==1?$("#prev").addClass("not-allowed"):$("#prev").removeClass("not-allowed");
-			index==paginations?$("#next").addClass("not-allowed"):$("#next").removeClass("not-allowed");
+		if($.cookie("index")!=undefined){
+			var index = parseInt($.cookie("index"));
+			$("#pagination a").removeClass("current").eq(index).addClass("current");
+			index+1==1?$("#prev").addClass("not-allowed"):$("#prev").removeClass("not-allowed");
+			index+1==paginations?$("#next").addClass("not-allowed"):$("#next").removeClass("not-allowed");
 		}
 	}
 	
