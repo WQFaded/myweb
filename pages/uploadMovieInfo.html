@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/header.css"/>
 	<link rel="stylesheet" type="text/css" href="../css/uploadMovieInfo.css"/>
 	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="../js/libs/layer/layer.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 	<div class="container-full">
@@ -47,7 +48,7 @@
 </body>
 <script type="text/javascript">
 	$("form input[type='text']").on("input propertychang",function(){
-		$(this).val($(this).val().replace("'","’"));
+		$(this).val($(this).val().replace(/'/g,"’"));
 	})
 	$("#submit").click(function(){
 		$.ajax({
@@ -56,7 +57,7 @@
 			data:$("form").serialize(),
 			url: "http://junyang.imwork.net/php/receiveMovieInfo.php",
 			success: function(data){
-				alert(data);
+				layer.msg(data);
 				if(data=="上传成功"){
 					//$("form input[type='text']").val("");
 				}
