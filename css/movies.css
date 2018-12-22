@@ -5,6 +5,7 @@ div.filtrate{
 div.filtrate>p{
 	padding-bottom: 5px;
 	color: #009688;
+	font-weight: bold;
 }
 div.filtrateOptions{
 	overflow: hidden;
@@ -25,6 +26,10 @@ div.filtrateOptions ul li{
 }
 div.filtrateOptions ul li:hover{
 	color: #009688;
+}
+.activeFiltrate{
+	background: #009688;
+	color: white;
 }
 div.movieList{
 	padding: 20px 0px;

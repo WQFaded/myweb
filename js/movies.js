@@ -1,7 +1,4 @@
 $(function(){
-	function filtrate(type,year,area){
-		
-	}
 	/*获取cookie设置列表显示方式*/
 	function GraphicShow(){
 		$("#displayMode").removeClass("icon-tuwenliebiao").addClass("icon-wenziliebiao").text("切换文字列表");
@@ -21,6 +18,7 @@ $(function(){
 	//获取分页数据
 	var pageNum = 0; //定义页码，0代表第一页
 	var pageSize = 24; //定义每页显示条数
+	var type = "all"; //定义电影显示类型，默认显示全部
 	function getMovieListData(pageNum,pageSize){
 		$.ajax({
 			type:"get", dataType:"json", url: getMovieListUrl,
