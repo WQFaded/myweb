@@ -37,7 +37,7 @@ $(function(){
 			$(".backToTop").hide();
 		}
 	})
-	window.getMovieListUrl = "http://junyang.imwork.net/php/getMovieInfo.php";
+	window.getMovieListUrl = "http://localhost/php/getMovieInfo.php" || "http://junyang.imwork.net/php/getMovieInfo.php";
 	/*
 	 获取地址栏url传递过来的的信息
 	 * */

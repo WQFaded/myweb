@@ -217,6 +217,11 @@ i {
 	-webkit-box-shadow:0px 0px 10px #474E55; 
 	box-shadow:0px 0px 5px #474E55;
 }
+.box-shadow-span{
+	-moz-box-shadow:0px 0px 10px darkgray; 
+	-webkit-box-shadow:0px 0px 10px darkgray; 
+	box-shadow:0px 0px 5px darkgray;
+}
 .textOverflow{
 	white-space: nowrap;
 	overflow: hidden;

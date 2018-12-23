@@ -24,8 +24,9 @@ div.filtrateOptions ul li{
 	margin-bottom: 5px;
 	cursor: pointer;
 }
-div.filtrateOptions ul li:hover{
+.filtrateHover{
 	color: #009688;
+	font-weight: bold;
 }
 .activeFiltrate{
 	background: #009688;
@@ -42,11 +43,30 @@ div.movieList>p{
 	border-bottom: 1px solid lightgray;
 	overflow: hidden;
 }
-div.movieList>p span{
+div.movieList>p>span{
 	display: inline-block;
-	padding: 5px 0px;
+	display: none;
 }
-div.movieList>p i{
+div.movieList>p>span span{
+	display: inline-block;
+	margin: 3px 0px 0px 0px;
+	background: #009688;
+	color: white;
+	padding: 2px 5px 2px 5px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+div.movieList>p>span span:hover{
+	opacity: .8;
+	color: white;
+}
+div.movieList>p>span span i{
+	margin-left: 5px;
+}
+div.movieList>p>span span i:hover{
+	color: red;
+}
+div.movieList>p>i{
 	background: #009688;
 	color: white;
 	display: inline-block;
@@ -56,7 +76,7 @@ div.movieList>p i{
 	cursor: pointer;
 	float: right;
 }
-div.movieList>p i:before{
+div.movieList>p>i:before{
 	margin-right: 3px;
 }
 div.movieList ul{

@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/media.css"/>
 	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script src="../js/libs/layer/layer.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../js/header.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../js/movies.js" type="text/javascript" charset="utf-8"></script>
 </head>
@@ -28,8 +29,8 @@
 				<li><a href="sites.html"><i class="iconfont icon-wangzhan"></i>网站收藏</a></li>
 			</ul>
 			<div class="search">
-				<input type="text" id="" value="" placeholder="（此功能暂未实现）请输入关键字搜索" />
-				<input type="button" id="" value="" />
+				<input type="text" id="movieName" placeholder="输入电影名搜索" />
+				<input type="button" id="searchMovie" />
 			</div>
 		</div>
 		<div class="backToTop">
@@ -38,11 +39,11 @@
 	</div>
 	<div class="container-full">
 		<div class="filtrate box-shadow">
-			<p>选择筛选条件（此功能暂未实现）</p>
+			<p>选择筛选条件</p>
 			<div class="filtrateOptions">
 				<span>类型</span>
-				<ul>
-					<li class="activeFiltrate" type="all">全部</li>
+				<ul id="type">
+					<li class="activeFiltrate">全部</li>
 					<li>喜剧</li>
 					<li>动作</li>
 					<li>爱情</li>
@@ -68,7 +69,7 @@
 			</div>
 			<div class="filtrateOptions">
 				<span>地区</span>
-				<ul>
+				<ul id="productionAreas">
 					<li class="activeFiltrate">全部</li>
 					<li>中国</li>
 					<li>香港</li>
@@ -89,7 +90,7 @@
 			</div>
 			<div class="filtrateOptions">
 				<span>年份</span>
-				<ul>
+				<ul id="year">
 					<li class="activeFiltrate">全部</li>
 					<li>2018</li>
 					<li>2017</li>
@@ -114,15 +115,17 @@
 			</div>
 			<div class="filtrateOptions">
 				<span>排序</span>
-				<ul>
-					<li class="activeFiltrate">按更新</li>
-					<li>按评分</li>
+				<ul id="sort">
+					<li class="activeFiltrate" sort="updateTime">按更新</li>
+					<li sort="douban">按评分</li>
 				</ul>
 			</div>
 		</div>
 		<div class="movieList box-shadow">
 			<p>
-				<span>按更新时间</span>
+				<span id="">
+					<span class="box-shadow-span" name="sort">按更新<i>×</i></span>
+				</span>
 				<i id="displayMode" class="iconfont icon-tuwenliebiao">切换图文平铺</i>
 			</p>
 			<ul id="GraphicList">
@@ -137,4 +140,13 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	$(".filtrateOptions ul li").hover(function(){
+		if(!$(this).hasClass("activeFiltrate")){
+			$(this).addClass("filtrateHover");
+		}
+	},function(){
+		$(this).removeClass("filtrateHover");
+	})
+</script>
 </html>

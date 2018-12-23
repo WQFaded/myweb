@@ -78,7 +78,7 @@ $(function(){
 	}
 	$.ajax({
 		type:"get", dataType:"json", url: getMovieListUrl,
-		data: {type: "喜剧,动作,科幻,恐怖,惊悚,冒险,犯罪,动画"},
+		data: {movieType: "喜剧,动作,科幻,恐怖,惊悚,冒险,犯罪,动画"},
 		success: function(data){
 			for(var a in data){
 				movieSection(data[a],$("#hotMovie"));

@@ -57,7 +57,7 @@
 			data:$("form").serialize(),
 			url: "http://junyang.imwork.net/php/receiveMovieInfo.php",
 			success: function(data){
-				layer.msg(data);
+				layer.msg(data,{icon: 1, time: 1000});
 				if(data=="上传成功"){
 					//$("form input[type='text']").val("");
 				}
