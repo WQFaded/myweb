@@ -1,4 +1,5 @@
 $(function(){
+	layui.use(['layer']);
 	/*获取cookie设置列表显示方式*/
 	function GraphicShow(){
 		$("#displayMode").removeClass("icon-tuwenliebiao").addClass("icon-wenziliebiao").text("切换文字列表");
@@ -45,7 +46,7 @@ $(function(){
 	$("#searchMovie").click(function(){
 		var movieName = $("#movieName").val();
 		if(movieName==""){
-			layer.tips("请输入要搜索的电影名", $("#movieName"),{ tips: 3, time: 1000 });
+			layer.tips("请输入要搜索的电影名", $("#movieName"),{ tips: [3,'#FF5722'], time: 1000});
 			return;
 		}
 		$.ajax({
@@ -59,7 +60,7 @@ $(function(){
 					layer.msg("未搜索到关键字：<strong style='color: red'>"+movieName+"</strong> 的电影",{icon: 5, time: 1000});
 					return;
 				}
-				layer.msg("搜索到关键字：<strong style='color: red'>"+movieName+"</strong> 的"+data.length+"个电影",{icon: 6, time: 1000});
+				layer.msg("搜索到关键字：<strong>"+movieName+"</strong> 的 <strong>"+data.length+"</strong> 个电影",{icon: 6, time: 1200});
 				showContent(data);
 			}
 		});
@@ -111,7 +112,7 @@ $(function(){
 					$("#pagination").hide();
 					return;
 				}else if(isClickFiltrate){
-					layer.msg("找到与此项相关的"+data.num_rows+"个电影",{icon: 6, time: 800});
+					layer.msg("找到与此项相关的 <strong>"+data.num_rows+"</strong> 个电影",{icon: 6, time: 800});
 					$("#pagination").show();
 				}
 				getMovieList(data);

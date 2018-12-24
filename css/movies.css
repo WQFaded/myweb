@@ -146,6 +146,7 @@ div.movieList ul#textList li:last-child{
 div.movieList ul#textList li a{
 	display: inline-block;
 	float: left;
+	color: #08c;
 }
 div.movieList ul#textList li p{
 	float: right;

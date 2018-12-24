@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>电影信息管理</title>
+	<link rel="shortcut icon" href="../favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../libs/css/Reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/movieManage.css"/>
+	<link rel="stylesheet" type="text/css" href="../libs/js/layui/css/layui.css"/>
+	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="../js/movieManage.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../libs/js/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="container-full">
+		<table id="movieManage" lay-filter="movieManage"></table>
+	</div>
+	
+	<script type="text/html" id="dataManipulation">
+		<a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+	  	<a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="save">保存</a>
+	  	<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+	</script>
+	
+	<script type="text/html" id="toolbarDemo">
+		 	搜索电影名：
+		    <input id="search" name="movieName" id="" autocomplete="off">
+		  	<button class="layui-btn layui-btn-sm" data-type="reload">搜索</button>
+	</script>
+</body>
+</html>
