@@ -1,9 +1,11 @@
 $(function(){
-	layui.use(['layer','table'],function(){
+	layui.use(['layer','table','form','element'],function(){
 		var table = layui.table;
+		var element = layui.element;
+		var layer = layui.layer;
 		table.render({
 			elem: '#movieManage',
-			toolbar: '#toolbarDemo',
+			toolbar: '#searchMovie',
 			height: 'full-20',
 			url: 'http://junyang.imwork.net/php/getMovieInfo.php',
 			page: true,
@@ -41,5 +43,18 @@ $(function(){
 				})
 			}
 		})
+		$("#addMovie").click(function(){
+			layer.open({
+				type: 1,
+				title: '上传电影',
+				area: 'auto',
+				maxWidth: '1000px',
+				content: $('#uploadMovie')
+			})
+		})
 	});
+	$("#dataManageNav li").click(function(){
+		$("#movieDataTab li").hide().eq($(this).index()).show();
+	})
+	
 })
