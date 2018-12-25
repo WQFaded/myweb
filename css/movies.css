@@ -21,8 +21,10 @@ div.filtrateOptions ul{
 div.filtrateOptions ul li{
 	float: left;
 	padding: 0 10px;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 	cursor: pointer;
+	height: 20px;
+	line-height: 20px;
 }
 .filtrateHover{
 	color: #009688;

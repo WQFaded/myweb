@@ -13,6 +13,7 @@ $(function(){
 			url: 'http://junyang.imwork.net/php/getMovieInfo.php',
 			page: true,
 			limit: 30,
+			id: 'searchMovie',
 			cols: [[
 				{type: 'checkbox'},
 				{field:'movieName', title:'电影名'},
@@ -46,19 +47,36 @@ $(function(){
 				})
 			}
 		})
-		//搜索
-		//$("#")
-		tableIns.reload()
-		//======电影上传========//
-		$("#addMovie").click(function(){
-			layer.open({
-				type: 1,
-				title: '上传电影',
-				area: 'auto',
-				maxWidth: '100%',
-				content: $('#uploadMovie')
-			})
-		})
+		//监听头部工具栏
+	  	table.on('toolbar(movieManage)',function(obj){
+	  		if(obj.event=='search'){ //搜索
+	  			if($("#movieName").val()){
+	  				var index = layer.msg('查询中，请稍候...',{icon: 16,time:false,shade:0});
+	  				setTimeout(function(){
+	  					tableIns.reload({
+			  				where:{
+			  					'movieName': $("#movieName").val()
+			  				},
+			  				page:{ 
+			  					curr:1 
+			  				}
+			  			})
+	  					layer.close(index);
+	  				},500)
+	  			}else{
+	  				layer.tips("请输入要查询的电影名", $("#movieName"),{ tips: [3,'#FF5722'], time: 1000});
+	  			}
+	  		}
+	  		if(obj.event=='addMovie'){ //添加
+	  			layer.open({
+					type: 1,
+					title: '上传电影',
+					area: 'auto',
+					maxWidth: '100%',
+					content: $('#uploadMovie')
+				})
+	  		}
+	  	})
 		//监听提交
 		form.on('submit(upload)', function(data){
 			var uploadData = data.field;

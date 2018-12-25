@@ -12,8 +12,10 @@
 	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 	<script src="../js/movieManage.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../libs/js/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script async src="//www.picb.cc/sdk/pup.js" data-url="https://www.picb.cc/upload" data-palette="blue" data-sibling-pos="before" data-sibling="submit"></script>
 </head>
 <body>
+	
 	<div class="container">
 		<ul id="dataManageNav" class="layui-nav layui-nav-tree layui-nav-side" lay-filter="">
 			<li class="layui-nav-item layui-this"><a href="javascript:;">所有电影数据</a></li>
@@ -38,11 +40,11 @@
 	<script type="text/html" id="searchMovie">
 		<div class="searchMovie">
 			<label>电影名：</label>
-		    <input id="search" class="layui-input-inline" name="movieName" placeholder="输入电影名" autocomplete="off">
-		  	<button class="layui-btn layui-btn-sm" data-type="reload">
+		    <input id="movieName" class="layui-input-inline" name="" placeholder="输入关键字" autocomplete="off">
+		  	<button id="search" class="layui-btn layui-btn-sm" data-type="reload" lay-event="search">
 		  		<i class="layui-icon">&#xe615;</i>搜索
 		  	</button>
-		  	<button id="addMovie" class="layui-btn layui-btn-sm">
+		  	<button id="addMovie" class="layui-btn layui-btn-sm" lay-event="addMovie">
 			  	<i class="layui-icon">&#xe608;</i> 添加
 			</button>
 		</div>
@@ -125,13 +127,13 @@
 	<div class="layui-form-item">
 		<label class="layui-form-label">电影海报url</label>
 	    <div class="layui-input-block">
-	      	<input type="text" name="imgUrl" placeholder="必填项" required lay-verify="required" class="layui-input" placeholder="图片链接，图片尺寸大小必须为：725(宽)x1000(高)">
+	      	<input type="text" name="imgUrl" required lay-verify="required" class="layui-input" placeholder="图片链接，图片尺寸大小必须为：725(宽)x1000(高)">
 	    </div>
 	</div>
 	<div class="layui-form-item">
 		<label class="layui-form-label">电影截图url</label>
 	    <div class="layui-input-block">
-	      	<input type="text" name="movieCapture" placeholder="必填项" required lay-verify="required" class="layui-input" placeholder="图片链接（链接之间以逗号(英)隔开），图片尺寸大小不定但需一致">
+	      	<input type="text" name="movieCapture" required lay-verify="required" class="layui-input" placeholder="图片链接（链接之间以逗号(英)隔开），图片尺寸大小不定但需一致">
 	    </div>
 	</div>
 	<div class="layui-form-item">
@@ -142,7 +144,7 @@
 	</div>
 	<div class="layui-form-item">
     	<div class="layui-input-block">
-	      	<button class="layui-btn layui-btn-sm" lay-submit lay-filter="upload">提交</button>
+	      	<button id="submit" class="layui-btn layui-btn-sm" lay-submit lay-filter="upload">提交</button>
     	</div>
   	</div>
 </form>

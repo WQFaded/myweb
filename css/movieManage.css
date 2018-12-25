@@ -3,7 +3,7 @@
 .searchMovie button{
 	float: left;
 }
-.searchMovie input#search{
+.searchMovie input#movieName{
 	border: 1px solid lightgray;
 	height: 27px;
 	padding-left: 5px;
