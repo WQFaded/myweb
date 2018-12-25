@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>电影信息后台管理</title>
+	<title>网站后台信息管理</title>
 	<link rel="shortcut icon" href="../favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="../libs/css/Reset.css"/>
 	<link rel="stylesheet" type="text/css" href="../css/header.css"/>
@@ -38,73 +38,112 @@
 	<script type="text/html" id="searchMovie">
 		<div class="searchMovie">
 			<label>电影名：</label>
-		    <input id="search" name="movieName" id="" placeholder="输入电影名">
-		  	<button class="layui-btn layui-btn-sm" data-type="reload">搜索</button>
-		  	<button class="layui-btn layui-btn-sm" id="addMovie">
+		    <input id="search" class="layui-input-inline" name="movieName" placeholder="输入电影名" autocomplete="off">
+		  	<button class="layui-btn layui-btn-sm" data-type="reload">
+		  		<i class="layui-icon">&#xe615;</i>搜索
+		  	</button>
+		  	<button id="addMovie" class="layui-btn layui-btn-sm">
 			  	<i class="layui-icon">&#xe608;</i> 添加
 			</button>
 		</div>
 	</script>
 	
 </body>
-<form class="layui-form" action="" id="uploadMovie">
-	<div class="layui-form-item layui-form-pane">
-		<div class="layui-form-item">
-			<label class="layui-form-label">豆瓣</label>
-		    <div class="layui-input-inline">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-		    <label class="layui-form-label">IMDB</label>
-		    <div class="layui-input-inline">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-		    <label class="layui-form-label">电影名</label>
-		    <div class="layui-input-inline">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-		</div>
-		<div class="layui-form-item">
-    		<label class="layui-form-label">导演</label>
-		    <div class="layui-input-block">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-  		</div>
-  		<div class="layui-form-item">
-    		<label class="layui-form-label">编剧</label>
-		    <div class="layui-input-block">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-  		</div>
-  		<div class="layui-form-item">
-    		<label class="layui-form-label">演员</label>
-		    <div class="layui-input-block">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-  		</div>
-  		<div class="layui-form-item">
-			<label class="layui-form-label">类型</label>
-		    <div class="layui-input-inline">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-		    <label class="layui-form-label">制片国家/地区</label>
-		    <div class="layui-input-inline">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-		    <label class="layui-form-label">语言</label>
-		    <div class="layui-input-inline">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-		</div>
-		<div class="layui-form-item">
-			<label class="layui-form-label">上映日期</label>
-		    <div class="layui-input-inline">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-		    <label class="layui-form-label">片长</label>
-		    <div class="layui-input-inline">
-		      	<input type="text" name="title" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
-		    </div>
-		</div>
+<form id="uploadMovie" class="layui-form layui-form-pane" action="" autocomplete="off">
+	<div class="layui-form-item">
+		<label class="layui-form-label">豆瓣</label>
+	    <div class="layui-input-inline">
+	      	<input type="text" name="douban" placeholder="豆瓣评分（可不填）" class="layui-input">
+	    </div>
+	    <label class="layui-form-label">IMDB</label>
+	    <div class="layui-input-inline">
+	      	<input type="text" name="imdb" placeholder="IMDB评分（可不填）" class="layui-input">
+	    </div>
+	    <label class="layui-form-label">电影名</label>
+	    <div class="layui-input-inline width-xs marginRight0">
+	      	<input type="text" name="movieName" placeholder="必填项" required  lay-verify="required" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">导演</label>
+	    <div class="layui-input-inline width-sm">
+	      	<input type="text" name="director" placeholder="必填项" required  lay-verify="required" class="layui-input">
+	    </div>
+	    <label class="layui-form-label">编剧</label>
+	    <div class="layui-input-inline width-sm marginRight0">
+	      	<input type="text" name="scriptwriter" placeholder="必填项" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">演员</label>
+	    <div class="layui-input-block">
+	      	<input type="text" name="protagonist" placeholder="必填项" required lay-verify="required" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">类型</label>
+	    <div class="layui-input-inline">
+	      	<input type="text" name="type" placeholder="必填项" required lay-verify="required" class="layui-input">
+	    </div>
+	    <label class="layui-form-label">制片国家/地区</label>
+	    <div class="layui-input-inline width-xs">
+	      	<input type="text" name="productionAreas" placeholder="必填项" required lay-verify="required" class="layui-input">
+	    </div>
+	    <label class="layui-form-label">语言</label>
+	    <div class="layui-input-inline marginRight0">
+	      	<input type="text" name="language" placeholder="必填项" required lay-verify="required" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">上映日期</label>
+	    <div class="layui-input-inline width-sm">
+	      	<input type="text" name="releaseDate" placeholder="必填项" required lay-verify="required" class="layui-input">
+	    </div>
+	    <label class="layui-form-label">片长</label>
+	    <div class="layui-input-inline width-sm marginRight0">
+	      	<input type="text" name="movieTime" placeholder="必填项" required lay-verify="required" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">又名</label>
+	    <div class="layui-input-block">
+	      	<input type="text" name="alternateName" placeholder="可不填" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">剧情简介</label>
+	    <div class="layui-input-block">
+	      	<input type="text" name="intro" placeholder="必填项" required lay-verify="required" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">电影标题</label>
+	    <div class="layui-input-block">
+	      	<input type="text" name="movieTitle" placeholder="必填项"  required lay-verify="required" class="layui-input">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">电影海报url</label>
+	    <div class="layui-input-block">
+	      	<input type="text" name="imgUrl" placeholder="必填项" required lay-verify="required" class="layui-input" placeholder="图片链接，图片尺寸大小必须为：725(宽)x1000(高)">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">电影截图url</label>
+	    <div class="layui-input-block">
+	      	<input type="text" name="movieCapture" placeholder="必填项" required lay-verify="required" class="layui-input" placeholder="图片链接（链接之间以逗号(英)隔开），图片尺寸大小不定但需一致">
+	    </div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">磁力链接</label>
+	    <div class="layui-input-block">
+	      	<textarea name="magnets" required lay-verify="required" placeholder="必须按以下格式填入（不同磁力链接以逗号(英)隔开），例如：magnet:?xt=urn:btih:efae708933e784556a700893b27eb5f1d4e97da4（下载链接）/无双 Project.Gutenberg.2018.WEB-DL.2160P.H264.AAC.mp4（标题）/6.5GB（大小）" class="layui-textarea"></textarea>
+	    </div>
+	</div>
+	<div class="layui-form-item">
+    	<div class="layui-input-block">
+	      	<button class="layui-btn layui-btn-sm" lay-submit lay-filter="upload">提交</button>
+    	</div>
   	</div>
 </form>
 </html>

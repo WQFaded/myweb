@@ -1,9 +1,12 @@
 $(function(){
 	layui.use(['layer','table','form','element'],function(){
+		
 		var table = layui.table;
 		var element = layui.element;
 		var layer = layui.layer;
-		table.render({
+		var form = layui.form;
+		
+		var tableIns = table.render({
 			elem: '#movieManage',
 			toolbar: '#searchMovie',
 			height: 'full-20',
@@ -21,7 +24,7 @@ $(function(){
 				{field:'movieTime', title: '电影时长', edit:'text', width:90},
 				{field:'magnets', title:'磁力链接', edit: 'text'},
 				{field:'movieCapture', title:'电影截图', edit:'text'},
-				{title:'操作', toolbar:'#dataManipulation', align:'center', width:161}
+				{title:'操作', toolbar:'#dataManipulation', align:'center', width:161, fixed:'right'}
 			]],
 			parseData: function(data){
 				//console.log(data);
@@ -43,15 +46,31 @@ $(function(){
 				})
 			}
 		})
+		//搜索
+		//$("#")
+		tableIns.reload()
+		//======电影上传========//
 		$("#addMovie").click(function(){
 			layer.open({
 				type: 1,
 				title: '上传电影',
 				area: 'auto',
-				maxWidth: '1000px',
+				maxWidth: '100%',
 				content: $('#uploadMovie')
 			})
 		})
+		//监听提交
+		form.on('submit(upload)', function(data){
+			var uploadData = data.field;
+		    $.ajax({
+		    	type:"post", url:"http://junyang.imwork.net/php/receiveMovieInfo.php",
+		    	data:uploadData, dataType: 'json',
+		    	success:function(res){
+		    		layer.msg(res, {icon: 1, time: 1000});
+		    	}
+		    });
+		    return false;
+		});
 	});
 	$("#dataManageNav li").click(function(){
 		$("#movieDataTab li").hide().eq($(this).index()).show();

@@ -5,12 +5,14 @@
 }
 .searchMovie input#search{
 	border: 1px solid lightgray;
-	height: 26px;
+	height: 27px;
 	padding-left: 5px;
+	margin-top: 1px;
 }
 .searchMovie button{
-	height: 25px;
-	line-height: 24px;
+	height: 27px;
+	line-height: 26px;
+	margin-top: 1px;
 }
 #movieDataTab{
 	margin-left: 200px;
@@ -22,4 +24,32 @@
 #uploadMovie{
 	display: none;
 	margin: 10px 15px 0 20px;
+	min-width: 1000px;
+}
+#uploadMovie>div{
+	margin-bottom: 12px;
+}
+#uploadMovie>div div{
+	min-height: 0;
+}
+#uploadMovie>div div.layui-input-block{
+	margin-left: 100px;
+}
+#uploadMovie label,
+#uploadMovie input{
+	height: 30px;
+	line-height: 13px;
+}
+#uploadMovie label{
+	width: 100px;
+	padding: 8px 5px;
+}
+#uploadMovie .marginRight0{
+	margin-right: 0;
+}
+#uploadMovie .width-xs{
+	width: 302px;
+}
+#uploadMovie .width-sm{
+	width: 395px;
 }
