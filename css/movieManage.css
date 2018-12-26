@@ -21,35 +21,43 @@
 #movieDataTab>li{
 	display: none;
 }
-#uploadMovie{
+#uploadMovie,
+#alterMovie{
 	display: none;
 	margin: 10px 15px 0 20px;
 	min-width: 1000px;
 }
-#uploadMovie>div{
+#uploadMovie>div,
+#alterMovie>div{
 	margin-bottom: 12px;
 }
-#uploadMovie>div div{
+#uploadMovie>div div,
+#alterMovie>div div{
 	min-height: 0;
 }
-#uploadMovie>div div.layui-input-block{
+#uploadMovie>div div.layui-input-block,
+#alterMovie>div div.layui-input-block{
 	margin-left: 100px;
 }
-#uploadMovie label,
-#uploadMovie input{
+#uploadMovie label,#uploadMovie input,
+#alterMovie label,#alterMovie input{
 	height: 30px;
 	line-height: 13px;
 }
-#uploadMovie label{
+#uploadMovie label,
+#alterMovie label{
 	width: 100px;
 	padding: 8px 5px;
 }
-#uploadMovie .marginRight0{
+#uploadMovie .marginRight0,
+#alterMovie .marginRight0{
 	margin-right: 0;
 }
-#uploadMovie .width-xs{
+#uploadMovie .width-xs,
+#alterMovie .width-xs{
 	width: 302px;
 }
-#uploadMovie .width-sm{
+#uploadMovie .width-sm,
+#alterMovie .width-sm{
 	width: 395px;
 }

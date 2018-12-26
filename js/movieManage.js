@@ -17,6 +17,7 @@ $(function(){
 			cols: [[
 				{type: 'checkbox'},
 				{field:'movieName', title:'电影名'},
+				{field:'movieTitle', title:'电影标题', edit:'text'},
 				{field:'douban', title:'豆瓣', edit:'text', sort:true, width:70, align:'center'},
 				{field:'imdb', title:'IMDB', edit:'text', sort:true, width:75, align:'center'},
 				{field:'type', title:'电影类型', edit:'text',},
@@ -31,11 +32,25 @@ $(function(){
 				//console.log(data);
 			}
 		})
-		//监听操作按钮
+		//监听操作栏按钮
+		var updateWindow;
 		table.on('tool(movieManage)',function(obj){
 			var data = obj.data;
 			if(obj.event == 'edit'){ //编辑
-				layer.msg('编辑：'+ data.movieName);
+				updateWindow = layer.open({
+					type: 1,
+					title: '修改电影数据',
+					area: 'auto',
+					maxWidth: '100%',
+					content: $('#alterMovie'),
+				})
+				$("#alterMovie input[name='douban']").val(data.douban);
+				$("#alterMovie input[name='imdb']").val(data.imdb);
+				$("#alterMovie input[name='movieName']").val(data.movieName);
+				$("#alterMovie input[name='movieTitle']").val(data.movieTitle);
+				$("#alterMovie input[name='movieCapture']").val(data.movieCapture);
+				$("#alterMovie textarea[name='magnets']").val(data.magnets);
+				
 			}
 			if(obj.event == 'save'){ //保存
 				layer.msg('保存：'+ data.movieName);
@@ -48,6 +63,7 @@ $(function(){
 			}
 		})
 		//监听头部工具栏
+		var addMovieWin;
 	  	table.on('toolbar(movieManage)',function(obj){
 	  		if(obj.event=='search'){ //搜索
 	  			if($("#movieName").val()){
@@ -68,30 +84,64 @@ $(function(){
 	  			}
 	  		}
 	  		if(obj.event=='addMovie'){ //添加
-	  			layer.open({
+	  			addMovieWin = layer.open({
 					type: 1,
 					title: '上传电影',
 					area: 'auto',
 					maxWidth: '100%',
-					content: $('#uploadMovie')
+					content: $('#uploadMovie'),
+					offset: 'l'
 				})
 	  		}
 	  	})
-		//监听提交
-		form.on('submit(upload)', function(data){
-			var uploadData = data.field;
-		    $.ajax({
+	  	function submitData(data,index){
+	  		$.ajax({
 		    	type:"post", url:"http://junyang.imwork.net/php/receiveMovieInfo.php",
-		    	data:uploadData, dataType: 'json',
+		    	data:data, dataType: 'json',
 		    	success:function(res){
 		    		layer.msg(res, {icon: 1, time: 1000});
+		    		tableIns.reload('searchMovie');
+		    		layer.close(index);
 		    	}
 		    });
+	  	}
+		//监听提交增加
+		form.on('submit(upload)', function(data){
+			var uploadData = data.field;
+			uploadData["msg"] = "insert";
+		    submitData(uploadData,addMovieWin);
+		    return false;
+		});
+		//提交修改
+		form.on('submit(alter)', function(data){
+			var updateData = data.field;
+			updateData["msg"] = "update";
+		    submitData(updateData,updateWindow);
 		    return false;
 		});
 	});
 	$("#dataManageNav li").click(function(){
 		$("#movieDataTab li").hide().eq($(this).index()).show();
 	})
-	
+	function uploadImgWin(){
+		layer.open({
+			type: 2,
+			content: 'https://www.picb.cc/',
+			fixed: false, //不固定
+  			maxmin: true,
+  			scrollbar: false,
+  			area: ['770px', '550px'],
+  			shade: 0,
+  			title: '图片上传',
+  			offset: 'rt'
+		})
+	}
+	//添加时上传图片
+	$("#uploadImg").click(function(){
+		uploadImgWin();
+	})
+	//修改时上传图片
+	$("#alterImg").click(function(){
+		uploadImgWin();
+	})
 })
