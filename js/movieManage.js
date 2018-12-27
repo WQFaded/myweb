@@ -18,6 +18,7 @@ $(function(){
 				{type: 'checkbox'},
 				{field:'movieName', title:'电影名'},
 				{field:'movieTitle', title:'电影标题', edit:'text'},
+				{field:'imgUrl', title:'电影海报', edit:'text'},
 				{field:'douban', title:'豆瓣', edit:'text', sort:true, width:70, align:'center'},
 				{field:'imdb', title:'IMDB', edit:'text', sort:true, width:75, align:'center'},
 				{field:'type', title:'电影类型', edit:'text',},
@@ -55,8 +56,8 @@ $(function(){
 				$("#alterMovie input[name='movieName']").val(data.movieName);
 				$("#alterMovie input[name='movieTitle']").val(data.movieTitle);
 				$("#alterMovie input[name='movieCapture']").val(data.movieCapture);
+				$("#alterMovie input[name='imgUrl']").val(data.imgUrl);	
 				$("#alterMovie textarea[name='magnets']").val(data.magnets);
-				
 			}
 			if(obj.event == 'save'){ //保存
 				if(isEdit && oldMovieName==data.movieName){
@@ -143,7 +144,7 @@ $(function(){
 	function uploadImgWin(){
 		layer.open({
 			type: 2,
-			content: 'https://www.picb.cc/',
+			content: 'https://sm.ms/',
 			fixed: false, //不固定
   			maxmin: true,
   			scrollbar: false,

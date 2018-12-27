@@ -135,6 +135,9 @@ $(function(){
 		for(var k=0;k<data.length;k++){
 			//图文列表
 			var $imdbSpan = data[k].imdb==""?"":"<span class='imdb'>"+data[k].imdb+"</span>";
+			if(data[k].imgUrl.indexOf("picb")!=-1){
+				data[k].imgUrl = "https://i.loli.net/2018/12/27/5c24ed06d8bef.jpg";
+			}
 			$("#GraphicList").append("<li><div>"
 				+"<span class='douban'>"+data[k].douban+"</span>"+$imdbSpan
 				+"<span class='year'>"+data[k].releaseDate.slice(0,4)+"</span>"

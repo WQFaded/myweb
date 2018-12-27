@@ -68,6 +68,9 @@ $(function(){
 		var releaseDate = dataArr.releaseDate;
 		var movieName = dataArr.movieName;
 		var $imdbSpan = imdb==""?"":"<span class='imdb'>"+imdb+"</span>";
+		if(dataArr.imgUrl.indexOf("picb")!=-1){
+			dataArr.imgUrl = "https://i.loli.net/2018/12/27/5c24ed06d8bef.jpg";
+		}
 		$obj.find("ul").append("<li><div>"
 			+"<span class='douban'>"+douban+"</span>"+$imdbSpan
 			+"<span class='year'>"+releaseDate.slice(0,4)+"</span>"

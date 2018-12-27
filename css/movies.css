@@ -167,14 +167,14 @@ div.movieList ul#textList li p span:before{
 }
 div.movieList ul#textList li p span.douban:before{
 	content: "";
-	background: url(https://t1.picb.cc/uploads/2018/12/06/JTjddD.jpg) no-repeat;
+	background: url(https://i.loli.net/2018/12/27/5c24f6a43b8d7.jpg) no-repeat;
 	background-size: 100% 100%;
 	width: 15px;
 	height: 15px;
 }
 div.movieList ul#textList li p span.imdb:before{
 	content: "";
-	background: url(https://t1.picb.cc/uploads/2018/12/06/JTpyCv.jpg) no-repeat;
+	background: url(https://i.loli.net/2018/12/27/5c24f6a42f2ea.jpg) no-repeat;
 	background-size: 100% 100%;
 	width: 30px;
 	height: 15px;
