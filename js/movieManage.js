@@ -32,6 +32,12 @@ $(function(){
 				//console.log(data);
 			}
 		})
+		var isEdit = false, oldMovieName;
+		//监听单元格编辑
+		table.on('edit(movieManage)', function(obj){ 
+		  	isEdit = true;
+		  	oldMovieName = obj.data.movieName;
+		});
 		//监听操作栏按钮
 		var updateWindow;
 		table.on('tool(movieManage)',function(obj){
@@ -53,12 +59,20 @@ $(function(){
 				
 			}
 			if(obj.event == 'save'){ //保存
-				layer.msg('保存：'+ data.movieName);
+				if(isEdit && oldMovieName==data.movieName){
+					data["msg"] = "update";
+			    	submitData(data,updateWindow);
+			    	isEdit = false;
+				}else{
+					layer.msg("电影<strong> "+data.movieName+" </strong>信息没有修改，不作保存", {icon:2, time: 1000});
+				}
 			}
 			if(obj.event == 'del'){ //删除
+				var delData = {};
+				delData['movieName'] = data.movieName;
+				delData['msg'] = "delete";
 				layer.confirm('确定删除<strong> '+data.movieName+' </strong>这部电影吗？',function(index){
-					obj.del();
-					layer.close(index);
+					submitData(delData,index,obj);
 				})
 			}
 		})
@@ -94,7 +108,7 @@ $(function(){
 				})
 	  		}
 	  	})
-	  	function submitData(data,index){
+	  	function submitData(data,index,obj){
 	  		$.ajax({
 		    	type:"post", url:"http://junyang.imwork.net/php/receiveMovieInfo.php",
 		    	data:data, dataType: 'json',
@@ -102,6 +116,9 @@ $(function(){
 		    		layer.msg(res, {icon: 1, time: 1000});
 		    		tableIns.reload('searchMovie');
 		    		layer.close(index);
+		    		if(obj){
+		    			obj.del();
+		    		}
 		    	}
 		    });
 	  	}
