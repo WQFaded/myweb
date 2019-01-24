@@ -89,6 +89,10 @@ div.search input[type="button"]{
 .borderBottom{
 	border-bottom: 4px solid #5FB878;
 }
+.borderBottom a{
+	color: #009688 !important;
+	font-weight: bold;
+}
 .red{
 	color: red !important; 
 }
@@ -106,8 +110,17 @@ div.backToTop{
 	bottom: 20px;
 	padding: 0 6px 3px 6px;
 	display: none;
+	height: 39px;
 }
 div.backToTop span{
 	display: inline-block;
 	font-weight: bold;
+	height: 18px;
+}
+
+/*声明*/
+div.statement{
+	text-align: center;
+	color: gray;
+	padding: 20px 0;
 }

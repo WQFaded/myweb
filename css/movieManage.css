@@ -1,15 +1,15 @@
-.searchMovie label,
-.searchMovie input,
-.searchMovie button{
+.searchHead label,
+.searchHead input,
+.searchHead button{
 	float: left;
 }
-.searchMovie input#movieName{
+.searchHead input.layui-input-inline{
 	border: 1px solid lightgray;
 	height: 27px;
 	padding-left: 5px;
 	margin-top: 1px;
 }
-.searchMovie button{
+.searchHead button{
 	height: 27px;
 	line-height: 26px;
 	margin-top: 1px;
@@ -21,43 +21,34 @@
 #movieDataTab>li{
 	display: none;
 }
-#uploadMovie,
-#alterMovie{
+.formWindow{
 	display: none;
 	margin: 10px 15px 0 20px;
-	min-width: 1000px;
 }
-#uploadMovie>div,
-#alterMovie>div{
-	margin-bottom: 12px;
+.formWindow>div{
+	margin-bottom: 11px;
 }
-#uploadMovie>div div,
-#alterMovie>div div{
+.formWindow>div div{
 	min-height: 0;
 }
-#uploadMovie>div div.layui-input-block,
-#alterMovie>div div.layui-input-block{
+.formWindow>div div.layui-input-block{
 	margin-left: 100px;
 }
-#uploadMovie label,#uploadMovie input,
-#alterMovie label,#alterMovie input{
+.formWindow label.layui-form-label,
+.formWindow input.layui-input{
 	height: 30px;
 	line-height: 13px;
 }
-#uploadMovie label,
-#alterMovie label{
+.formWindow label.layui-form-label{
 	width: 100px;
 	padding: 8px 5px;
 }
-#uploadMovie .marginRight0,
-#alterMovie .marginRight0{
+.formWindow div.marginRight0{
 	margin-right: 0;
 }
-#uploadMovie .width-xs,
-#alterMovie .width-xs{
+.formWindow div.width-xs{
 	width: 302px;
 }
-#uploadMovie .width-sm,
-#alterMovie .width-sm{
+.formWindow div.width-sm{
 	width: 395px;
 }

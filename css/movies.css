@@ -36,7 +36,7 @@ div.filtrateOptions ul li{
 }
 div.movieList{
 	padding: 20px 0px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 div.movieList>p{
 	width: 95%;
@@ -135,7 +135,7 @@ div.movieList ul#textList li p{
 	text-overflow: ellipsis;
 }
 div.movieList ul#textList{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 div.movieList ul#textList li{
 	border-bottom: 1px dashed lightgray;
@@ -182,33 +182,6 @@ div.movieList ul#textList li p span.imdb:before{
 div.movieList ul#textList li p i{
 	color: dimgray;
 }
-div.pagination{
+#paging{
 	text-align: center;
-}
-div.pagination span,
-div.pagination a{
-	display: inline-block;
-	padding: 0 8px;
-	border: 1px solid darkgray;
-	cursor: pointer;
-	height: 24px;
-	line-height: 23px;
-}
-div.pagination span{
-	color: #08c;
-}
-div.pagination #prev{
-	border-right: 0;
-}
-div.pagination a{
-	border-right: 0;
-}
-.current{
-	background: #1A9CD6;
-	color: white;
-}
-.not-allowed{
-	cursor: not-allowed !important;
-	border-color: lightgray !important;
-	color: lightgray !important;
 }

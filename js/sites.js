@@ -25,26 +25,35 @@ $(function(){
 	$(window).resize(function(){
 		setLiH();
 	})
-	$.getJSON("../json/sites.json",function(data){
-		for(var i=0;i<data.length;i++){
-			for(var j=0;j<data[i].siteList.length;j++){
-				$(".siteList li."+data[i].siteBigType+" ul."+data[i].siteList[j].siteSmallType).append("<li>"
-					+"<a target='_blank' href='"+data[i].siteList[j].webSite+"'>"
-					+"<div><img src='"+data[i].siteList[j].siteIcon+"'/>"
-					+"<span>"+data[i].siteList[j].siteName+"</span></div>"
-					+"<p>"+data[i].siteList[j].websiteDesc+"</p>"
-					+"</a>"
-				+"</li>");
+	function getSiteList(siteType){
+		$.ajax({
+			type:"get", dataType:"json", url: getMovieListUrl,
+			data:{sites:siteType},
+			success: function(data){
+				showSiteList(data);
 			}
+		});
+	}; 
+	getSiteList("webDeveloper");
+	$(".siteList>li").hide().eq(0).show();
+	function showSiteList(data){
+		$(".siteList li."+data[0].bigType+" ul").empty();
+		for(var i=0;i<data.length;i++){
+			$(".siteList li."+data[i].bigType+" ul."+data[i].smallType).append("<li>"
+				+"<a target='_blank' href='"+data[i].webSiteAddress+"'>"
+				+"<div><img src='"+data[i].siteIcon+"'/>"
+				+"<span>"+data[i].siteName+"</span></div>"
+				+"<p>"+data[i].websiteDesc+"</p>"
+				+"</a>"
+			+"</li>");
 		}
-		$(".siteList img")[0].onload = function(){
+		$(".siteList li."+data[0].bigType+" img")[0].onload = function(){
 			setLiH();
 		}
-		$(".siteList>li").hide().eq(0).show();
-	})
+	}
 	$(".siteType li").click(function(){
 		$(".siteType li").removeClass("activeSiteType").eq($(this).index()).addClass("activeSiteType");
 		$(".siteList>li").hide().eq($(this).index()).show();
-		setLiH();
+		getSiteList($(".siteList>li").eq($(this).index()).attr("class"));
 	})
 })

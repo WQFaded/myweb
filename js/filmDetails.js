@@ -55,19 +55,22 @@ $(function(){
 				$(".download").append("<a class='magnet'>暂无</a>");
 			}
 			//电影截图
-			for(var m in data.movieCapture){
-				var carousel = data.movieCapture[m];
-				$(".carousel ul").append("<li><img src='"+carousel+"' ></li>");
-				$(".thumbnail ul").append("<li><img src='"+carousel+"' ></li>");
-			}
-			if(data.movieCapture.length>0){
+			if(data.movieCapture[0]!=''){
+				console.log(data.movieCapture.length);
+				for(var m in data.movieCapture){
+					var carousel = data.movieCapture[m];
+					$(".carousel ul").append("<li><img src='"+carousel+"' ></li>");
+					$(".thumbnail ul").append("<li><img src='"+carousel+"' ></li>");
+				}
 				$(".carousel ul li img")[0].onload = function(){
 					$(".thumbnail ul li img").eq(0).addClass("activeImg");
 					autoWH();
 				};
+			}else{
+				$('.videoCapture').empty();
 			}
-			$(".carousel").append("<span class='prev noselect'><img src='https://t1.picb.cc/uploads/2018/12/06/JTjEgd.png'/></span>"
-				+"<span class='next noselect'><img src='https://t1.picb.cc/uploads/2018/12/06/JTp2Ni.png'/></span>");
+			$(".carousel").append("<span class='prev noselect'><img src='https://i.loli.net/2018/12/28/5c2619157084c.png'/></span>"
+				+"<span class='next noselect'><img src='https://i.loli.net/2018/12/28/5c26191571465.png'/></span>");
 			var index = 0; //定义轮播索引
 			//定义轮播动画的函数
 			var carousel = function(){

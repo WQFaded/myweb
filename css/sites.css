@@ -36,6 +36,7 @@ ul.siteList ul li{
 	width: 20%;
 	float: left;
 	margin-bottom: 7px;
+	min-height: 110px;
 }
 ul.siteList ul li a{
 	display: block;
@@ -45,7 +46,7 @@ ul.siteList ul li a{
 	border-radius: 3px;
 	overflow: hidden;
 	color: #333;
-	padding: 4px;	
+	padding: 4px;
 }
 ul.siteList ul li a img{
 	width: 15%;

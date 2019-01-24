@@ -22,8 +22,14 @@ $(function(){
 		show();
 	}
 	var carouselTimer = setInterval(carousel,4000);
-	$.getJSON("json/indexCarousel.json",function(data){
-		var data = data.sort(sortBy("releaseDate",false)); //根据上映日期降序排序
+	$.ajax({
+		type:"get", dataType:"json", url: getMovieListUrl,
+		data: {msg: 'indexCarousel'},
+		success: function(data){
+			getCarousel(data);
+		}
+	});
+	function getCarousel(data){
 		for(var i in data){
 			var movieName = data[i].movieName;
 			var releaseDate = data[i].releaseDate.slice(0,4);
@@ -47,7 +53,7 @@ $(function(){
 		},function(){
 			carouselTimer = setInterval(carousel,4000);
 		})
-	})
+	}
 	//上一张
 	$(".carouselLeft .icon-left").click(function(){
 		index--;
@@ -68,9 +74,9 @@ $(function(){
 		var releaseDate = dataArr.releaseDate;
 		var movieName = dataArr.movieName;
 		var $imdbSpan = imdb==""?"":"<span class='imdb'>"+imdb+"</span>";
-		if(dataArr.imgUrl.indexOf("picb")!=-1){
+		/*if(dataArr.imgUrl.indexOf("picb")!=-1){
 			dataArr.imgUrl = "https://i.loli.net/2018/12/27/5c24ed06d8bef.jpg";
-		}
+		}*/
 		$obj.find("ul").append("<li><div>"
 			+"<span class='douban'>"+douban+"</span>"+$imdbSpan
 			+"<span class='year'>"+releaseDate.slice(0,4)+"</span>"
@@ -84,7 +90,6 @@ $(function(){
 		data: {movieType: "喜剧,动作,科幻,恐怖,惊悚,冒险,犯罪,动画"},
 		success: function(data){
 			for(var a in data){
-				movieSection(data[a],$("#hotMovie"));
 				if(data[a].type.indexOf("喜剧") != -1){
 					movieSection(data[a],$("#comedy"));
 				}
@@ -112,5 +117,13 @@ $(function(){
 			}
 		}
 	});
-	
+	$.ajax({
+		type:"get", dataType:"json", url: getMovieListUrl,
+		data: {first12: "all"},
+		success: function(data){
+			for(var i in data){
+				movieSection(data[i],$("#hotMovie"));
+			}
+		}
+	})
 })

@@ -23,7 +23,7 @@ $(function(){
 		var left = $(".container-full").offset().left;
 		$(".backToTop").css("left",left+$(".container-full").width()-40);
 		if(left>=40){
-			$(".backToTop").css("left",left+$(".container-full").width()+5);
+			$(".backToTop").css("left",left+$(".container-full").width()+15);
 		}
 	}
 	$(window).resize(function(){
@@ -37,7 +37,7 @@ $(function(){
 			$(".backToTop").hide();
 		}
 	})
-	window.getMovieListUrl = 'http://junyang.imwork.net/php/getMovieInfo.php';
+	window.getMovieListUrl = 'https://www.wuflock.com/php/getMovieInfo.php';
 	/*
 	 获取地址栏url传递过来的的信息
 	 * */
