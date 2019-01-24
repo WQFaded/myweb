@@ -9,7 +9,7 @@
 	div.section ul li{
 		width: 20%;
 	}
-	ul.siteList ul li{
+	.siteList ul li{
 		width: 25%;
 	}
 	div.thumbnail ul li{
@@ -30,7 +30,7 @@
 	div.carousel span img{
 		width: 16px;
 	}
-	ul.siteList ul li{
+	.siteList ul li{
 		width: 33.33%;
 	}
 	div.carouselLeft,
@@ -121,22 +121,22 @@
 	div.movieList>p i{
 		font-size: 13px;
 	}
-	ul.siteList ul li{
+	.siteList ul li{
 		width: 33.33%;
 	}
-	ul.siteList ul li a{
+	.siteList ul li a{
         text-align: center;
         display:flex;
         justify-content:center;
         align-items:center;
 	}
-	ul.siteList ul li a p{
+	.siteList ul li a p{
 		display: none;
 	}
-	ul.siteList ul li a span{
+	.siteList ul li a span{
 		font-size: 13px;
 	}
-	ul.siteList ul li a img{
+	.siteList ul li a img{
 		margin-bottom: 1px;
 		width: 20px;
 	}

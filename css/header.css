@@ -101,16 +101,14 @@ div.search input[type="button"]{
 }
 div.backToTop{
 	position: fixed;
-	z-index: 99;
+	z-index: 19930415;
 	background: rgba(0,0,170,0.5);
 	color: white;
 	cursor: pointer;
-	font-size: 12px;
 	text-align: center;
 	bottom: 20px;
-	padding: 0 6px 3px 6px;
 	display: none;
-	height: 39px;
+	font-size: 40px;
 }
 div.backToTop span{
 	display: inline-block;

@@ -21,9 +21,10 @@ $(function(){
 	//设置返回顶部位置
 	function setBackTopLeft(){
 		var left = $(".container-full").offset().left;
-		$(".backToTop").css("left",left+$(".container-full").width()-40);
 		if(left>=40){
 			$(".backToTop").css("left",left+$(".container-full").width()+15);
+		}else{
+			$(".backToTop").css("left",left+$(".container-full").width()-40);
 		}
 	}
 	$(window).resize(function(){
@@ -31,11 +32,7 @@ $(function(){
 	})
 	$(window).scroll(function(){
 		setBackTopLeft();
-		if($(window).scrollTop()>=600){
-			$(".backToTop").show();
-		}else{
-			$(".backToTop").hide();
-		}
+		$(window).scrollTop()>=600?$(".backToTop").show():$(".backToTop").hide();
 	})
 	window.getMovieListUrl = 'https://www.wuflock.com/php/getMovieInfo.php';
 	/*

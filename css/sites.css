@@ -1,5 +1,5 @@
 div.sites{
-	padding: 10px;
+	padding: 3px 10px;
 	margin: 20px 0;
 	overflow: hidden;
 }
@@ -18,27 +18,28 @@ div.sites ul.siteType li:hover{
 .activeSiteType{
 	font-weight: bold;
 }
-ul.siteList{
+.siteList{
 	overflow: hidden;
 	padding-left: 10px;
 }
-ul.siteList h2{
+.siteList h2{
 	margin-left: 5px;
-	border-bottom: 1px solid lightgray;
 	font-weight: bold;
 	margin-bottom: 10px;
 	font-size: 15px;
 }
-ul.siteList ul{
+.siteList .layui-elem-quote{
+	padding: 5px 10px;
+}
+.siteList ul{
 	overflow: hidden;
 }
-ul.siteList ul li{
+.siteList ul li{
 	width: 20%;
 	float: left;
 	margin-bottom: 7px;
-	min-height: 110px;
 }
-ul.siteList ul li a{
+.siteList ul li a{
 	display: block;
 	width: 95%;
 	margin: auto;
@@ -48,11 +49,11 @@ ul.siteList ul li a{
 	color: #333;
 	padding: 4px;
 }
-ul.siteList ul li a img{
+.siteList ul li a img{
 	width: 15%;
 	border-radius: 3px;
 }
-ul.siteList ul li a span{
+.siteList ul li a span{
 	vertical-align: bottom;
 	font-size: 15px;
 	margin-left: 3px;
@@ -60,7 +61,7 @@ ul.siteList ul li a span{
 	line-height: 22px;
 	font-family: initial;
 }
-ul.siteList ul li a p{
+.siteList ul li a p{
 	font-size: 12px;
 	font-weight: bold;
 	color: dimgray;
