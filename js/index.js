@@ -1,6 +1,3 @@
-/*
- (c) Copyright 2018 JunYang. All Rights Reserved. 2018-12-10
- * */
 $(function(){
 	$(window).resize(function(){
 		$(".carouselLeft,.carouselLeft ul,.carouselLeft i").height($(".carouselLeft img").height());
@@ -22,38 +19,15 @@ $(function(){
 		show();
 	}
 	var carouselTimer = setInterval(carousel,4000);
-	$.ajax({
-		type:"get", dataType:"json", url: getMovieListUrl,
-		data: {msg: 'indexCarousel'},
-		success: function(data){
-			getCarousel(data);
-		}
-	});
-	function getCarousel(data){
-		for(var i in data){
-			var movieName = data[i].movieName;
-			var releaseDate = data[i].releaseDate.slice(0,4);
-			$(".carouselLeft ul").append("<li>"
-				+"<a target='_blank' href='pages/filmDetails.html?filmName="+movieName+"&releaseDate="+releaseDate+"'>"
-				+"<img src='"+data[i].moviePoster+"' /></a>"
-			+"</li>");
-			$(".carouselLeft ol").append("<li></li>");
-		}
-		$(".carouselLeft ol li:first").addClass("focalPoint");
-		$(".carouselLeft img")[0].onload = function(){
-			$(".carouselLeft,.carouselLeft ul,.carouselLeft i").height($(".carouselLeft img").height());
-			$(".carouselLeft i").show();
-		}
-		$(".carouselLeft ol li").click(function(){
-			index = $(this).index();
-			show();
-		})
-		$(".carouselLeft i,.carouselLeft ol li").hover(function(){
-			clearInterval(carouselTimer);
-		},function(){
-			carouselTimer = setInterval(carousel,4000);
-		})
-	}
+	$(".carouselLeft ol li").click(function(){
+		index = $(this).index();
+		show();
+	})
+	$(".carouselLeft i,.carouselLeft ol li").hover(function(){
+		clearInterval(carouselTimer);
+	},function(){
+		carouselTimer = setInterval(carousel,4000);
+	})
 	//上一张
 	$(".carouselLeft .icon-left").click(function(){
 		index--;

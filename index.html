@@ -1,103 +1,176 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>儒君一品</title>
-	<link rel="shortcut icon" href="favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="libs/css/Reset.css"/>
-	<link rel="stylesheet" type="text/css" href="libs/css/iconfont.css"/>
-	<link rel="stylesheet" type="text/css" href="css/header.css"/>
-	<link rel="stylesheet" type="text/css" href="css/index.css"/>
-	<link rel="stylesheet" type="text/css" href="css/media.css"/>
-	<link rel="stylesheet" type="text/css" href="libs/js/layui/css/layui.css"/>
-	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
-	<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-	<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
-	<script src="../libs/js/layui/layui.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body>
-	<div class="container box-shadow"> 
-		<div class="top">
-			<i class="iconfont icon-liebiao"></i>
-			<div class="logo">
-				<a href="https://www.wuflock.com"><img src="https://i.loli.net/2018/12/27/5c24f5f89d5ac.jpg"/></a>
-			</div>
-			<ul class="nav">
-				<li class="borderBottom"><a href="https://www.wuflock.com"><i class="iconfont icon-shouye"></i>首页</a></li>
-				<li><a href="pages/movies.html"><i class="iconfont icon-dianying"></i>电影</a></li>
-				<li><a href="pages/sites.html"><i class="iconfont icon-wangzhan"></i>网站收藏</a></li>
-			</ul>
-		</div>
-		<div class="backToTop layui-icon layui-icon-top"></div>
-	</div>
-	<div class="container-full">
-		<div class="carousel box-shadow">
-			<div class="carouselLeft">
-				<ul></ul>
-				<ol></ol>
-				<i class="iconfont icon-left"></i>
-				<i class="iconfont icon-right"></i>
-			</div>
-			<div class="carouselRight">
-				<h3>电影分类</h3>
-				<ul>
-					<li><a href="#comedy"><i class="iconfont icon-tiaozhuan"></i>喜剧</a></li>
-					<li><a href="#actioner"><i class="iconfont icon-tiaozhuan"></i>动作</a></li>
-					<li><a href="#sci-fi"><i class="iconfont icon-tiaozhuan"></i>科幻</a></li>
-					<li><a href="#horror"><i class="iconfont icon-tiaozhuan"></i>恐怖</a></li>
-					<li><a href="#panic"><i class="iconfont icon-tiaozhuan"></i>惊悚</a></li>
-					<li><a href="#adventure"><i class="iconfont icon-tiaozhuan"></i>冒险</a></li>
-					<li><a href="#crime"><i class="iconfont icon-tiaozhuan"></i>犯罪</a></li>
-					<li><a href="#animated"><i class="iconfont icon-tiaozhuan"></i>动画</a></li>
-					<li><a href="pages/movies.html"><i class="iconfont icon-tiaozhuan"></i>更多</a></li>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>儒君一品</title>
+		<meta name="keywords" content="免费电影下载,bt下载,bt种子,bt电影,最新电影,高清mp4,磁力链接">
+		<meta name="description" content="每天搜集最新的电影，高清电影，720p高清电影，1080p高清电影供网友免费下载">
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="libs/css/Reset.css" />
+		<link rel="stylesheet" type="text/css" href="libs/css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css?v20190125" />
+		<link rel="stylesheet" type="text/css" href="css/index.css?v20190125" />
+		<link rel="stylesheet" type="text/css" href="css/media.css" />
+		<link rel="stylesheet" type="text/css" href="libs/js/layui/css/layui.css" />
+		<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		<script src="js/header.js?v20190125" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js?v20190125" type="text/javascript" charset="utf-8"></script>
+		<script src="../libs/js/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="container box-shadow">
+			<div class="top">
+				<i class="iconfont icon-liebiao"></i>
+				<div class="logo">
+					<a href="https://www.wuflock.com"><img src="https://i.loli.net/2018/12/27/5c24f5f89d5ac.jpg" /></a>
+				</div>
+				<ul class="nav">
+					<li class="borderBottom"><a href="https://www.wuflock.com"><i class="iconfont icon-shouye"></i>首页</a></li>
+					<li><a href="pages/movies.html"><i class="iconfont icon-dianying"></i>电影</a></li>
+					<li><a href="pages/sites.html"><i class="iconfont icon-wangzhan"></i>网站收藏</a></li>
 				</ul>
 			</div>
+			<div class="backToTop layui-icon layui-icon-top"></div>
 		</div>
-		<div id="hotMovie" class="section box-shadow">
-			<h3><i class="iconfont icon-gengxin"></i>资源更新<a href="pages/movies.html">更多 >> </a></h3>
-			<ul></ul>
+		<div class="container-full">
+			<div class="carousel box-shadow">
+				<div class="carouselLeft">
+					<ul>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=海王&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2019/01/25/VmvJg7.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=大黄蜂&releaseDate=2019">
+								<img src="https://t1.picb.cc/uploads/2019/01/22/VCCFt1.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=网络谜踪&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2018/12/14/JLNn2G.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=狗十三&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2018/12/10/J98J7y.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=无敌破坏王2：大闹互联网&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2018/12/11/J9WlY0.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=神奇动物：格林德沃之罪&releaseDate=2018">
+								<img src="https://i.loli.net/2018/12/27/5c24f23389a86.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=无名之辈&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2018/12/10/J982nG.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=毒液：致命守护者&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2018/12/10/J9rUps.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=你好，之华&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2018/12/11/J9Orbe.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=铁血战士&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2018/12/14/JLQ56w.jpg">
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="pages/filmDetails.html?filmName=影&releaseDate=2018">
+								<img src="https://t1.picb.cc/uploads/2018/12/10/J951cg.jpg">
+							</a>
+						</li>
+					</ul>
+					<i class="iconfont icon-left"></i>
+					<i class="iconfont icon-right"></i>
+					<script type="text/javascript">
+						$(".carouselLeft,.carouselLeft ul,.carouselLeft i").height($(".carouselLeft img").height());
+					</script>
+					<ol>
+						<li class="focalPoint"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</div>
+				<div class="carouselRight">
+					<h3>电影分类</h3>
+					<ul>
+						<li><a href="#comedy"><i class="iconfont icon-tiaozhuan"></i>喜剧</a></li>
+						<li><a href="#actioner"><i class="iconfont icon-tiaozhuan"></i>动作</a></li>
+						<li><a href="#sci-fi"><i class="iconfont icon-tiaozhuan"></i>科幻</a></li>
+						<li><a href="#horror"><i class="iconfont icon-tiaozhuan"></i>恐怖</a></li>
+						<li><a href="#panic"><i class="iconfont icon-tiaozhuan"></i>惊悚</a></li>
+						<li><a href="#adventure"><i class="iconfont icon-tiaozhuan"></i>冒险</a></li>
+						<li><a href="#crime"><i class="iconfont icon-tiaozhuan"></i>犯罪</a></li>
+						<li><a href="#animated"><i class="iconfont icon-tiaozhuan"></i>动画</a></li>
+						<li><a href="pages/movies.html"><i class="iconfont icon-tiaozhuan"></i>更多</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="hotMovie" class="section box-shadow">
+				<h3><i class="iconfont icon-gengxin"></i>资源更新<a href="pages/movies.html">更多 >> </a></h3>
+				<ul></ul>
+			</div>
+			<div id="comedy" class="section box-shadow" type="喜剧">
+				<h3><i class="iconfont icon-xiju"></i>喜剧片<a href="pages/movies.html?type=喜剧">更多 >> </a></h3>
+				<ul></ul>
+			</div>
+			<div id="actioner" class="section box-shadow" type="动作">
+				<h3><i class="iconfont icon-dongzuo"></i>动作片<a href="pages/movies.html?type=动作">更多 >> </a></h3>
+				<ul></ul>
+			</div>
+			<div id="sci-fi" class="section box-shadow" type="科幻">
+				<h3><i class="iconfont icon-kehuan"></i>科幻片<a href="pages/movies.html?type=科幻">更多 >> </a></h3>
+				<ul></ul>
+			</div>
+			<div id="horror" class="section box-shadow" type="恐怖">
+				<h3><i class="iconfont icon-kongbu"></i>恐怖片<a href="pages/movies.html?type=恐怖">更多 >> </a></h3>
+				<ul></ul>
+			</div>
+			<div id="panic" class="section box-shadow" type="惊悚">
+				<h3><i class="iconfont icon-jingsong"></i>惊悚片<a href="pages/movies.html?type=惊悚">更多 >> </a></h3>
+				<ul></ul>
+			</div>
+			<div id="adventure" class="section box-shadow" type="冒险">
+				<h3><i class="iconfont icon-maoxian"></i>冒险片<a href="pages/movies.html?type=冒险">更多 >> </a></h3>
+				<ul></ul>
+			</div>
+			<div id="crime" class="section box-shadow" type="犯罪">
+				<h3><i class="iconfont icon-fanzui"></i>犯罪片<a href="pages/movies.html?type=犯罪">更多 >> </a></h3>
+				<ul></ul>
+			</div>
+			<div id="animated" class="section box-shadow" type="动画">
+				<h3><i class="iconfont icon-donghua"></i>动画片<a href="pages/movies.html?type=动画">更多 >> </a></h3>
+				<ul></ul>
+			</div>
 		</div>
-		<div id="comedy" class="section box-shadow" type="喜剧">
-			<h3><i class="iconfont icon-xiju"></i>喜剧片<a href="pages/movies.html?type=喜剧">更多 >> </a></h3>
-			<ul></ul>
+
+		<div class="container box-shadow">
+			<div class="statement">
+				<p>本网站所有内容均来源于互联网，本站不参与制作、录制、存储等服务，若有相关内容涉及您的版权，请给下面的邮箱地址来信联系我们</p>
+				<p>wuflock@hotmail.com，收到来信后我们将在第一时间删除相应内容</p>
+			</div>
 		</div>
-		<div id="actioner" class="section box-shadow" type="动作">
-			<h3><i class="iconfont icon-dongzuo"></i>动作片<a href="pages/movies.html?type=动作">更多 >> </a></h3>
-			<ul></ul>
-		</div>
-		<div id="sci-fi" class="section box-shadow" type="科幻">
-			<h3><i class="iconfont icon-kehuan"></i>科幻片<a href="pages/movies.html?type=科幻">更多 >> </a></h3>
-			<ul></ul>
-		</div>
-		<div id="horror" class="section box-shadow" type="恐怖">
-			<h3><i class="iconfont icon-kongbu"></i>恐怖片<a href="pages/movies.html?type=恐怖">更多 >> </a></h3>
-			<ul></ul>
-		</div>
-		<div id="panic" class="section box-shadow" type="惊悚">
-			<h3><i class="iconfont icon-jingsong"></i>惊悚片<a href="pages/movies.html?type=惊悚">更多 >> </a></h3>
-			<ul></ul>
-		</div>
-		<div id="adventure" class="section box-shadow" type="冒险">
-			<h3><i class="iconfont icon-maoxian"></i>冒险片<a href="pages/movies.html?type=冒险">更多 >> </a></h3>
-			<ul></ul>
-		</div>
-		<div id="crime" class="section box-shadow" type="犯罪">
-			<h3><i class="iconfont icon-fanzui"></i>犯罪片<a href="pages/movies.html?type=犯罪">更多 >> </a></h3>
-			<ul></ul>
-		</div>
-		<div id="animated" class="section box-shadow" type="动画">
-			<h3><i class="iconfont icon-donghua"></i>动画片<a href="pages/movies.html?type=动画">更多 >> </a></h3>
-			<ul></ul>
-		</div>
-	</div>
-	
-	<div class="container box-shadow">
-		<div class="statement">
-			<p>本网站所有内容均来源于互联网，本站不参与制作、录制、存储等服务，若有相关内容涉及您的版权，请给下面的邮箱地址来信联系我们</p>
-			<p>wuflock@hotmail.com，收到来信后我们将在第一时间删除相应内容</p>
-		</div>
-	</div>
-</body>
+	</body>
 </html>

@@ -24,7 +24,7 @@ $(function(){
 		if(left>=40){
 			$(".backToTop").css("left",left+$(".container-full").width()+15);
 		}else{
-			$(".backToTop").css("left",left+$(".container-full").width()-40);
+			$(".backToTop").css("left",left+$(".container-full").width()-48);
 		}
 	}
 	$(window).resize(function(){

@@ -7,10 +7,10 @@
 	<link rel="shortcut icon" href="../favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="../libs/css/Reset.css"/>
 	<link rel="stylesheet" type="text/css" href="../css/header.css"/>
-	<link rel="stylesheet" type="text/css" href="../css/movieManage.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/movieManage.css?v20190125"/>
 	<link rel="stylesheet" type="text/css" href="../libs/js/layui/css/layui.css"/>
 	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
-	<script src="../js/movieManage.js?v20190123" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/movieManage.js?v20190125" type="text/javascript" charset="utf-8"></script>
 	<script src="../libs/js/layui/layui.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
@@ -35,7 +35,9 @@
 				<script type="text/html" id="movieHeadTool">
 					<div class="searchHead">
 						<label>电影名：</label>
-					    <input id="movieName" class="layui-input-inline" name="" placeholder="输入关键字" autocomplete="off">
+						<div class="layui-input-inline">
+							<input id="movieName" class="layui-input" name="" placeholder="输入关键字" autocomplete="off">
+						</div>
 					  	<button id="search" class="layui-btn layui-btn-sm" data-type="reload" lay-event="search">
 					  		<i class="layui-icon">&#xe615;</i>搜索
 					  	</button>
@@ -207,7 +209,9 @@
 				<script type="text/html" id="siteHeadTool">
 					<div class="searchHead">
 						<label>网站名：</label>
-					    <input id="siteName" class="layui-input-inline" name="" placeholder="输入关键字" autocomplete="off">
+						<div class="layui-input-inline">
+							<input id="siteName" class="layui-input" name="" placeholder="输入关键字" autocomplete="off">
+						</div>
 					  	<button id="" class="layui-btn layui-btn-sm" data-type="reload" lay-event="search">
 					  		<i class="layui-icon">&#xe615;</i>搜索
 					  	</button>

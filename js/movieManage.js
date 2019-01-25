@@ -37,7 +37,7 @@ $(function(){
 		var movieTable = table.render({
 			elem: '#movieManage',
 			toolbar: '#movieHeadTool',
-			height: 'full-20',
+			height: 'full-6',
 			url: getUrl,
 			where: {allMovie:"all"},
 			page: true,
@@ -156,7 +156,9 @@ $(function(){
 		    return false;
 		});
 		
-		/*=====首页轮播数据=====*/
+		/*==============
+		* 首页轮播数据
+		===============*/
 		laydate.render({ 
 		  	elem: '#carouselUpdateTime',
 		  	type: 'datetime'
@@ -164,7 +166,7 @@ $(function(){
 		cTable = table.render({
 			elem: '#carousel',
 			toolbar: '#carouselHeadTool',
-			height: 'full-20',
+			height: 'full-6',
 			url: getUrl,
 			where: {carousel:"all"},
 			page: true,
@@ -237,7 +239,9 @@ $(function(){
 		    return false;
 		});
 		
-		/*=====网站收藏数据=====*/
+		/*=============
+		* 网站收藏数据
+		=============*/
 		laydate.render({ 
 		  	elem: '#siteUpdateTime',
 		  	type: 'datetime'
@@ -245,11 +249,11 @@ $(function(){
 		siteTable = table.render({
 			elem: '#siteCollection',
 			toolbar: '#siteHeadTool',
-			height: 'full-20',
+			height: 'full-6',
 			url: getUrl,
 			where: {sitesData:"all"},
 			page: true,
-			limit: 20,
+			limit: 25,
 			id: 'sites',
 			cols: [[
 				//{type: 'checkbox'},
@@ -382,12 +386,13 @@ $(function(){
 	});
 	$("#dataManageNav li").click(function(){
 		$("#movieDataTab li").hide().eq($(this).index()).show();
+		
 		if($(this).index()==0){
 			
 		}else if($(this).index()==1){
-			cTable.reload('cMovie');
+			cTable.resize('cMovie');
 		}else if($(this).index()==2){
-			siteTable.reload('sites');
+			siteTable.resize('sites');
 		}
 	})
 	function uploadImgWin(){

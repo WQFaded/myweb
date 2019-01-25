@@ -1,25 +1,20 @@
-.searchHead label,
-.searchHead input,
-.searchHead button{
-	float: left;
+.searchHead .layui-input{
+	height: 30px;
 }
-.searchHead input.layui-input-inline{
-	border: 1px solid lightgray;
-	height: 27px;
-	padding-left: 5px;
-	margin-top: 1px;
-}
-.searchHead button{
-	height: 27px;
-	line-height: 26px;
-	margin-top: 1px;
+.searchHead .layui-btn{
+	height: 29px;
+	position: relative;
+	top: -1px;
 }
 #movieDataTab{
 	margin-left: 200px;
-	padding: 0 10px;
+	padding: 0 3px;
 }
 #movieDataTab>li{
 	display: none;
+}
+#movieDataTab .layui-table-view{
+	margin: 3px 0;
 }
 .formWindow{
 	display: none;
