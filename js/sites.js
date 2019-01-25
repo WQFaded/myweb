@@ -5,11 +5,13 @@ $(function(){
 		var element = layui.element;
 		
 		element.on('tab(sites)',function(obj){
-			getSiteList($(".siteList>div").eq($(this).index()).attr("id"));
+			//getSiteList($(".siteList>div").eq($(this).index()).attr("id"));
+			setLiH();
 		})
 		
 		function uniformLiHeight($ul){
 			$ul.find("a").css("height","auto");
+			
 			var arrAH=[];
 			for(var i=0;i<$ul.find("li").length;i++){
 				arrAH[i] = $ul.find("a").eq(i).height();
@@ -31,6 +33,7 @@ $(function(){
 			uniformLiHeight($("ul.movieSubtitle"));
 			uniformLiHeight($("ul.MagnetURI"));
 		}
+		setLiH();
 		$(window).resize(function(){
 			setLiH();
 		})
@@ -43,8 +46,7 @@ $(function(){
 				}
 			});
 		}; 
-		getSiteList("webDeveloper");
-		//$(".siteList>li").hide().eq(0).show();
+		//getSiteList("webDeveloper");
 		function showSiteList(data){
 			$(".siteList ."+data[0].bigType+" ul").empty();
 			for(var i=0;i<data.length;i++){
@@ -60,11 +62,7 @@ $(function(){
 				setLiH();
 			}
 		}
-		$(".siteType li").click(function(){
-			$(".siteType li").removeClass("activeSiteType").eq($(this).index()).addClass("activeSiteType");
-			$(".siteList>li").hide().eq($(this).index()).show();
-			getSiteList($(".siteList>li").eq($(this).index()).attr("class"));
-		})
+		
 	})
 	
 })

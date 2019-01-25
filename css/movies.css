@@ -37,6 +37,7 @@ div.filtrateOptions ul li{
 div.movieList{
 	padding: 20px 0px;
 	margin-bottom: 30px;
+	min-height: 800px;
 }
 div.movieList>p{
 	width: 95%;
