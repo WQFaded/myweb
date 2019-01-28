@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>电影列表-影品网</title>
+	<link rel="shortcut icon" href="../favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../libs/css/Reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../libs/css/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="movies.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/media.css"/>
+	<link rel="stylesheet" type="text/css" href="../libs/js/layui/css/layui.css"/>
+	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script src="../libs/js/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/header.js" type="text/javascript" charset="utf-8"></script>
+	<script src="movies.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="container box-shadow">
+		<div class="top">
+			<i class="iconfont icon-liebiao"></i>
+			<div class="logo">
+				<a href="https://www.wuflock.com"><img src="https://t1.picb.cc/uploads/2019/01/28/V4kwCJ.png"/></a>
+			</div>
+			<ul class="nav">
+				<li><a href="https://www.wuflock.com"><i class="iconfont icon-shouye"></i>首页</a></li>
+				<li class="borderBottom"><a href=""><i class="iconfont icon-dianying"></i>电影</a></li>
+				<li><a href="../sites/"><i class="iconfont icon-wangzhan"></i>网站收藏</a></li>
+			</ul>
+			<div class="search">
+				<input type="text" id="movieName" placeholder="输入电影名搜索" autocomplete="off" />
+				<input type="button" id="searchMovie" />
+			</div>
+		</div>
+		<div class="backToTop layui-icon layui-icon-top"></div>
+	</div>
+	<div class="container-full">
+		<div class="filtrate box-shadow">
+			<p class="layui-elem-quote">选择筛选条件</p>
+			<div class="filtrateOptions">
+				<span>类型</span>
+				<ul id="type">
+					<li class="activeFiltrate">全部</li>
+					<li>喜剧</li>
+					<li>动作</li>
+					<li>爱情</li>
+					<li>犯罪</li>
+					<li>冒险</li>
+					<li>惊悚</li>
+					<li>科幻</li>
+					<li>奇幻</li>
+					<li>剧情</li>
+					<li>悬疑</li>
+					<li>恐怖</li>
+					<li>家庭</li>
+					<li>战争</li>
+					<li>动画</li>
+					<li>历史</li>
+					<li>传记</li>
+					<li>纪录</li>
+					<li>古装</li>
+					<li>歌舞</li>
+					<li>武侠</li>
+					<li>短片</li>
+				</ul>
+			</div>
+			<div class="filtrateOptions">
+				<span>地区</span>
+				<ul id="productionAreas">
+					<li class="activeFiltrate">全部</li>
+					<li>中国大陆</li>
+					<li>香港</li>
+					<li>台湾</li>
+					<li>美国</li>
+					<li>韩国</li>
+					<li>日本</li>
+					<li>法国</li>
+					<li>英国</li>
+					<li>德国</li>
+					<li>泰国</li>
+					<li>印度</li>
+					<li>俄罗斯</li>
+					<li>印度尼西亚</li>
+					<li>西班牙</li>
+					<li>意大利</li>
+					<li>荷兰</li>
+					<li>澳大利亚</li>
+					<li>阿根廷</li>
+				</ul>
+			</div>
+			<div class="filtrateOptions">
+				<span>年份</span>
+				<ul id="year">
+					<li class="activeFiltrate">全部</li>
+					<li>2018</li>
+					<li>2017</li>
+					<li>2016</li>
+					<li>2015</li>
+					<li>2014</li>
+					<li>2013</li>
+					<li>2012</li>
+					<li>2011</li>
+					<li>2010</li>
+					<li>2009</li>
+					<li>2008</li>
+					<li>2007</li>
+					<li>2006</li>
+					<li>2005</li>
+					<li>2004</li>
+					<li>2003</li>
+					<li>2002</li>
+					<li>2001</li>
+					<li>2000</li>
+				</ul>
+			</div>
+			<div class="filtrateOptions">
+				<span>排序</span>
+				<ul id="sort">
+					<li class="activeFiltrate" sort="updateTime">按更新</li>
+					<li sort="douban">按评分</li>
+				</ul>
+			</div>
+		</div>
+		<div class="movieList box-shadow">
+			<p>
+				<span id="">
+					<span class="box-shadow-span" name="sort">按更新<i>×</i></span>
+				</span>
+				<i id="displayMode" class="iconfont icon-tuwenliebiao">切换图文平铺</i>
+			</p>
+			<ul id="GraphicList">
+				<!--图文内容-->
+			</ul>
+			<ul id="textList">
+				<!--文字内容-->
+			</ul>
+			<div id="paging"></div>
+		</div>
+	</div>
+	<div class="container box-shadow">
+		<div class="statement">
+			<p>本网站所有内容均来源于互联网，本站不参与制作、录制、存储等服务，若有相关内容涉及您的版权，请给下面的邮箱地址来信联系我们</p>
+			<p>wuflock@hotmail.com，收到来信后我们将在第一时间删除相应内容</p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(".filtrateOptions ul li").hover(function(){
+		if(!$(this).hasClass("activeFiltrate")){
+			$(this).addClass("filtrateHover");
+		}
+	},function(){
+		$(this).removeClass("filtrateHover");
+	})
+</script>
+</html>

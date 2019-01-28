@@ -1,0 +1,192 @@
+/*
+ (c) Copyright 2018 JunYang. All Rights Reserved. 2018-12-10
+ * */
+div.carousel{
+	margin: 20px 0;
+	overflow: hidden;
+}
+div.carouselLeft{
+	position: relative;
+	width: 80%;
+	float: left;
+	overflow: hidden;
+}
+div.carouselLeft ul li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	opacity: 0;
+}
+div.carouselLeft ul li:first-child{
+	opacity: 1;
+	z-index: 9;
+}
+div.carouselLeft ul li img{
+	width: 100%;
+	display: block;
+}
+div.carouselLeft i{
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	display: block;
+	width: 10%;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	font-size: 27px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+div.carouselLeft i.icon-left{
+	left: 0px;
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+div.carouselLeft i.icon-right{
+	right: 0px;
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+div.carouselLeft i:hover{
+	opacity: 1;
+}
+div.carouselLeft i::before{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -20px 0 0 -13px;
+}
+div.carouselLeft ol{
+	position: absolute;
+	z-index: 10;
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+div.carouselLeft ol li{
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid white;
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.focalPoint{
+	background: #088bbf;
+}
+div.carouselRight{
+	float: right;
+	width: 20%;
+	padding: 5px 8px;
+	overflow: hidden;
+}
+div.carouselRight ul{
+	overflow: hidden;
+}
+div.carouselRight ul li{
+	float: left;
+	width: 33.33%;
+	margin-bottom: 10px;
+}
+div.carouselRight ul li a{
+	display: block;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	border: 1px solid lightgray;
+	height: 27px;
+	line-height: 27px;
+	border-radius: 3px;
+	color: #565252;
+	overflow: hidden;
+}
+div.carouselRight ul li a i{
+	position: relative;
+	top: 1px;
+	color: #393535;
+}
+div.section{
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding: 10px 0;
+}
+div.section h3,
+div.carouselRight h3{
+	border-bottom: 1px solid lightgray;
+	padding:0 2px;
+	font-weight: bold;
+	color: #525456;
+	width: 96%;
+	margin: 0 auto 10px auto;
+	font-size: 15px;
+	height: 31px;
+	line-height: 31px;
+}
+div.section h3 i{
+	margin-right: 2px;
+	color: #393535;
+	/*font-weight: normal;*/
+}
+div.section h3 a{
+	float: right;
+	color: #525456;
+	font-weight: normal;
+	font-size: 14px;
+}
+div.section ul{
+	overflow: hidden;
+	width: 95%;
+	margin: auto;
+}
+div.section ul li{
+	float: left;
+	margin-bottom: 20px;
+}
+div.section ul li div{
+	width: 90%;
+	margin: auto;
+	position: relative;
+}
+div.section ul li div img{
+	height: auto;
+}
+div.section ul li div span{
+	position: absolute;
+	color: white;
+	padding: 0 5px;
+}
+div.section ul li div span.douban,
+div.section ul li div span.imdb{
+	height: 17px;
+	line-height: 17px;
+	left: -5px;
+}
+div.section ul li div span.douban{
+	top: 5px;
+	background: #107619; 
+}
+div.section ul li div span.imdb{
+	top: 25px;
+	background: #f5c518; 
+}
+div.section ul li div span.year{
+	right: 0;
+	top: 0;
+	background: gray;
+	height: 20px;
+	line-height: 20px;
+}

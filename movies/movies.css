@@ -1,0 +1,191 @@
+div.filtrate{
+	padding: 10px;
+	margin: 20px 0;
+}
+div.filtrate>p{
+	color: #393D49;
+	font-weight: bold;
+	padding: 5px 8px;
+}
+div.filtrateOptions{
+	overflow: hidden;
+	margin-left: 10px;
+}
+div.filtrateOptions span{
+	float: left;
+	display: inline-block;
+	padding-right: 10px;
+}
+div.filtrateOptions ul{
+	overflow: hidden;
+}
+div.filtrateOptions ul li{
+	float: left;
+	padding: 0 10px;
+	margin-bottom: 7px;
+	cursor: pointer;
+	height: 20px;
+	line-height: 20px;
+}
+.filtrateHover{
+	color: #009688;
+	font-weight: bold;
+}
+.activeFiltrate{
+	background: #009688;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+}
+div.movieList{
+	padding: 20px 0px;
+	margin-bottom: 30px;
+	min-height: 800px;
+}
+div.movieList>p{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 10px;
+	border-bottom: 1px solid lightgray;
+	overflow: hidden;
+}
+div.movieList>p>span{
+	display: inline-block;
+	display: none;
+}
+div.movieList>p>span span{
+	display: inline-block;
+	margin: 3px 0px 0px 0px;
+	background: #009688;
+	color: white;
+	padding: 2px 5px 2px 5px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+div.movieList>p>span span:hover{
+	opacity: .8;
+	color: white;
+}
+div.movieList>p>span span i{
+	margin-left: 5px;
+}
+div.movieList>p>span span i:hover{
+	color: red;
+}
+div.movieList>p>i{
+	background: #009688;
+	color: white;
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 14px;
+	border-radius: 2px;
+	cursor: pointer;
+	float: right;
+}
+div.movieList>p>i:before{
+	margin-right: 3px;
+}
+div.movieList ul{
+	overflow: hidden;
+	width: 95%;
+	margin: auto;
+}
+div.movieList ul#GraphicList{
+	display: none;
+}
+div.movieList ul#GraphicList li{
+	float: left;
+	margin-bottom: 20px;
+}
+div.movieList ul#GraphicList li div{
+	width: 90%;
+	margin: auto;
+	position: relative;
+}
+div.movieList ul#GraphicList li div img{
+	height: auto;
+}
+div.movieList ul#GraphicList li div span{
+	position: absolute;
+	color: white;
+	padding: 0 5px;
+}
+div.movieList ul#GraphicList li div span.douban,
+div.movieList ul#GraphicList li div span.imdb{
+	height: 17px;
+	line-height: 17px;
+	left: -5px;
+}
+div.movieList ul#GraphicList li div span.douban{
+	top: 5px;
+	background: #107619; 
+}
+div.movieList ul#GraphicList li div span.imdb{
+	top: 25px;
+	background: #f5c518; 
+}
+div.movieList ul#GraphicList li div span.year{
+	right: 0;
+	top: 0;
+	background: gray;
+	height: 20px;
+	line-height: 20px;
+}
+div.movieList ul#GraphicList li div p,
+div.movieList ul#textList li a,
+div.movieList ul#textList li p{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+div.movieList ul#textList{
+	margin-bottom: 10px;
+}
+div.movieList ul#textList li{
+	border-bottom: 1px dashed lightgray;
+	padding: 5px 0;
+	overflow: hidden;
+}
+div.movieList ul#textList li:last-child{
+	border-bottom: none;
+}
+div.movieList ul#textList li a{
+	display: inline-block;
+	float: left;
+	color: #08c;
+}
+div.movieList ul#textList li p{
+	float: right;
+}
+div.movieList ul#textList li p span.douban{
+	margin-right: 8px;
+}
+div.movieList ul#textList li p span.imdb{
+	margin-right: 8px;
+}
+div.movieList ul#textList li p span:before{
+	position: relative;
+	top: 2px;
+	display: inline-block;
+	margin-right: 2px;
+}
+div.movieList ul#textList li p span.douban:before{
+	content: "";
+	background: url(https://i.loli.net/2018/12/27/5c24f6a43b8d7.jpg) no-repeat;
+	background-size: 100% 100%;
+	width: 15px;
+	height: 15px;
+}
+div.movieList ul#textList li p span.imdb:before{
+	content: "";
+	background: url(https://i.loli.net/2018/12/27/5c24f6a42f2ea.jpg) no-repeat;
+	background-size: 100% 100%;
+	width: 30px;
+	height: 15px;
+}
+div.movieList ul#textList li p i{
+	color: dimgray;
+}
+#paging{
+	text-align: center;
+}
