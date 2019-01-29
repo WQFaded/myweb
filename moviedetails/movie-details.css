@@ -1,7 +1,7 @@
 .box-shadow .layui-elem-quote{
 	padding: 5px 8px;
+	font-size: 15px;
 }
-
 div.filmAbstract{
 	margin: 20px 0;
 	padding: 10px;
@@ -84,7 +84,9 @@ div.download li:last-child{
 	border-bottom: none;
 }
 div.download a{
-	color: #08c;
+	color: #2979D6;
+	line-height: 21px;
+	display: inline-block;
 }
 div.download a:hover{
 	color: orangered;

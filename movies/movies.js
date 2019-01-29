@@ -13,7 +13,7 @@ $(function(){
 		var sort = "updateTime"; //默认按更新时间排序
 		if(getRequest().type){
 			type = getRequest().type;
-			history.replaceState(null,null,"movies.html");
+			history.replaceState(null,null,location.href.split('?')[0]);
 			for(var i=0;i<$("#type li").length;i++){
 				if(type==$("#type li").eq(i).text()){
 					$("#type li").removeClass("activeFiltrate").eq(i).addClass("activeFiltrate");
@@ -110,8 +110,15 @@ $(function(){
 					+"</p>"
 				+"</li>");
 			}
-			$("#textList li a").css("max-width",$("#textList li").width()-$("#textList li p").width());
+			set_a_maxwidth();
 			$.cookie("index",pageNum);
+		}
+		function set_a_maxwidth(){
+			if($(window).outerWidth()>600){
+				$("#textList li a").css("max-width",$("#textList li").width()-204);
+			}else{
+				$("#textList li a").css("max-width",$("#textList li").width()-124);
+			}
 		}
 		function getMovieList(movieData){
 			createPaging(movieData.num_rows,pageSize,parseInt(pageNum));
@@ -181,7 +188,7 @@ $(function(){
 		})
 		
 		$(window).resize(function(){
-			$("#textList li a").css("max-width",$("#textList li").width()-$("#textList li p").width());
+			set_a_maxwidth();
 		})
 	});
 	/*获取cookie设置列表显示方式*/
@@ -207,7 +214,6 @@ $(function(){
 			$.cookie("displayMode",1);
 		}else{
 			textShow();
-			$("#textList li a").css("max-width",$("#textList li").width()-$("#textList li p").width());
 			$.cookie("displayMode",0);
 		}
 	})
