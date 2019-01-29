@@ -45,19 +45,20 @@ $(function(){
 		}
 		var imdb = dataArr.imdb;
 		var douban = dataArr.douban;
-		var releaseDate = dataArr.releaseDate;
+		var releaseDate = dataArr.releaseDate.slice(0,4);
 		var movieName = dataArr.movieName;
 		var $imdbSpan = imdb==""?"":"<span class='imdb'>"+imdb+"</span>";
-		/*if(dataArr.imgUrl.indexOf("picb")!=-1){
-			dataArr.imgUrl = "https://i.loli.net/2018/12/27/5c24ed06d8bef.jpg";
-		}*/
-		$obj.find("ul").append("<li><div>"
-			+"<span class='douban'>"+douban+"</span>"+$imdbSpan
-			+"<span class='year'>"+releaseDate.slice(0,4)+"</span>"
-			+"<a target='_blank' href='pages/filmDetails.html?filmName="+movieName+"&releaseDate="
-			+releaseDate+"'><img src='"+dataArr.imgUrl+"' /></a>"
-			+"<p class='textOverflow'>"+movieName+"</p>"
-		+"</div></li>");
+		$obj.find("ul").append("<li>"
+			+"<div>"
+				+"<span class='douban'>"+douban+"</span>"
+				+$imdbSpan
+				+"<span class='year'>"+releaseDate+"</span>"
+				+"<a target='_blank' href='moviedetails/?filmName="+movieName+"&releaseDate="+releaseDate+"'>"
+					+"<img src='"+dataArr.imgUrl+"' />"
+				+"</a>"
+				+"<p class='textOverflow'>"+movieName+"</p>"
+			+"</div>"
+		+"</li>");
 	}
 	$.ajax({
 		type:"get", dataType:"json", url: getMovieListUrl,

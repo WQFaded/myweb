@@ -4,6 +4,7 @@ body{
 div.container-full{
 	max-width: 1300px;
 	margin: auto;
+	padding-top: 1px;
 }
 div.top{
 	height: 50px; 
@@ -120,4 +121,6 @@ div.statement{
 	text-align: center;
 	color: gray;
 	padding: 20px 0;
+	position: relative;
+	bottom: 0;
 }

@@ -7,8 +7,9 @@ $(function(){
 			+"<a href='javascript:history.go(-1)'>立即返回上一页</a>"
 		).css({
 			"margin": "20px 0",
-			"height": "600px",
-			"text-align": "center"
+			"height": ($(window).height()-50-78)+"px",
+			"text-align": "center",
+			"margin": "auto"
 		});
 		$(".container-full i.layui-icon-404").css({
 			"font-size": "180px",

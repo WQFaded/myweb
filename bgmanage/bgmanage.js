@@ -1,5 +1,5 @@
 $(function(){
-  	var getUrl = 'https://www.wuflock.com/php/getMovieInfo.php';
+  	var getUrl = 'https://www.yingpin365.com/php/getMovieInfo.php';
   	var cTable, siteTable;
 	layui.use(['layer','table','form','element','laydate'],function(){
 		
@@ -12,7 +12,7 @@ $(function(){
 		//提交数据
 	  	function submitData(data,index,tableId,obj){
 	  		$.ajax({
-		    	type:"post", url:"https://www.wuflock.com/php/receiveMovieInfo.php",
+		    	type:"post", url:"https://www.yingpin365.com/php/receiveMovieInfo.php",
 		    	data:data, dataType: 'json',
 		    	success:function(res){
 		    		if(res=="上传失败"){

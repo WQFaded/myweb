@@ -34,7 +34,7 @@ $(function(){
 		setBackTopLeft();
 		$(window).scrollTop()>=600?$(".backToTop").show():$(".backToTop").hide();
 	})
-	window.getMovieListUrl = 'https://www.wuflock.com/php/getMovieInfo.php';
+	window.getMovieListUrl = 'https://www.yingpin365.com/php/getMovieInfo.php';
 	/*
 	 获取地址栏url传递过来的的信息
 	 * */
